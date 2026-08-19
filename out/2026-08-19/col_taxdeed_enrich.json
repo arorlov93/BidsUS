@@ -1,0 +1,132 @@
+[
+ {
+  "parcel": "33380360000",
+  "found": true,
+  "situs": "9 WATERCOLOR WAY, NAPLES 34113",
+  "owner": "MARCELIN, SOFIE",
+  "use_code": "4",
+  "just_value": 205570.0,
+  "improvements": 205570.0,
+  "homestead": false
+ },
+ {
+  "parcel": "06370000242",
+  "found": true,
+  "situs": "800 SOUTH GOLF DR, NAPLES 34102",
+  "owner": "KARLSON, DONNA E",
+  "use_code": "4",
+  "just_value": 501210.0,
+  "improvements": 501210.0,
+  "homestead": true
+ },
+ {
+  "parcel": "26145004181",
+  "found": true,
+  "situs": "10646 SMOKEHOUSE BAY DR, NAPLES 34120",
+  "owner": "NJD INVESTMENT GRP LLC",
+  "use_code": "4",
+  "just_value": 539562.0,
+  "improvements": 539562.0,
+  "homestead": false
+ },
+ {
+  "parcel": "46686002664",
+  "found": true,
+  "situs": "7885 MAHOGANY RUN LN, NAPLES 34113",
+  "owner": "SUNVEST HOMES CORP",
+  "use_code": "4",
+  "just_value": 376417.0,
+  "improvements": 376417.0,
+  "homestead": false
+ },
+ {
+  "parcel": "68310001265",
+  "found": true,
+  "situs": "25000 TAMIAMI TRL E, NAPLES 34114",
+  "owner": "A & T INVESTMENT LLC",
+  "use_code": "4",
+  "just_value": 123300.0,
+  "improvements": 123300.0,
+  "homestead": false
+ },
+ {
+  "parcel": "22324800003",
+  "found": true,
+  "situs": "167 N COLLIER BLVD, MARCO ISLAND 34145",
+  "owner": "TELCH NOMINEE TRUST",
+  "use_code": "4",
+  "just_value": 233728.0,
+  "improvements": 233728.0,
+  "homestead": false
+ },
+ {
+  "parcel": "68310001362",
+  "found": true,
+  "situs": "25000 TAMIAMI TRL E, NAPLES 34114",
+  "owner": "A & T INVESTMENT LLC",
+  "use_code": "4",
+  "just_value": 160600.0,
+  "improvements": 160600.0,
+  "homestead": false
+ },
+ {
+  "parcel": "40809280007",
+  "found": true,
+  "situs": ", NAPLES 34117",
+  "owner": "TARPON IV LLC",
+  "use_code": "0",
+  "just_value": 135000.0,
+  "improvements": 0.0,
+  "homestead": false
+ },
+ {
+  "parcel": "68310001003",
+  "found": true,
+  "situs": "25000 TAMIAMI TRL E, NAPLES 34114",
+  "owner": "A & T INVESTMENT LLC",
+  "use_code": "4",
+  "just_value": 148500.0,
+  "improvements": 148500.0,
+  "homestead": false
+ },
+ {
+  "parcel": "80445100158",
+  "found": true,
+  "situs": "1715 SAN BERNADINO WAY, NAPLES 34109",
+  "owner": "COLLINS EST, BOBBIE",
+  "use_code": "4",
+  "just_value": 472710.0,
+  "improvements": 472710.0,
+  "homestead": false
+ },
+ {
+  "parcel": "00865400007",
+  "found": true,
+  "situs": ", NAPLES 34117",
+  "owner": "BRACKMAN, ROBERT M=& GLORIA H",
+  "use_code": "99",
+  "just_value": 1500.0,
+  "improvements": 0.0,
+  "homestead": false
+ },
+ {
+  "parcel": "00932800006",
+  "found": true,
+  "situs": ", NAPLES 34117",
+  "owner": "HANCOCK EST, JAMES M",
+  "use_code": "99",
+  "just_value": 1500.0,
+  "improvements": 0.0,
+  "homestead": false
+ },
+ {
+  "parcel": "40301400000",
+  "found": true,
+  "situs": ", NAPLES 34120",
+  "owner": "TARPON IV LLC",
+  "use_code": "0",
+  "just_value": 87792.0,
+  "improvements": 0.0,
+  "homestead": false
+ }
+]

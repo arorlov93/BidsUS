@@ -119,7 +119,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 561000,
+   "arv_hi": 637000,
+   "conf": "model",
+   "sqft": 1274,
+   "yr": "1978",
+   "use": "Single Family Residence",
+   "ain": "8343007033",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 701454,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 363911
+  }
  },
  {
   "lot_id": "8ee24457165c052a",
@@ -241,7 +256,24 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1487000,
+   "arv_hi": 1718000,
+   "conf": "model",
+   "sqft": 3304,
+   "yr": "1990",
+   "use": "Multi-Family Residence",
+   "ain": "6074005025",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 464056,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 1301849,
+   "junior_lien_warning": true
+  },
+  "notes": "⚠️ Долг мал относительно стоимости — вероятно обращается МЛАДШИЙ залог: старший долг переживёт торги и добавится к цене (G1 критичен)."
  },
  {
   "lot_id": "cd8aa1d68970ddba",
@@ -302,7 +334,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 950000,
+   "arv_hi": 1080000,
+   "conf": "model",
+   "sqft": 2160,
+   "yr": "1970",
+   "use": "Single Family Residence",
+   "ain": "8360022012",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 627829,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 620702
+  }
  },
  {
   "lot_id": "d9d82589b4340b04",
@@ -363,7 +410,24 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1694000,
+   "arv_hi": 1931000,
+   "conf": "model",
+   "sqft": 3387,
+   "yr": "1945",
+   "use": "Single Family Residence",
+   "ain": "6251026016",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 821778,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 1744395,
+   "junior_lien_warning": true
+  },
+  "notes": "⚠️ Долг мал относительно стоимости — вероятно обращается МЛАДШИЙ залог: старший долг переживёт торги и добавится к цене (G1 критичен)."
  },
  {
   "lot_id": "e83b5cc2c4545904",
@@ -487,7 +551,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 383000,
+   "arv_hi": 445000,
+   "conf": "model",
+   "sqft": 890,
+   "yr": "1926",
+   "use": "Single Family Residence",
+   "ain": "6164021009",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 480878,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 131767
+  }
  },
  {
   "lot_id": "13938cc5cf05a986",
@@ -548,7 +627,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 838000,
+   "arv_hi": 960000,
+   "conf": "model",
+   "sqft": 1745,
+   "yr": "1954",
+   "use": "Single Family Residence",
+   "ain": "8407019009",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 723742,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 412894
+  }
  },
  {
   "lot_id": "ec14424ff66d835a",
@@ -609,7 +703,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 676000,
+   "arv_hi": 774000,
+   "conf": "model",
+   "sqft": 1408,
+   "yr": "1948",
+   "use": "Single Family Residence",
+   "ain": "2216012002",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 829141,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -80017
+  }
  },
  {
   "lot_id": "2ae9b1ad9f0bba9f",
@@ -670,7 +779,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1436000,
+   "arv_hi": 1663000,
+   "conf": "model",
+   "sqft": 3779,
+   "yr": "2022",
+   "use": "Single Family Residence",
+   "ain": "2812118033",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 1146644,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 653000
+  }
  },
  {
   "lot_id": "e3a23cefb96bc106",
@@ -731,7 +855,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 580000,
+   "arv_hi": 675000,
+   "conf": "model",
+   "sqft": 1054,
+   "yr": "1942",
+   "use": "Single Family Residence",
+   "ain": "5288014038",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 264629,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 314516
+  }
  },
  {
   "lot_id": "17076e42d2c88bf7",
@@ -792,7 +931,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 514000,
+   "arv_hi": 589000,
+   "conf": "model",
+   "sqft": 1071,
+   "yr": "1953",
+   "use": "Single Family Residence",
+   "ain": "8107001005",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 518938,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -80682
+  }
  },
  {
   "lot_id": "47046112b1b24f0b",
@@ -853,7 +1007,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 913000,
+   "arv_hi": 1048000,
+   "conf": "model",
+   "sqft": 1690,
+   "yr": "1976",
+   "use": "Single Family Residence",
+   "ain": "8722022032",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 284397,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 407918
+  }
  },
  {
   "lot_id": "200101f9c13e1dff",
@@ -975,7 +1144,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 664000,
+   "arv_hi": 753000,
+   "conf": "low",
+   "sqft": 1476,
+   "yr": "1941",
+   "use": "Single Family Residence",
+   "ain": "2536003021",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 806409,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -116134
+  }
  },
  {
   "lot_id": "0f67b2e16514718b",
@@ -1097,7 +1281,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 492000,
+   "arv_hi": 586000,
+   "conf": "model",
+   "sqft": 2344,
+   "yr": "2005",
+   "use": "Single Family Residence",
+   "ain": "3170010019",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 574012,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 51761
+  }
  },
  {
   "lot_id": "a8295c591d517218",
@@ -1219,7 +1418,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 470000,
+   "arv_hi": 552000,
+   "conf": "model",
+   "sqft": 2044,
+   "yr": "1998",
+   "use": "Single Family Residence",
+   "ain": "3001093011",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 563077,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 6258
+  }
  },
  {
   "lot_id": "b347a75e038dad4b",
@@ -1402,7 +1616,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 672000,
+   "arv_hi": 825000,
+   "conf": "model",
+   "sqft": 3054,
+   "yr": "1998",
+   "use": "Single Family Residence",
+   "ain": "3153030101",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 626050,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 125552
+  }
  },
  {
   "lot_id": "b2ea10a80b5a9fc5",
@@ -1463,7 +1692,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 733000,
+   "arv_hi": 853000,
+   "conf": "model",
+   "sqft": 1333,
+   "yr": "1954",
+   "use": "Single Family Residence",
+   "ain": "2168006007",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 763706,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 189153
+  }
  },
  {
   "lot_id": "509a91ba0eaad23c",
@@ -1585,7 +1829,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 260000,
+   "arv_hi": 300000,
+   "conf": "model",
+   "sqft": 500,
+   "yr": "1923",
+   "use": "Single Family Residence",
+   "ain": "7253008032",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 361824,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -32965
+  }
  },
  {
   "lot_id": "5f9d7381a56bd49e",
@@ -1709,7 +1968,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 2643000,
+   "arv_hi": 3124000,
+   "conf": "model",
+   "sqft": 4806,
+   "yr": "1939",
+   "use": "Multi-Family Residence",
+   "ain": "5024013009",
+   "tax_status": "DELINQUENT",
+   "exemption": "None",
+   "assessed": 1750000,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 1411179
+  }
  },
  {
   "lot_id": "f31011c346657d2f",
@@ -1770,7 +2044,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 2420000,
+   "arv_hi": 3300000,
+   "conf": "low",
+   "sqft": 2200,
+   "yr": "1970",
+   "use": "Single Family Residence",
+   "ain": "4419011043",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 870103,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 1494269
+  }
  },
  {
   "lot_id": "06e4a6a80fc7de89",
@@ -1831,7 +2120,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 2109000,
+   "arv_hi": 2416000,
+   "conf": "model",
+   "sqft": 4393,
+   "yr": "1950",
+   "use": "Single Family Residence",
+   "ain": "2329020012",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 1384142,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 729447
+  }
  },
  {
   "lot_id": "610565b95b7f2007",
@@ -2070,7 +2374,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 710000,
+   "arv_hi": 819000,
+   "conf": "model",
+   "sqft": 1365,
+   "yr": "1954",
+   "use": "Single Family Residence",
+   "ain": "7235009032",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 923007,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -66756
+  }
  },
  {
   "lot_id": "5a602f8add873fe1",
@@ -2192,7 +2511,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1203000,
+   "arv_hi": 1371000,
+   "conf": "low",
+   "sqft": 2406,
+   "yr": "2003",
+   "use": "Single Family Residence",
+   "ain": "8480003063",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 989659,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 254565
+  }
  },
  {
   "lot_id": "07fec01907b49ed9",
@@ -2253,7 +2587,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 922000,
+   "arv_hi": 1106000,
+   "conf": "model",
+   "sqft": 1418,
+   "yr": "1904",
+   "use": "Single Family Residence",
+   "ain": "5501002007",
+   "tax_status": "DELINQUENT",
+   "exemption": "None",
+   "assessed": 1209776,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 210476
+  }
  },
  {
   "lot_id": "9393c6f2caa71ec8",
@@ -2314,7 +2663,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 572000,
+   "arv_hi": 652000,
+   "conf": "model",
+   "sqft": 1144,
+   "yr": "1956",
+   "use": "Single Family Residence",
+   "ain": "6266003027",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 339499,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 381871
+  }
  },
  {
   "lot_id": "81572399a5db2575",
@@ -2375,7 +2739,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 830000,
+   "arv_hi": 959000,
+   "conf": "model",
+   "sqft": 1844,
+   "yr": "1959",
+   "use": "Single Family Residence",
+   "ain": "2012024007",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 642601,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 402698
+  }
  },
  {
   "lot_id": "6b40a02ea1e6a0ff",
@@ -2497,7 +2876,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 622000,
+   "arv_hi": 725000,
+   "conf": "low",
+   "sqft": 1036,
+   "yr": "1930",
+   "use": "Single Family Residence",
+   "ain": "5847001026",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 882037,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -41195
+  }
  },
  {
   "lot_id": "ab1068ea9cb5fd0b",
@@ -2558,7 +2952,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 530000,
+   "arv_hi": 627000,
+   "conf": "low",
+   "sqft": 1859,
+   "yr": "1978",
+   "use": "Condominium",
+   "ain": "2859031018",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 757698,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -28134
+  }
  },
  {
   "lot_id": "a7e07c3da6340248",
@@ -2619,7 +3028,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 260000,
+   "arv_hi": 319000,
+   "conf": "model",
+   "sqft": 1180,
+   "yr": "1955",
+   "use": "Single Family Residence",
+   "ain": "3120033010",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": null,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -100976
+  }
  },
  {
   "lot_id": "950f81c78513c2ba",
@@ -2680,7 +3104,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 286000,
+   "arv_hi": 350000,
+   "conf": "model",
+   "sqft": 1298,
+   "yr": "1984",
+   "use": "Single Family Residence",
+   "ain": "3204029019",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": null,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -295289
+  }
  },
  {
   "lot_id": "e872ad604bfbe482",
@@ -2980,7 +3419,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 746000,
+   "arv_hi": 854000,
+   "conf": "low",
+   "sqft": 2071,
+   "yr": "2019",
+   "use": "Condominium",
+   "ain": "2761035214",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 812203,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 538008
+  }
  },
  {
   "lot_id": "8982e794841a8ad2",
@@ -3165,7 +3619,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 463000,
+   "arv_hi": 532000,
+   "conf": "model",
+   "sqft": 986,
+   "yr": "1953",
+   "use": "Single Family Residence",
+   "ain": "7338018027",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 404458,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 233252
+  }
  },
  {
   "lot_id": "1dfecf02c42986b9",
@@ -3348,7 +3817,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1234000,
+   "arv_hi": 1459000,
+   "conf": "low",
+   "sqft": 2244,
+   "yr": "1951",
+   "use": "Single Family Residence",
+   "ain": "2156008005",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 1302303,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 202015
+  }
  },
  {
   "lot_id": "c173057485a6aeb3",
@@ -3409,7 +3893,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 595000,
+   "arv_hi": 692000,
+   "conf": "model",
+   "sqft": 1082,
+   "yr": "1936",
+   "use": "Single Family Residence",
+   "ain": "5391011032",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 554760,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 353637
+  }
  },
  {
   "lot_id": "cc285d2e4b666d87",
@@ -3470,7 +3969,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 834000,
+   "arv_hi": 949000,
+   "conf": "model",
+   "sqft": 1438,
+   "yr": "1951",
+   "use": "Single Family Residence",
+   "ain": "2469021038",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 578620,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 544127
+  }
  },
  {
   "lot_id": "cd2ef17744b9cbf9",
@@ -3531,7 +4045,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 579000,
+   "arv_hi": 660000,
+   "conf": "model",
+   "sqft": 1158,
+   "yr": "1954",
+   "use": "Single Family Residence",
+   "ain": "8082007036",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 229221,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 201009
+  }
  },
  {
   "lot_id": "af724aac7f3142df",
@@ -3648,7 +4177,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 647000,
+   "arv_hi": 784000,
+   "conf": "model",
+   "sqft": 1960,
+   "yr": "1964",
+   "use": "Single Family Residence",
+   "ain": "4011020020",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 332347,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 146095
+  }
  },
  {
   "lot_id": "ca60adadfbb1d1fe",
@@ -3784,6 +4328,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Molina"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 850000,
+   "arv_hi": 970000,
+   "conf": "low",
+   "sqft": 1701,
+   "yr": "1976",
+   "use": "Single Family Residence",
+   "ain": "5293005034",
+   "tax_status": "DELINQUENT",
+   "exemption": "Homeowners’",
+   "assessed": 781967,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 470000
   }
  },
  {
@@ -3855,6 +4414,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Firestone"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 2059000,
+   "arv_hi": 2471000,
+   "conf": "low",
+   "sqft": 3168,
+   "yr": "2007",
+   "use": "Single Family Residence",
+   "ain": "2259007017",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 1808699,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 1266000
   }
  },
  {
@@ -3997,6 +4571,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Williams"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 290000,
+   "arv_hi": 337000,
+   "conf": "low",
+   "sqft": 581,
+   "yr": "1952",
+   "use": "Multi-Family Residence",
+   "ain": "2320022023",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 881255,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -508235
   }
  },
  {
@@ -4068,6 +4657,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Wright"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 464000,
+   "arv_hi": 537000,
+   "conf": "low",
+   "sqft": 1032,
+   "yr": "1913",
+   "use": "Single Family Residence",
+   "ain": "6014022028",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 386144,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 191592
   }
  },
  {
@@ -4204,6 +4808,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Cordova"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1547000,
+   "arv_hi": 1805000,
+   "conf": "low",
+   "sqft": 3223,
+   "yr": "2018",
+   "use": "Single Family Residence",
+   "ain": "7214001029",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 1192440,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 949475
   }
  },
  {
@@ -4275,6 +4894,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Vardanyan"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 591000,
+   "arv_hi": 683000,
+   "conf": "low",
+   "sqft": 1313,
+   "yr": "1956",
+   "use": "Single Family Residence",
+   "ain": "2781002004",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 821985,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -70275
   }
  },
  {
@@ -4346,6 +4980,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Bravo"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 480000,
+   "arv_hi": 557000,
+   "conf": "low",
+   "sqft": 960,
+   "yr": "1952",
+   "use": "Single Family Residence",
+   "ain": "8521006036",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 366441,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 118500
   }
  },
  {
@@ -4417,6 +5066,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Gutierrez"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 275000,
+   "arv_hi": 337000,
+   "conf": "low",
+   "sqft": 1248,
+   "yr": "1971",
+   "use": "Single Family Residence",
+   "ain": "3110022009",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 476267,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -86000
   }
  },
  {
@@ -4552,6 +5216,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Cruz"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 299000,
+   "arv_hi": 348000,
+   "conf": "low",
+   "sqft": 696,
+   "yr": "1939",
+   "use": "Single Family Residence",
+   "ain": "7302014012",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 411184,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -137250
   }
  },
  {
@@ -4623,6 +5302,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Mireles"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 563000,
+   "arv_hi": 655000,
+   "conf": "low",
+   "sqft": 1024,
+   "yr": "1941",
+   "use": "Single Family Residence",
+   "ain": "5362019021",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 695332,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 193800
   }
  },
  {
@@ -4694,6 +5388,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Abid"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 542000,
+   "arv_hi": 621000,
+   "conf": "low",
+   "sqft": 1129,
+   "yr": "1939",
+   "use": "Single Family Residence",
+   "ain": "2206033031",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 637655,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -7250
   }
  },
  {
@@ -7488,7 +8197,17 @@
   "notes": "Заявитель: KEYS FUNDING LLC – 7024",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 205570.0,
+   "arv_lo": 205570,
+   "arv_hi": 236405,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "bd2083806790f084",
@@ -7555,7 +8274,17 @@
   "notes": "Заявитель: CERTIFICATES LIMITED CO",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 501210.0,
+   "arv_lo": 501210,
+   "arv_hi": 576392,
+   "conf": "county [V] + market factor [E]",
+   "homestead": true,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "220f3302b96cb6db",
@@ -7622,7 +8351,17 @@
   "notes": "Заявитель: CERTIFICATES LIMITED CO",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 539562.0,
+   "arv_lo": 539562,
+   "arv_hi": 620496,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "6dbec8afbb0d0935",
@@ -7689,7 +8428,17 @@
   "notes": "Заявитель: ATCF II FL-A LLC",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 376417.0,
+   "arv_lo": 376417,
+   "arv_hi": 432880,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "6c32e62efbf3877f",
@@ -7756,7 +8505,17 @@
   "notes": "Заявитель: ATCF II FL-A LLC",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 123300.0,
+   "arv_lo": 123300,
+   "arv_hi": 141795,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "cebab12bef1db0d5",
@@ -7823,7 +8582,17 @@
   "notes": "Заявитель: ATCF II FL-B LLC",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 233728.0,
+   "arv_lo": 233728,
+   "arv_hi": 268787,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "cc734343914a9ab5",
@@ -7890,7 +8659,17 @@
   "notes": "Заявитель: ATCF II FL-C LLC",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 160600.0,
+   "arv_lo": 160600,
+   "arv_hi": 184690,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "3f0b46859193879e",
@@ -7957,7 +8736,17 @@
   "notes": "Заявитель: NAR SOLUTIONS, INC.",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 135000.0,
+   "arv_lo": 135000,
+   "arv_hi": 155250,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": "пустая земля",
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "e07239b207a9c59f",
@@ -8024,7 +8813,17 @@
   "notes": "Заявитель: JG 2",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 148500.0,
+   "arv_lo": 148500,
+   "arv_hi": 170775,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "32d459496bc02754",
@@ -8091,7 +8890,17 @@
   "notes": "Заявитель: GREYMORR FL LLC",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 472710.0,
+   "arv_lo": 472710,
+   "arv_hi": 543616,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": null,
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "7264c5be5297332c",
@@ -8158,7 +8967,17 @@
   "notes": "Заявитель: PALMETTO INVESTMENTS LLC",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 1500.0,
+   "arv_lo": 1500,
+   "arv_hi": 1725,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": "участок-обрезок",
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "2c1d0ae03eed0d43",
@@ -8225,7 +9044,17 @@
   "notes": "Заявитель: PALMETTO INVESTMENTS LLC",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 1500.0,
+   "arv_lo": 1500,
+   "arv_hi": 1725,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": "участок-обрезок",
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "8996d34272c97252",
@@ -8292,7 +9121,17 @@
   "notes": "Заявитель: FIG 20, LLC, FIG 20 LLC FBO SEC PTY",
   "confidence": 0.4,
   "first_seen": "2026-08-19T17:05:00+00:00",
-  "last_seen": "2026-08-19T17:05:00+00:00"
+  "last_seen": "2026-08-19T17:05:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 87792.0,
+   "arv_lo": 87792,
+   "arv_hi": 100961,
+   "conf": "county [V] + market factor [E]",
+   "homestead": false,
+   "trap": "пустая земля",
+   "provenance": "appraiser just value [V]"
+  }
  },
  {
   "lot_id": "81b7087ed7dadc57",
@@ -8354,7 +9193,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 383610,
+   "arv_lo": 383610,
+   "arv_hi": 441151,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1709,
+   "yr": null,
+   "folio": "30-7908-020-0460",
+   "homestead": true,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "5d35af95f09f0f08",
@@ -8411,7 +9263,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 788985,
+   "arv_lo": 788985,
+   "arv_hi": 907333,
+   "conf": "county [V] + market factor [E]",
+   "sqft": null,
+   "yr": null,
+   "folio": "30-7833-000-1550",
+   "homestead": true,
+   "last_sale": "2/1/2006 $600,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "fe5cd0eafc0150c6",
@@ -8468,7 +9333,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 652739,
+   "arv_lo": 652739,
+   "arv_hi": 750650,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2601,
+   "yr": null,
+   "folio": "30-5905-017-1580",
+   "homestead": false,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "dbd538c5eaf8181f",
@@ -8525,7 +9403,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 403864,
+   "arv_lo": 403864,
+   "arv_hi": 464444,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1840,
+   "yr": 2002,
+   "folio": "30-5923-017-1570",
+   "homestead": true,
+   "last_sale": "2/1/2002 $140,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "1a0d065315f929b2",
@@ -8639,7 +9530,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 353597,
+   "arv_lo": 353597,
+   "arv_hi": 406637,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1585,
+   "yr": null,
+   "folio": "34-2111-011-1990",
+   "homestead": true,
+   "last_sale": "9/28/2020 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "0e43e7a9cba6554b",
@@ -8753,7 +9657,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 1225192,
+   "arv_lo": 1225192,
+   "arv_hi": 1408971,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2038,
+   "yr": null,
+   "folio": "30-4026-019-0070",
+   "homestead": false,
+   "last_sale": "4/9/2023 $1,150,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "a0edd3f261c85644",
@@ -8810,7 +9727,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 323050,
+   "arv_lo": 323050,
+   "arv_hi": 371508,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1072,
+   "yr": 2020,
+   "folio": "35-3008-026-0360",
+   "homestead": false,
+   "last_sale": "3/31/2020 $291,400",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "866c096e53a232ee",
@@ -8867,7 +9797,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 382575,
+   "arv_lo": 382575,
+   "arv_hi": 439961,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1457,
+   "yr": null,
+   "folio": "06-2126-017-0120",
+   "homestead": true,
+   "last_sale": "4/1/2001 $90,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "08ce862559c3f790",
@@ -8924,7 +9867,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 343205,
+   "arv_lo": 343205,
+   "arv_hi": 394686,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 700,
+   "yr": 1946,
+   "folio": "30-3116-006-0320",
+   "homestead": true,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "b879a4cd5f50eb07",
@@ -8981,7 +9937,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 396547,
+   "arv_lo": 396547,
+   "arv_hi": 456029,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1750,
+   "yr": null,
+   "folio": "30-6912-008-1380",
+   "homestead": true,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "a5d8be3331c71715",
@@ -9095,7 +10064,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 282625,
+   "arv_lo": 282625,
+   "arv_hi": 325019,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1137,
+   "yr": 1998,
+   "folio": "30-4912-084-0050",
+   "homestead": false,
+   "last_sale": "11/17/2021 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "8fa249df05dea95c",
@@ -9152,7 +10134,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 360100,
+   "arv_lo": 360100,
+   "arv_hi": 414115,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1777,
+   "yr": 2015,
+   "folio": "30-2206-060-0520",
+   "homestead": true,
+   "last_sale": "4/10/2023 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "b3035e8068e4b805",
@@ -9323,7 +10318,20 @@
   "notes": null,
   "confidence": 0.3,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 574896,
+   "arv_lo": 574896,
+   "arv_hi": 661130,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1596,
+   "yr": 1953,
+   "folio": "07-2217-005-1530",
+   "homestead": true,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "b71eefe949738ab9",
@@ -9380,7 +10388,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 373500,
+   "arv_lo": 373500,
+   "arv_hi": 429525,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1202,
+   "yr": 1989,
+   "folio": "30-4928-010-1050",
+   "homestead": true,
+   "last_sale": "8/1/1989 $67,900",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "bb6ff2dd5ca31f62",
@@ -9437,7 +10458,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 535875,
+   "arv_lo": 535875,
+   "arv_hi": 616256,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2514,
+   "yr": 2004,
+   "folio": "36-6009-030-1180",
+   "homestead": true,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "2ca18b954d4cd683",
@@ -9494,7 +10528,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 827992,
+   "arv_lo": 827992,
+   "arv_hi": 952191,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1787,
+   "yr": null,
+   "folio": "30-2204-028-0330",
+   "homestead": true,
+   "last_sale": "4/15/2022 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "57e8431692c3237f",
@@ -9551,7 +10598,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 399207,
+   "arv_lo": 399207,
+   "arv_hi": 459088,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1346,
+   "yr": 1953,
+   "folio": "30-3121-017-0160",
+   "homestead": true,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "692c730f2f441c30",
@@ -9608,7 +10668,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 245483,
+   "arv_lo": 245483,
+   "arv_hi": 282305,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1092,
+   "yr": 1971,
+   "folio": "34-2109-008-0181",
+   "homestead": false,
+   "last_sale": "1/1/1980 $32,500",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "b97144afbb0be000",
@@ -9722,7 +10795,20 @@
   "notes": null,
   "confidence": 0.3,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 433316,
+   "arv_lo": 433316,
+   "arv_hi": 498313,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1272,
+   "yr": null,
+   "folio": "30-4016-007-2510",
+   "homestead": true,
+   "last_sale": "11/1/1986 $74,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "e53c2e33ec079c18",
@@ -9779,7 +10865,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 405039,
+   "arv_lo": 405039,
+   "arv_hi": 465795,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1245,
+   "yr": null,
+   "folio": "01-4001-004-0150",
+   "homestead": true,
+   "last_sale": "5/30/2023 $550,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "63e9d2f1d7ff5e8b",
@@ -9836,7 +10935,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.3,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 198403,
+   "arv_lo": 198403,
+   "arv_hi": 228163,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1266,
+   "yr": 1984,
+   "folio": "30-1231-046-0200",
+   "homestead": false,
+   "last_sale": "5/1/1999 $67,500",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "154e6edffacc0e58",
@@ -9893,7 +11005,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 1586835,
+   "arv_lo": 1586835,
+   "arv_hi": 1824860,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2041,
+   "yr": 1951,
+   "folio": "11-3205-009-0590",
+   "homestead": false,
+   "last_sale": "10/17/2023 $1,775,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "d25cf24a9525b7cb",
@@ -10007,7 +11132,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 2651350,
+   "arv_lo": 2651350,
+   "arv_hi": 3049052,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 3024,
+   "yr": null,
+   "folio": "02-3222-014-1080",
+   "homestead": false,
+   "last_sale": "2/10/2022 $3,100,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "e1420e2f9033802f",
@@ -10064,7 +11202,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 376900,
+   "arv_lo": 376900,
+   "arv_hi": 433435,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1015,
+   "yr": 1971,
+   "folio": "30-4923-006-0510",
+   "homestead": true,
+   "last_sale": "12/1/2000 $108,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "5225e41cb9658afb",
@@ -10121,7 +11272,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 491067,
+   "arv_lo": 491067,
+   "arv_hi": 564727,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1248,
+   "yr": 1958,
+   "folio": "30-4009-005-1460",
+   "homestead": true,
+   "last_sale": "2/1/1998 $140,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "5497d5f3fcc6b679",
@@ -10178,7 +11342,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 572881,
+   "arv_lo": 572881,
+   "arv_hi": 658813,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1622,
+   "yr": null,
+   "folio": "30-5923-016-0070",
+   "homestead": false,
+   "last_sale": "10/14/2022 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "881eac0045a3f6f0",
@@ -10235,7 +11412,20 @@
   "notes": null,
   "confidence": 0.3,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 263520,
+   "arv_lo": 263520,
+   "arv_hi": 303048,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1302,
+   "yr": 2021,
+   "folio": "10-7921-029-1740",
+   "homestead": false,
+   "last_sale": "7/5/2022 $375,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "2df535b6ea3956be",
@@ -10292,7 +11482,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 537764,
+   "arv_lo": 537764,
+   "arv_hi": 618429,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2666,
+   "yr": 2025,
+   "folio": "10-7928-017-0510",
+   "homestead": false,
+   "last_sale": "5/30/2025 $680,400",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "6f93415a0654b3fe",
@@ -10349,7 +11552,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 217000,
+   "arv_lo": 217000,
+   "arv_hi": 249550,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1140,
+   "yr": 2019,
+   "folio": "16-7825-022-0380",
+   "homestead": false,
+   "last_sale": "11/12/2024 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "9d6eca5ba29d921d",
@@ -10463,7 +11679,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 370351,
+   "arv_lo": 370351,
+   "arv_hi": 425904,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1807,
+   "yr": 1962,
+   "folio": "34-2103-009-1120",
+   "homestead": true,
+   "last_sale": "11/1/1976 $38,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "02725452ffae339e",
@@ -10577,7 +11806,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 677587,
+   "arv_lo": 677587,
+   "arv_hi": 779225,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1480,
+   "yr": null,
+   "folio": "01-4110-047-0220",
+   "homestead": false,
+   "last_sale": "8/23/2024 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "6f2004e9d5e6c8fe",
@@ -10634,7 +11876,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 587820,
+   "arv_lo": 587820,
+   "arv_hi": 675993,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2928,
+   "yr": null,
+   "folio": "36-6005-008-3170",
+   "homestead": true,
+   "last_sale": null,
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "0ff254a35e1fec9a",
@@ -10691,7 +11946,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 662335,
+   "arv_lo": 662335,
+   "arv_hi": 761685,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2256,
+   "yr": null,
+   "folio": "01-4109-012-0440",
+   "homestead": true,
+   "last_sale": "5/5/2017 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "ab3bc383956b9a70",
@@ -10748,7 +12016,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 427523,
+   "arv_lo": 427523,
+   "arv_hi": 491651,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1282,
+   "yr": 2005,
+   "folio": "30-3206-051-0340",
+   "homestead": true,
+   "last_sale": "4/1/2006 $350,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "aef043501a5273dd",
@@ -11033,7 +12314,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 2136164,
+   "arv_lo": 2136164,
+   "arv_hi": 2456589,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 3374,
+   "yr": 2003,
+   "folio": "28-1235-084-0400",
+   "homestead": true,
+   "last_sale": "3/23/2021 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "fc2196bac183416c",
@@ -11090,7 +12384,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 889300,
+   "arv_lo": 889300,
+   "arv_hi": 1022695,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 2890,
+   "yr": 1976,
+   "folio": "30-5902-002-1360",
+   "homestead": true,
+   "last_sale": "12/1/2004 $320,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "f5e5e64722329947",
@@ -11147,7 +12454,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 372149,
+   "arv_lo": 372149,
+   "arv_hi": 427971,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1352,
+   "yr": 1994,
+   "folio": "30-6912-043-0350",
+   "homestead": true,
+   "last_sale": "10/1/1994 $79,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "b0205ee46d28503f",
@@ -11261,7 +12581,20 @@
   "notes": null,
   "confidence": 0.3,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 249163,
+   "arv_lo": 249163,
+   "arv_hi": 286537,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1253,
+   "yr": 1974,
+   "folio": "30-5016-069-0160",
+   "homestead": false,
+   "last_sale": "4/1/2005 $209,400",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "ee79f75eb899646a",
@@ -11318,7 +12651,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 786893,
+   "arv_lo": 786893,
+   "arv_hi": 904927,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1819,
+   "yr": 1954,
+   "folio": "02-3210-001-0210",
+   "homestead": true,
+   "last_sale": "9/1/2001 $208,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "f5e712033d5e9aec",
@@ -11375,7 +12721,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 636462,
+   "arv_lo": 636462,
+   "arv_hi": 731931,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1118,
+   "yr": 1955,
+   "folio": "30-4013-019-0470",
+   "homestead": true,
+   "last_sale": "9/8/2022 $675,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "cc5665695dd2950a",
@@ -11546,7 +12905,20 @@
   "notes": "HOA-обращение — риск §718.116",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 353836,
+   "arv_lo": 353836,
+   "arv_hi": 406911,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 1651,
+   "yr": 2022,
+   "folio": "30-6030-001-3058",
+   "homestead": true,
+   "last_sale": "5/9/2022 $464,000",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "e1818c235bba0a26",
@@ -11603,7 +12975,20 @@
   "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
-  "last_seen": "2026-08-19T19:40:00+00:00"
+  "last_seen": "2026-08-19T19:40:00+00:00",
+  "valuation": {
+   "method": "county_just_value",
+   "just_value": 729328,
+   "arv_lo": 729328,
+   "arv_hi": 838727,
+   "conf": "county [V] + market factor [E]",
+   "sqft": 3587,
+   "yr": 1999,
+   "folio": "30-5909-034-0010",
+   "homestead": true,
+   "last_sale": "6/14/2026 $100",
+   "provenance": "PA just value [V]"
+  }
  },
  {
   "lot_id": "adcf4bee5c2ecbe8",
@@ -11661,7 +13046,22 @@
   "notes": "Опубликованное извещение (статус переносов не проверялся — сверять с бордом трасти перед торгами)",
   "confidence": 0.45,
   "first_seen": "2026-08-19T21:00:00+00:00",
-  "last_seen": "2026-08-19T21:00:00+00:00"
+  "last_seen": "2026-08-19T21:00:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1073000,
+   "arv_hi": 1223000,
+   "conf": "model",
+   "sqft": 2146,
+   "yr": "1980",
+   "use": "Single Family Residence",
+   "ain": "8396002009",
+   "tax_status": "DELINQUENT",
+   "exemption": "Homeowners’",
+   "assessed": 1486177,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 145077
+  }
  },
  {
   "lot_id": "01c1e6207b245a3e",
@@ -11719,7 +13119,22 @@
   "notes": "Опубликованное извещение (статус переносов не проверялся — сверять с бордом трасти перед торгами)",
   "confidence": 0.45,
   "first_seen": "2026-08-19T21:00:00+00:00",
-  "last_seen": "2026-08-19T21:00:00+00:00"
+  "last_seen": "2026-08-19T21:00:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 666000,
+   "arv_hi": 763000,
+   "conf": "model",
+   "sqft": 1387,
+   "yr": "1957",
+   "use": "Single Family Residence",
+   "ain": "8402019017",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 626355,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 354763
+  }
  },
  {
   "lot_id": "30a2c9fafca5fa91",
@@ -11777,7 +13192,22 @@
   "notes": "Опубликованное извещение (статус переносов не проверялся — сверять с бордом трасти перед торгами)",
   "confidence": 0.45,
   "first_seen": "2026-08-19T21:00:00+00:00",
-  "last_seen": "2026-08-19T21:00:00+00:00"
+  "last_seen": "2026-08-19T21:00:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 378000,
+   "arv_hi": 433000,
+   "conf": "model",
+   "sqft": 1050,
+   "yr": "2023",
+   "use": "Condominium",
+   "ain": "8434018126",
+   "tax_status": "DELINQUENT",
+   "exemption": "None",
+   "assessed": 642600,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -293753
+  }
  },
  {
   "lot_id": "4edbe47070c46779",
@@ -11835,7 +13265,22 @@
   "notes": "Опубликованное извещение (статус переносов не проверялся — сверять с бордом трасти перед торгами)",
   "confidence": 0.35,
   "first_seen": "2026-08-19T21:00:00+00:00",
-  "last_seen": "2026-08-19T21:00:00+00:00"
+  "last_seen": "2026-08-19T21:00:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 2394000,
+   "arv_hi": 2751000,
+   "conf": "low",
+   "sqft": 5094,
+   "yr": "2017",
+   "use": "Single Family Residence",
+   "ain": "8205009033",
+   "tax_status": "DELINQUENT",
+   "exemption": "None",
+   "assessed": 2293977,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 1497388
+  }
  },
  {
   "lot_id": "74d3959cd8f3037e",
@@ -11893,7 +13338,22 @@
   "notes": "Опубликованное извещение (статус переносов не проверялся — сверять с бордом трасти перед торгами)",
   "confidence": 0.45,
   "first_seen": "2026-08-19T21:00:00+00:00",
-  "last_seen": "2026-08-19T21:00:00+00:00"
+  "last_seen": "2026-08-19T21:00:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 551000,
+   "arv_hi": 633000,
+   "conf": "model",
+   "sqft": 1173,
+   "yr": "1954",
+   "use": "Single Family Residence",
+   "ain": "8214009016",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 208518,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 330799
+  }
  },
  {
   "lot_id": "98d78b7f10e269f7",
@@ -11951,7 +13411,22 @@
   "notes": "Опубликованное извещение (статус переносов не проверялся — сверять с бордом трасти перед торгами)",
   "confidence": 0.45,
   "first_seen": "2026-08-19T21:00:00+00:00",
-  "last_seen": "2026-08-19T21:00:00+00:00"
+  "last_seen": "2026-08-19T21:00:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 605000,
+   "arv_hi": 688000,
+   "conf": "model",
+   "sqft": 1375,
+   "yr": "1952",
+   "use": "Single Family Residence",
+   "ain": "8366005015",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 441310,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 222168
+  }
  },
  {
   "lot_id": "b529e795f931c12a",
@@ -12009,6 +13484,21 @@
   "notes": "Опубликованное извещение (статус переносов не проверялся — сверять с бордом трасти перед торгами)",
   "confidence": 0.45,
   "first_seen": "2026-08-19T21:00:00+00:00",
-  "last_seen": "2026-08-19T21:00:00+00:00"
+  "last_seen": "2026-08-19T21:00:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 1536000,
+   "arv_hi": 1791000,
+   "conf": "model",
+   "sqft": 3199,
+   "yr": "1964",
+   "use": "Single Family Residence",
+   "ain": "8267028022",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 1056690,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -175351
+  }
  }
 ]

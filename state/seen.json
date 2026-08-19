@@ -1342,5 +1342,54 @@
 "status": "scheduled",
 "market": "MDC",
 "addr": "15381 SW 112TH TER, MIAMI, FL 33196"
+},
+"adcf4bee5c2ecbe8": {
+"first_seen": "2026-08-19T21:00:00+00:00",
+"last_seen": "2026-08-19T21:00:00+00:00",
+"status": "scheduled",
+"market": "LA",
+"addr": "1206 Paseo Los Gavilanes"
+},
+"01c1e6207b245a3e": {
+"first_seen": "2026-08-19T21:00:00+00:00",
+"last_seen": "2026-08-19T21:00:00+00:00",
+"status": "scheduled",
+"market": "LA",
+"addr": "818 North Charter Drive"
+},
+"30a2c9fafca5fa91": {
+"first_seen": "2026-08-19T21:00:00+00:00",
+"last_seen": "2026-08-19T21:00:00+00:00",
+"status": "scheduled",
+"market": "LA",
+"addr": "1123 Spare Road"
+},
+"4edbe47070c46779": {
+"first_seen": "2026-08-19T21:00:00+00:00",
+"last_seen": "2026-08-19T21:00:00+00:00",
+"status": "scheduled",
+"market": "LA",
+"addr": "16425 Santa Bianca Drive"
+},
+"74d3959cd8f3037e": {
+"first_seen": "2026-08-19T21:00:00+00:00",
+"last_seen": "2026-08-19T21:00:00+00:00",
+"status": "scheduled",
+"market": "LA",
+"addr": "520 Ivanell Avenue"
+},
+"98d78b7f10e269f7": {
+"first_seen": "2026-08-19T21:00:00+00:00",
+"last_seen": "2026-08-19T21:00:00+00:00",
+"status": "scheduled",
+"market": "LA",
+"addr": "370 Barry Dr"
+},
+"b529e795f931c12a": {
+"first_seen": "2026-08-19T21:00:00+00:00",
+"last_seen": "2026-08-19T21:00:00+00:00",
+"status": "scheduled",
+"market": "LA",
+"addr": "1279 Popenoe Road"
 }
 }

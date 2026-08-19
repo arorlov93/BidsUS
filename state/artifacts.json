@@ -1,0 +1,8 @@
+{
+  "dashboard": {
+    "url": "https://claude.ai/code/artifact/19ce9591-c2df-495e-9fa0-a3137478403a",
+    "file_path": "out/dashboard.html",
+    "favicon": "🔨",
+    "note": "Update IN PLACE every run: edit out/dashboard.html, then Artifact publish with url set to this value. Never create a new dashboard artifact."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "as_of": "2026-08-19T14:20:00Z",
+  "note": "First production run 2026-08-19. All green-list sources unreachable: environment egress policy blocks all non-allowlisted hosts.",
+  "sources": {
+    "prime_recon": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "tmlf": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "ndsc": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "capublicnotice": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "cacb_notice_of_sales": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "la_ttc_auctions": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "lacity_socrata": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "la_parcels": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "sf_tax_sale": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "datasf": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "mdc_property_appraiser_api": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "mdc_arcgis": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "mdc_arcgis_hub": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "mdc_foreclosure_registry": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "mdc_official_records": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "mdc_code_enforcement": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "mdc_tax_collector": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "collier_foreclosure_calendar": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "collier_tax_deeds": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "collier_notices": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "collier_official_records": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "collier_appraiser_bulk": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "courtlistener_v4": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    },
+    "ca_ag_2924m_registry": {
+      "last_success_at": null,
+      "consecutive_failures": 1,
+      "last_error": "EGRESS_BLOCKED"
+    }
+  }
+}

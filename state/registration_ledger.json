@@ -1,0 +1,66 @@
+{
+  "as_of": "2026-08-19T14:20:00Z",
+  "platforms": [
+    {
+      "platform": "miamidade.realforeclose.com",
+      "market": "MDC",
+      "account_status": "none",
+      "identity_verified": false,
+      "funding_method": "ACH (advance escrow, [S] unverified)",
+      "funding_lead_time_business_days": 4,
+      "deposit_on_deposit_usd": 0,
+      "next_hard_deadline_utc": null,
+      "blocking_tasks": [
+        "Human registration required (identity-bound). While registering, resolve RUNBOOK Q1: does tax-deed bidding live on realtaxdeed or realforeclose?",
+        "Confirm advance-deposit mechanics (ACH ~4 business days, 17:00 in-person cutoff) \u2014 currently [S], unverified"
+      ]
+    },
+    {
+      "platform": "liveauctions.govease.com",
+      "market": "LA",
+      "account_status": "none",
+      "identity_verified": false,
+      "funding_method": "per GovEase terms (capture ToU during registration \u2014 RUNBOOK Q3)",
+      "deposit_on_deposit_usd": 0,
+      "next_hard_deadline_utc": "2026-10-13T20:00:00Z",
+      "notes": "2026B tax-defaulted auction: registration OPENS 2026-09-18, CLOSES 2026-10-13 13:00 PT; auction 2026-10-17 15:00 PT -> 2026-10-20 12:00 PT; last redemption 2026-10-16 17:00 PT. Follow-up sale: reg 2026-11-06..2026-12-01, auction 2026-12-05..08. [V] from TTC schedule.",
+      "blocking_tasks": [
+        "Register \u043e\u0442 2026-09-18; capture Terms of Use from the registration flow (govease.com/terms-of-use is 404)"
+      ]
+    },
+    {
+      "platform": "sanfrancisco.mytaxsale.com",
+      "market": "SF",
+      "account_status": "none",
+      "identity_verified": false,
+      "funding_method": "$5,000 refundable + $35 deposit gates bidding",
+      "deposit_on_deposit_usd": 0,
+      "next_hard_deadline_utc": null,
+      "notes": "Registration free, open year-round. Next sale not yet scheduled as of 2026-08. Read full user agreement before any automation (vendor undisclosed).",
+      "blocking_tasks": []
+    },
+    {
+      "platform": "auction.com",
+      "market": "LA/SF",
+      "account_status": "none",
+      "identity_verified": false,
+      "funding_method": "per listing",
+      "notes": "MANUAL ONLY \u2014 ToU bans automation; one ID = one account. Largest CA trustee-sale venue.",
+      "blocking_tasks": [
+        "Human registration + ID verification"
+      ]
+    },
+    {
+      "platform": "collier_in_person",
+      "market": "COL",
+      "account_status": "n/a",
+      "physical_bidder_assigned": false,
+      "funding_method": "cash / cashier's check / money order ONLY \u2014 no ACH, no wire",
+      "venue": "Main Courthouse, 3315 Tamiami Trail East, Naples FL 34112, 1st floor",
+      "notes": "No electronic path exists. Every COL lot is non-executable (G8) until a named human with certified funds is assigned.",
+      "blocking_tasks": [
+        "Assign a physical bidder (name, POA/authorization status) before any COL lot can score executability > 0"
+      ]
+    }
+  ]
+}

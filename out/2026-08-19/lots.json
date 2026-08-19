@@ -58,7 +58,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 562000,
+   "arv_hi": 648000,
+   "conf": "model",
+   "sqft": 1080,
+   "yr": "1952",
+   "use": "Single Family Residence",
+   "ain": "8028003007",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 360440,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 175359
+  }
  },
  {
   "lot_id": "fe603d3fd77c48e7",
@@ -1083,7 +1098,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 885000,
+   "arv_hi": 982000,
+   "conf": "model",
+   "sqft": 1383,
+   "yr": "1955",
+   "use": "Single Family Residence",
+   "ain": "2662012014",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 977975,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -40816
+  }
  },
  {
   "lot_id": "bf3a53f46e92ccbc",
@@ -1357,7 +1387,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 778000,
+   "arv_hi": 877000,
+   "conf": "model",
+   "sqft": 1415,
+   "yr": "1953",
+   "use": "Single Family Residence",
+   "ain": "4029030009",
+   "tax_status": "DELINQUENT",
+   "exemption": "None",
+   "assessed": 877200,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -108587
+  }
  },
  {
   "lot_id": "363789bddfc88fdb",
@@ -1494,7 +1539,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 632000,
+   "arv_hi": 790000,
+   "conf": "model",
+   "sqft": 1580,
+   "yr": "1912",
+   "use": "Single Family Residence",
+   "ain": "5149023020",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 267000,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 377414
+  }
  },
  {
   "lot_id": "02eecb2d1872dc0f",
@@ -1768,7 +1828,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 686000,
+   "arv_hi": 798000,
+   "conf": "model",
+   "sqft": 1596,
+   "yr": "1987",
+   "use": "Single Family Residence",
+   "ain": "2529001042",
+   "tax_status": "DELINQUENT",
+   "exemption": "None",
+   "assessed": 1236306,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -330988
+  }
  },
  {
   "lot_id": "8e61f3a60a8228ca",
@@ -2313,7 +2388,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 315000,
+   "arv_hi": 378000,
+   "conf": "model",
+   "sqft": 1260,
+   "yr": "1985",
+   "use": "Single Family Residence",
+   "ain": "3053043001",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 591600,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -270399
+  }
  },
  {
   "lot_id": "4047e4066c10c748",
@@ -2450,7 +2540,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 827000,
+   "arv_hi": 932000,
+   "conf": "model",
+   "sqft": 1503,
+   "yr": "1968",
+   "use": "Single Family Residence",
+   "ain": "2056018027",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 849598,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 286099
+  }
  },
  {
   "lot_id": "bef34ae19ea621ac",
@@ -3495,7 +3600,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 3146000,
+   "arv_hi": 4147000,
+   "conf": "low",
+   "sqft": 1430,
+   "yr": "2013",
+   "use": "Single Family Residence",
+   "ain": "4449004020",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 0,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 1350272
+  }
  },
  {
   "lot_id": "59d7e0caaca1b777",
@@ -3695,7 +3815,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 285000,
+   "arv_hi": 338000,
+   "conf": "model",
+   "sqft": 1000,
+   "yr": "1989",
+   "use": "Condominium",
+   "ain": "2861056205",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 244358,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": -112089
+  }
  },
  {
   "lot_id": "386287d1116d4e37",
@@ -3756,7 +3891,22 @@
   ],
   "confidence": 0.3,
   "first_seen": "2026-08-19T16:15:00+00:00",
-  "last_seen": "2026-08-19T16:15:00+00:00"
+  "last_seen": "2026-08-19T16:15:00+00:00",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 746000,
+   "arv_hi": 890000,
+   "conf": "model",
+   "sqft": 2870,
+   "yr": "2002",
+   "use": "Single Family Residence",
+   "ain": "2866056067",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 552928,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 563174
+  }
  },
  {
   "lot_id": "89350d9d45fa9750",
@@ -4737,7 +4887,22 @@
   "parcel": {
    "owner_name": "Sanghe"
   },
-  "notes": "max_bid $776,414.88 (m)"
+  "notes": "max_bid $776,414.88 (m)",
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 720000,
+   "arv_hi": 845000,
+   "conf": "model",
+   "sqft": 3130,
+   "yr": "2002",
+   "use": "Single Family Residence",
+   "ain": "3001118007",
+   "tax_status": "CURRENT",
+   "exemption": "None",
+   "assessed": 817233,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 41175
+  }
  },
  {
   "lot_id": "c1c490418b0fa67f",
@@ -5145,6 +5310,21 @@
   "last_seen": "2026-08-19T16:15:00+00:00",
   "parcel": {
    "owner_name": "Nieminski"
+  },
+  "valuation": {
+   "method": "sqft_x_psf_band",
+   "arv_lo": 350000,
+   "arv_hi": 420000,
+   "conf": "model",
+   "sqft": 1748,
+   "yr": "2005",
+   "use": "Single Family Residence",
+   "ain": "3072003005",
+   "tax_status": "CURRENT",
+   "exemption": "Homeowners’",
+   "assessed": 492800,
+   "provenance": "parcel [V], $/sf band [E]",
+   "spread_mid": 85000
   }
  },
  {
@@ -5826,7 +6006,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение",
+  "notes": null,
   "confidence": 0.35,
   "first_seen": "2026-08-19T17:05:00+00:00",
   "last_seen": "2026-08-19T17:05:00+00:00"
@@ -6121,7 +6301,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение",
+  "notes": null,
   "confidence": 0.35,
   "first_seen": "2026-08-19T17:05:00+00:00",
   "last_seen": "2026-08-19T17:05:00+00:00"
@@ -6947,7 +7127,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение",
+  "notes": null,
   "confidence": 0.35,
   "first_seen": "2026-08-19T17:05:00+00:00",
   "last_seen": "2026-08-19T17:05:00+00:00"
@@ -7419,7 +7599,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение",
+  "notes": null,
   "confidence": 0.35,
   "first_seen": "2026-08-19T17:05:00+00:00",
   "last_seen": "2026-08-19T17:05:00+00:00"
@@ -7773,7 +7953,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение",
+  "notes": null,
   "confidence": 0.35,
   "first_seen": "2026-08-19T17:05:00+00:00",
   "last_seen": "2026-08-19T17:05:00+00:00"
@@ -9242,7 +9422,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -9260,7 +9440,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",
@@ -9312,7 +9492,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -9330,7 +9510,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",
@@ -9579,7 +9759,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -9597,7 +9777,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00"
@@ -9776,7 +9956,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -9794,7 +9974,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",
@@ -10385,7 +10565,7 @@
     "authority": "primary"
    }
   ],
-  "notes": null,
+  "notes": "HOA-обращение — риск §718.116 (истец — комьюнити-ассоциация, имя усечено в извещении)",
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",
@@ -10647,7 +10827,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -10665,7 +10845,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",
@@ -11111,7 +11291,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -11129,7 +11309,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",
@@ -11321,7 +11501,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -11339,7 +11519,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",
@@ -12433,7 +12613,7 @@
    {
     "id": "G1",
     "passed": false,
-    "reason": "Сумма итогового решения и позиция залога не прочитаны с docket; для HOA-истца дополнительно §718.116 (нет safe harbor)."
+    "reason": "Итоговое решение не прочитано — сумма судебного долга и позиция залога не установлены."
    }
   ],
   "scoring": {
@@ -12451,7 +12631,7 @@
     "authority": "primary"
    }
   ],
-  "notes": "HOA-обращение — риск §718.116",
+  "notes": null,
   "confidence": 0.45,
   "first_seen": "2026-08-19T19:40:00+00:00",
   "last_seen": "2026-08-19T19:40:00+00:00",

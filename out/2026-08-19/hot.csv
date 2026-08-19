@@ -1,1 +1,21 @@
-lot_id,market,channel,address,parcel_id,binding_deadline_local,binding_deadline_et,deadline_type,opening_bid,mao,mos,readiness,blockers
+lot_id,market,channel,address_or_case,deadline_kind,deadline_et,hours_remaining,est_debt_or_bid_usd,opening_bid_usd,status,blockers
+f7dbf17f6d4fc3f2,COL,judicial_foreclosure,11-2022-CA-000737-0001-XX,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+ba25998f1a922c03,COL,judicial_foreclosure,11-2022-CA-000876-0001-XX,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+b5aa114cb020072d,COL,judicial_foreclosure,11-2023-CA-000366-0001-XX,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+84dd6a29125756d3,COL,judicial_foreclosure,11-2024-CA-001198-0001-01,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+f36043f1214444a2,COL,judicial_foreclosure,11-2024-CC-002736-0001-01,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+5e328cdf5214da8b,COL,judicial_foreclosure,11-2025-CA-000165-0001-01,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+c6550c7fcef5acb2,COL,judicial_foreclosure,11-2025-CA-001093-0001-01,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+c5632bdd45166e97,COL,judicial_foreclosure,11-2025-CA-002179-0001-01,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+996103df7df22441,COL,judicial_foreclosure,11-2025-CA-002678-0001-01,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+4deffffdd0922497,COL,judicial_foreclosure,11-2026-CA-000839-0001-01,physical_funds_staging,2026-08-19T11:00:00-04:00,-2.1,,,scheduled,G8;G1
+ca60adadfbb1d1fe,LA,trustee_sale,"2828 Emerald Lane, Lancaster, CA 93535",physical_funds_staging,2026-08-19T14:00:00-04:00,1.8,368000.0,417600.0,scheduled,G1;G10
+0f67b2e16514718b,LA,trustee_sale,"10034 Westwanda Dr  Los Angeles, CA 90210",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,831567.57,,scheduled,G1;G10
+02eecb2d1872dc0f,LA,trustee_sale,"1247-1249 S Sycamore Ave  Los Angeles, CA 90019",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,2179330.98,,scheduled,G1;G10
+509a91ba0eaad23c,LA,trustee_sale,"11310 Palomino Court  Sylmar Area, Los Angeles, CA 91342",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,1072988.18,,scheduled,G1;G10
+b1587b6b67ab37b7,LA,trustee_sale,"37130 Casa Verde Drive  Palmdale, CA 93550",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,616899.26,,scheduled,G1;G10
+2aa590c82e9df8c1,LA,trustee_sale,"3500 West Manchester Boulevard #386  Inglewood, CA 90305",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,293244.25,,scheduled,G1;G10
+386287d1116d4e37,LA,trustee_sale,"28125 Alton Way  Castaic, CA 91384",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,254826.02,,scheduled,G1;G10
+f25ab0b7e1d0d6ac,LA,trustee_sale,"40232 Lonsdale Ct, Palmdale, CA 93551-5234",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,741325.0,489900.0,scheduled,G1;G10
+ce1b159a58e12edf,LA,trustee_sale,"17301 Laredo Vista Ave, Palmdale, CA 93591-3332",physical_funds_staging,2026-08-20T12:00:00-04:00,23.8,300000.0,,scheduled,G1;G10
+86b3686cbe3aed61,LA,trustee_sale,"11818 Leland Avenue  Whittier, CA 90605",physical_funds_staging,2026-08-20T13:00:00-04:00,24.8,429640.77,,scheduled,G1;G10

@@ -384,8 +384,18 @@ sources:
       balance_due: "10:30 AM the following business day"
       fees: "Registry 3% of first $500 + 1.5% thereafter; doc stamps $0.70/$100"
     notes: >
-      equivant ShowCase Web — a Vue SPA over an undocumented REST backend. DO NOT GUESS ENDPOINTS.
-      Capture the XHR calls once in browser devtools, record here with discovered_at, re-verify monthly.
+      equivant ShowCase Web — Vue SPA over REST. Endpoints CAPTURED LIVE 2026-08-19 (RUNBOOK Q2
+      closed); re-verify monthly. All sci/ calls need a public bearer token: POST
+      sci/account/validate-captcha (reCAPTCHA v3, site key 6LfugcQbAAAAAGUltXrg8TA4lQy6nbfK2wldf-em)
+      then sci/account/authenticate → {access_token}. Foreclosure Sale = courtEventTypeID 77,
+      venue = courtLocationID 60 (Naples Multi-Purpose Room).
+    rest_endpoints:
+      discovered_at: "2026-08-19"
+      base: https://cms.collierclerk.com/showcaseweb/sci/
+      calendar_summary: "GET calendar/summary?eventDate=MM/DD/YYYY&eventEndDate=&view=0|1|2&courtEventTypeID=77&..."
+      calendar_details: "GET calendar/details?searchDate=ISO&startTime='MM/DD/YYYY h:mm A|'&courtEventTypeID=77&courtLocationID=60 — startTime REQUIRED else 500. Returns caseNumber, style, caseStatus, judgeName, courtRoom"
+      reference_lists: [courteventtypes/list, courtlocations/list, judges/list, divisions/list, casestatuses/list, courttypes/list]
+      auth: "POST account/validate-captcha (reCAPTCHA v3 token) → POST account/authenticate → Bearer"
     markets: [COL]
 
   - id: collier_tax_deeds

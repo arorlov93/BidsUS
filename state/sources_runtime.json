@@ -90,24 +90,24 @@
       "note": "Cloudflare 403 to non-browser clients \u2014 manual only"
     },
     "collier_foreclosure_calendar": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T17:05:00+00:00",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "collier_tax_deeds": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T17:05:00+00:00",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "collier_notices": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T17:05:00+00:00",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "collier_official_records": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T17:05:00+00:00",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "collier_appraiser_bulk": {
       "last_success_at": null,

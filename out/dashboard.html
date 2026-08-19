@@ -18,123 +18,65 @@
     --ok-bg: #E4F0E8;
     --dead: #8A8F96;
   }
-  :root:not([data-theme="light"]) { }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #16181B;
-      --surface: #1E2125;
-      --surface-2: #24282D;
-      --ink: #E8E6E1;
-      --muted: #9AA1A9;
-      --line: #33383E;
-      --accent: #4FB3AB;
-      --accent-ink: #7BCCC5;
-      --crit: #E07B72;
-      --crit-bg: #3A2422;
-      --warn: #D9A94E;
-      --warn-bg: #37301D;
-      --ok: #6FBE8F;
-      --ok-bg: #1F3327;
-      --dead: #6C7278;
+      --bg: #16181B; --surface: #1E2125; --surface-2: #24282D; --ink: #E8E6E1;
+      --muted: #9AA1A9; --line: #33383E; --accent: #4FB3AB; --accent-ink: #7BCCC5;
+      --crit: #E07B72; --crit-bg: #3A2422; --warn: #D9A94E; --warn-bg: #37301D;
+      --ok: #6FBE8F; --ok-bg: #1F3327; --dead: #6C7278;
     }
   }
   :root[data-theme="dark"] {
-    --bg: #16181B;
-    --surface: #1E2125;
-    --surface-2: #24282D;
-    --ink: #E8E6E1;
-    --muted: #9AA1A9;
-    --line: #33383E;
-    --accent: #4FB3AB;
-    --accent-ink: #7BCCC5;
-    --crit: #E07B72;
-    --crit-bg: #3A2422;
-    --warn: #D9A94E;
-    --warn-bg: #37301D;
-    --ok: #6FBE8F;
-    --ok-bg: #1F3327;
-    --dead: #6C7278;
+    --bg: #16181B; --surface: #1E2125; --surface-2: #24282D; --ink: #E8E6E1;
+    --muted: #9AA1A9; --line: #33383E; --accent: #4FB3AB; --accent-ink: #7BCCC5;
+    --crit: #E07B72; --crit-bg: #3A2422; --warn: #D9A94E; --warn-bg: #37301D;
+    --ok: #6FBE8F; --ok-bg: #1F3327; --dead: #6C7278;
   }
-
   * { box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--ink);
-    font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 28px 20px 60px;
-  }
+  body { background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; font-size: 15px; line-height: 1.5; margin: 0; padding: 28px 20px 60px; }
   .wrap { max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
-
   header { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
-  header h1 {
-    font-family: "PT Serif", Georgia, serif;
-    font-size: 26px; margin: 0; letter-spacing: 0.01em;
-  }
+  header h1 { font-family: "PT Serif", Georgia, serif; font-size: 26px; margin: 0; letter-spacing: 0.01em; }
   .stamp { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; color: var(--muted); }
-
-  .alert {
-    background: var(--crit-bg); border: 1px solid var(--crit);
-    border-radius: 6px; padding: 14px 18px;
-  }
-  .alert strong { color: var(--crit); }
+  .alert { background: var(--warn-bg); border: 1px solid var(--warn); border-radius: 6px; padding: 14px 18px; }
+  .alert strong { color: var(--warn); }
   .alert p { margin: 6px 0 0; }
-  .alert code { font-family: "IBM Plex Mono", monospace; font-size: 13px; }
-
-  .band { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
-  .tile {
-    background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
-    padding: 14px 16px; display: flex; flex-direction: column; gap: 2px;
-  }
+  .band { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
   .tile .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
   .tile .value { font-family: "IBM Plex Mono", monospace; font-size: 22px; font-variant-numeric: tabular-nums; }
   .tile .note { font-size: 12px; color: var(--muted); }
-  .value.crit { color: var(--crit); }
-  .value.ok { color: var(--ok); }
-  .value.warn { color: var(--warn); }
-
+  .value.crit { color: var(--crit); } .value.ok { color: var(--ok); } .value.warn { color: var(--warn); }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; align-items: start; }
   .card { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
-  .card h2 {
-    font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
-    color: var(--accent-ink); margin: 0; padding: 12px 16px; border-bottom: 1px solid var(--line);
-  }
+  .card h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; color: var(--accent-ink); margin: 0; padding: 12px 16px; border-bottom: 1px solid var(--line); }
   .card .body { padding: 12px 16px 16px; }
   .card.span2 { grid-column: 1 / -1; }
-
   table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
   .scroll { overflow-x: auto; }
   th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 500; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); }
   td { padding: 7px 10px 7px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
   tr:last-child td { border-bottom: none; }
   td.num, .mono { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; font-size: 13px; }
-
-  .pill {
-    display: inline-block; border-radius: 99px; padding: 1px 9px; font-size: 12px; font-weight: 500;
-    white-space: nowrap;
-  }
+  .pill { display: inline-block; border-radius: 99px; padding: 1px 9px; font-size: 12px; font-weight: 500; white-space: nowrap; }
   .pill.crit { background: var(--crit-bg); color: var(--crit); }
   .pill.warn { background: var(--warn-bg); color: var(--warn); }
   .pill.ok { background: var(--ok-bg); color: var(--ok); }
   .pill.dead { background: var(--surface-2); color: var(--dead); }
-
   ul.tasks { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
   ul.tasks li { display: flex; gap: 10px; align-items: baseline; }
   .prio { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted); flex: none; width: 1.6em; }
   ul.tasks .due { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--warn); white-space: nowrap; }
-
-  .timeline { display: flex; flex-direction: column; gap: 0; }
-  .tl-row { display: grid; grid-template-columns: 108px 14px 1fr; gap: 0 12px; }
+  .timeline { display: flex; flex-direction: column; }
+  .tl-row { display: grid; grid-template-columns: 116px 14px 1fr; gap: 0 12px; }
   .tl-date { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--muted); text-align: right; padding: 2px 0 14px; }
   .tl-rail { position: relative; }
   .tl-rail::before { content: ""; position: absolute; left: 5px; top: 6px; bottom: 0; width: 2px; background: var(--line); }
   .tl-row:last-child .tl-rail::before { display: none; }
   .tl-dot { position: absolute; left: 1px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
   .tl-dot.warn { background: var(--warn); }
+  .tl-dot.crit { background: var(--crit); }
   .tl-body { padding: 0 0 14px; font-size: 13.5px; }
-  .tl-body strong { font-weight: 600; }
   small, .fine { font-size: 12px; color: var(--muted); }
   a { color: var(--accent-ink); }
 </style>
@@ -142,23 +84,22 @@
 <div class="wrap">
   <header>
     <h1>Пульт BidsUS</h1>
-    <span class="stamp">запуск №1 · 2026-08-19 07:25 PT / 10:25 ET</span>
+    <span class="stamp">запуск №2 · 2026-08-19 13:10 ET · сеть открыта, книга собрана</span>
   </header>
 
   <div class="alert">
-    <strong>Система слепа: сетевая политика окружения блокирует все 24 источника.</strong>
-    <p>Шлюз отвечает 403 на каждое исходящее соединение (трасти-борды, суды, клерки, CourtListener).
-    Разблокировка — одно действие: claude.ai → Code → настройки окружения → Network policy →
-    разрешить домены из <code>config/sources.yaml</code>. Пока это не сделано, каждый автозапуск
-    будет пустым, а дни страницы банкротных продаж C.D. Cal. (без архива) теряются безвозвратно.</p>
+    <strong>Система видит рынок, но участвовать пока не может.</strong>
+    <p>134 лота в книге, завтра 20 торгов (10 в Нейплсе, ~10 в LA) — все наблюдательные.
+    Три блокера до первой заявки: физический участник по Коллиеру (G8, 55 лотов) ·
+    источник компов по Калифорнии (G10, 57 лотов) · ручная проверка календаря Майами (робот-блок).</p>
   </div>
 
   <div class="band">
-    <div class="tile"><span class="label">Источники ок</span><span class="value crit">0/24</span><span class="note">все EGRESS_BLOCKED</span></div>
-    <div class="tile"><span class="label">Лотов в работе</span><span class="value">0</span><span class="note">харвест не состоялся</span></div>
-    <div class="tile"><span class="label">Горящих ≤72ч</span><span class="value">—</span><span class="note">нет данных ≠ нет торгов</span></div>
-    <div class="tile"><span class="label">Дрейф MAO</span><span class="value">н/д</span><span class="note">калибровка не начата</span></div>
-    <div class="tile"><span class="label">Следующий запуск</span><span class="value">04:30 PT</span><span class="note">ежедневный полный sweep</span></div>
+    <div class="tile"><span class="label">Лоты в книге</span><span class="value">134</span><span class="note">LA 76 · SF 3 · COL 55 · MDC 0</span></div>
+    <div class="tile"><span class="label">Источники ок</span><span class="value ok">13/24</span><span class="note">MDC-календарь ручной</span></div>
+    <div class="tile"><span class="label">Горящих ≤72ч</span><span class="value warn">20</span><span class="note">все ⛔ по гейтам</span></div>
+    <div class="tile"><span class="label">Переносов</span><span class="value">12</span><span class="note">волна на сен–окт</span></div>
+    <div class="tile"><span class="label">Дрейф MAO</span><span class="value">н/д</span><span class="note">калибровка с завтра</span></div>
   </div>
 
   <div class="grid">
@@ -166,97 +107,57 @@
       <h2>Требует человека — по приоритету</h2>
       <div class="body">
         <ul class="tasks">
-          <li><span class="prio">1</span><span><strong>Открыть сетевую политику окружения</strong> — до завтрашнего 04:30 PT <span class="due">→ сегодня</span></span></li>
-          <li><span class="prio">2</span><span>Вручную посмотреть календарь MDC (realforeclose — робот-блок) <span class="due">→ сегодня–завтра</span></span></li>
-          <li><span class="prio">3</span><span>Вручную посмотреть календарь Коллиера (ShowCase → Foreclosure Sale) <span class="due">→ сегодня–завтра</span></span></li>
-          <li><span class="prio">4</span><span>Регистрация на miamidade.realforeclose.com + закрыть Q1 (realtaxdeed?) и подтвердить механику депозита <span class="due">→ эта неделя</span></span></li>
-          <li><span class="prio">5</span><span>Назначить физического участника для Коллиера (без него весь рынок = G8) <span class="due">→ эта неделя</span></span></li>
-          <li><span class="prio">6</span><span>Регистрация на auction.com (только вручную, 1 ID = 1 аккаунт) <span class="due">→ эта неделя</span></span></li>
-          <li><span class="prio">7</span><span>Письмо в Regrid: «не для директ-мейла» — просьба или условие? (для Скаута) <span class="due">→ до 1-го scout-запуска</span></span></li>
+          <li><span class="prio">1</span><span><strong>Физический участник по Коллиеру</strong> — снимает G8 с 55 лотов <span class="due">→ до 27.08</span></span></li>
+          <li><span class="prio">2</span><span><strong>Компы CA</strong>: PropertyRadar (~$100/мес) или ручные по 3–5 лотам — включает MAO и «Лучшую цену» <span class="due">→ эта неделя</span></span></li>
+          <li><span class="prio">3</span><span>Календарь MDC вручную (realforeclose, робот-блок): продажи до 02.09 <span class="due">→ завтра</span></span></li>
+          <li><span class="prio">4</span><span>Токен CourtListener → гео-фильтр 1 382 флоридских notice of sale <span class="due">→ эта неделя</span></span></li>
+          <li><span class="prio">5</span><span>Из кабинета realforeclose: механика депозита + хост tax deed (Q1) <span class="due">→ при входе</span></span></li>
+          <li><span class="prio">6</span><span>Стартовые ставки COL tax deed (PDF Laserfiche / клерк) <span class="due">→ до 21.09</span></span></li>
         </ul>
       </div>
     </div>
 
     <div class="card">
-      <h2>Ближайшие твёрдые дедлайны</h2>
+      <h2>Календарь торгов и дедлайнов</h2>
       <div class="body timeline">
-        <div class="tl-row">
-          <div class="tl-date">18 сен</div>
-          <div class="tl-rail"><span class="tl-dot"></span></div>
-          <div class="tl-body"><strong>GovEase 2026B: открывается регистрация</strong><br><small>Налоговый аукцион LA. При регистрации зафиксировать Terms of Use (прямой URL — 404).</small></div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-date">13 окт 13:00 PT</div>
-          <div class="tl-rail"><span class="tl-dot warn"></span></div>
-          <div class="tl-body"><strong>GovEase 2026B: закрытие регистрации</strong><br><small>Связывающий дедлайн — не дата торгов.</small></div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-date">16 окт 17:00 PT</div>
-          <div class="tl-rail"><span class="tl-dot"></span></div>
-          <div class="tl-body">Последний срок погашения владельцами — часть лотов испарится<br><small>Ожидаемо: заметная доля объявленных лотов уходит в погашение.</small></div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-date">17–20 окт</div>
-          <div class="tl-rail"><span class="tl-dot"></span></div>
-          <div class="tl-body">Аукцион 2026B (15:00 PT 17.10 → 12:00 PT 20.10), оплата до 13:00 PT 23.10</div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-date">1 ноя</div>
-          <div class="tl-rail"><span class="tl-dot warn"></span></div>
-          <div class="tl-body">Квартальная сверка статутов: §2079.26 (сансет 01.01.2027), AB 1850, ULA, крон-смещение после перехода на зимнее время</div>
-        </div>
+        <div class="tl-row"><div class="tl-date">20 авг</div><div class="tl-rail"><span class="tl-dot crit"></span></div>
+          <div class="tl-body"><strong>20 торгов — наблюдаем</strong><br><small>Нейплс 10 дел 11:00 ET · LA ~10 продаж 09:00–10:00 PT. Результаты → калибровка.</small></div></div>
+        <div class="tl-row"><div class="tl-date">3 сен</div><div class="tl-rail"><span class="tl-dot"></span></div>
+          <div class="tl-body">Волна №2: Коллиер 6 дел + LA ~12 продаж<br><small>Первая реалистичная цель при закрытых блокерах 1–2.</small></div></div>
+        <div class="tl-row"><div class="tl-date">17 сен</div><div class="tl-rail"><span class="tl-dot"></span></div>
+          <div class="tl-body">Волна №3: LA ~9 продаж + Коллиер 9 дел</div></div>
+        <div class="tl-row"><div class="tl-date">18 сен</div><div class="tl-rail"><span class="tl-dot warn"></span></div>
+          <div class="tl-body"><strong>Открывается регистрация GovEase 2026B</strong> (аукцион 17–20 окт, регистрация до 13.10 13:00 PT)</div></div>
+        <div class="tl-row"><div class="tl-date">28 сен / 5 окт</div><div class="tl-rail"><span class="tl-dot warn"></span></div>
+          <div class="tl-body"><strong>Коллиер tax deed: 13 парцелов, 13:00 ET</strong><br><small>Кандидат №1: 9 Watercolor Way, Naples. Нужны: лиен-серч, бюджет квайет-тайтла, участник.</small></div></div>
+        <div class="tl-row"><div class="tl-date">1 ноя</div><div class="tl-rail"><span class="tl-dot"></span></div>
+          <div class="tl-body">Квартальная сверка статутов + поправка крон-расписаний после перехода на зимнее время</div></div>
       </div>
     </div>
 
     <div class="card span2">
-      <h2>Здоровье источников по рынкам</h2>
+      <h2>Покрытие рынков</h2>
       <div class="body scroll">
         <table>
-          <tr><th>Рынок</th><th>Ключевые источники</th><th>Статус</th><th>Цена сегодняшней слепоты</th></tr>
-          <tr>
-            <td><strong>LA</strong></td>
-            <td>Prime Recon · TMLF · NDSC · CA Public Notice · CACB notice-of-sales · TTC/GovEase · Socrata</td>
-            <td><span class="pill crit">0/7 · EGRESS</span></td>
-            <td>CACB без архива — день потерян навсегда; постпонменты трасти-продаж не отслеживаются</td>
-          </tr>
-          <tr>
-            <td><strong>SF</strong></td>
-            <td>те же борды · DataSF · mytaxsale · CourtListener (canb)</td>
-            <td><span class="pill crit">0/4 · EGRESS</span></td>
-            <td>банкротные продажи N.D. Cal. видны только через CourtListener — канал закрыт целиком</td>
-          </tr>
-          <tr>
-            <td><strong>MDC</strong></td>
-            <td>Foreclosure Registry · PA JSON API · ArcGIS · Official Records · Tax Collector</td>
-            <td><span class="pill crit">0/7 · EGRESS</span></td>
-            <td>реестр Lis Pendens (самый ранний сигнал) не читается; торги 09:00/14:00 ET прошли без нас</td>
-          </tr>
-          <tr>
-            <td><strong>COL</strong></td>
-            <td>ShowCase календарь · tax deeds · notices (email!) · CORPublicAccess · бесплатные CSV оценщика</td>
-            <td><span class="pill crit">0/5 · EGRESS</span></td>
-            <td>очный рынок: календарь клерка — единственная точка входа</td>
-          </tr>
-          <tr>
-            <td>Кросс</td>
-            <td>CourtListener v4 · реестр §2924m (калибровка)</td>
-            <td><span class="pill crit">0/2 · EGRESS</span></td>
-            <td>единственная санкционированная API-поверхность системы недоступна</td>
-          </tr>
+          <tr><th>Рынок</th><th>Книга</th><th>Источники</th><th>Что блокирует сделку</th></tr>
+          <tr><td><strong>LA</strong></td><td class="num">76</td><td><span class="pill ok">борды живые</span> <span class="pill ok">CACB</span> <span class="pill ok">§2924m</span></td><td>G1 (залог) + G10 (компы) — нужен PropertyRadar/ATTOM или ручная работа</td></tr>
+          <tr><td><strong>SF</strong></td><td class="num">3</td><td><span class="pill ok">борды</span> <span class="pill dead">mytaxsale: продаж нет</span></td><td>то же; рынок тонкий (2 расписаны)</td></tr>
+          <tr><td><strong>MDC</strong></td><td class="num">0</td><td><span class="pill ok">PA API</span> <span class="pill crit">календарь робот-блок</span> <span class="pill crit">tax collector Cloudflare</span></td><td>календарь — только вручную; реестр LP переклассифицирован в поштучный</td></tr>
+          <tr><td><strong>COL</strong></td><td class="num">55</td><td><span class="pill ok">REST вскрыт</span> <span class="pill ok">notices</span> <span class="pill ok">40 LP → Скауту</span></td><td>G8 — нет физического участника; адреса дел требуют docket-обогащения</td></tr>
         </table>
       </div>
     </div>
 
     <div class="card">
-      <h2>Готовность площадок</h2>
-      <div class="body scroll">
+      <h2>Наблюдения дня</h2>
+      <div class="body">
         <table>
-          <tr><th>Площадка</th><th>Аккаунт</th><th>Фондирование</th></tr>
-          <tr><td class="mono">miamidade.realforeclose.com</td><td><span class="pill dead">нет</span></td><td>ACH аванс ~4 раб. дня <small>[S] не подтверждено</small></td></tr>
-          <tr><td class="mono">liveauctions.govease.com</td><td><span class="pill warn">рег. с 18.09</span></td><td>условия зафиксировать при регистрации</td></tr>
-          <tr><td class="mono">sanfrancisco.mytaxsale.com</td><td><span class="pill dead">нет</span></td><td>$5 000 + $35, регистрация круглый год</td></tr>
-          <tr><td class="mono">auction.com</td><td><span class="pill dead">нет</span></td><td>вручную, 1 ID = 1 аккаунт</td></tr>
-          <tr><td>Коллиер (очно)</td><td><span class="pill crit">нет участника</span></td><td>наличные / кассовый чек / money order — без ACH</td></tr>
+          <tr><td>Продажи «в возврат банку»</td><td class="num">3 из 3</td></tr>
+          <tr><td colspan="2"><small>$1.67M Venice · $574k Glendale · $340k Palmdale — сторонние не перебили: старты у рынка</small></td></tr>
+          <tr><td>Финализация §2924m</td><td class="num">~45 дней</td></tr>
+          <tr><td colspan="2"><small>13 свежих LA-продаж в реестре AG; категория победителя почти всегда «B»</small></td></tr>
+          <tr><td>HOA-обращения в Коллиере</td><td class="num">5 из 42</td></tr>
+          <tr><td colspan="2"><small>риск §718.116: у стороннего покупателя нет safe harbor</small></td></tr>
         </table>
       </div>
     </div>
@@ -265,18 +166,16 @@
       <h2>Автозапуски</h2>
       <div class="body scroll">
         <table>
-          <tr><th>Задача</th><th>Когда</th><th>Статус</th></tr>
-          <tr><td>Полный sweep торгов</td><td class="num">04:30 PT ежедн.</td><td><span class="pill ok">включён</span></td></tr>
-          <tr><td>Дельта по горящим</td><td class="num">13:00 PT ежедн.</td><td><span class="pill ok">включён</span></td></tr>
-          <tr><td>Разведка заброшенных</td><td class="num">пн 06:00 ET</td><td><span class="pill ok">включён</span></td></tr>
-          <tr><td>Калибровка MAO</td><td class="num">вс 07:00 ET</td><td><span class="pill ok">включён</span></td></tr>
-          <tr><td>Здоровье источников</td><td class="num">12:00 ET ежедн.</td><td><span class="pill ok">включён</span></td></tr>
-          <tr><td>Квартальная сверка</td><td class="num">01.11.2026</td><td><span class="pill ok">разовый</span></td></tr>
+          <tr><td>Полный sweep</td><td class="num">04:30 PT</td><td><span class="pill ok">вкл</span></td></tr>
+          <tr><td>Дельта горящих</td><td class="num">13:00 PT</td><td><span class="pill ok">вкл</span></td></tr>
+          <tr><td>Скаут</td><td class="num">пн 06:00 ET</td><td><span class="pill ok">вкл</span></td></tr>
+          <tr><td>Калибровка</td><td class="num">вс 07:00 ET</td><td><span class="pill ok">вкл</span></td></tr>
+          <tr><td>Здоровье источников</td><td class="num">12:00 ET</td><td><span class="pill ok">вкл</span></td></tr>
         </table>
-        <p class="fine">Пока сеть закрыта, запуски будут отчитываться о деградации — это намеренно: деградация видимая, а не тихая.</p>
+        <p class="fine">Закрыты вопросы RUNBOOK: Q2 (REST ShowCase) и Q6 (площадки LA). Открыты: Q1 (хост tax deed MDC), Q3 (ToU GovEase), Q4 (mailing address в открытых данных), Q5 (Regrid).</p>
       </div>
     </div>
   </div>
 
-  <p class="fine">Дайджест: <span class="mono">out/2026-08-19/digest.md</span> · Инциденты: <span class="mono">state/incidents.jsonl</span> (25) · Обновляется каждым запуском на этом же адресе.</p>
+  <p class="fine">Дайджест: <span class="mono">out/2026-08-19/digest.md</span> · Лоты: <span class="mono">out/2026-08-19/lots.json</span> (134) · Горящие: <span class="mono">hot.csv</span> (20) · Обновляется каждым запуском на этом адресе.</p>
 </div>

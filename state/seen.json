@@ -551,5 +551,390 @@
 "status": "watch",
 "market": "LA",
 "addr": "1441-1445 Fourth Street"
+},
+"f7dbf17f6d4fc3f2": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2022-CA-000737-0001-XX"
+},
+"ba25998f1a922c03": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2022-CA-000876-0001-XX"
+},
+"b5aa114cb020072d": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2023-CA-000366-0001-XX"
+},
+"84dd6a29125756d3": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2024-CA-001198-0001-01"
+},
+"f36043f1214444a2": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2024-CC-002736-0001-01"
+},
+"5e328cdf5214da8b": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-000165-0001-01"
+},
+"c6550c7fcef5acb2": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001093-0001-01"
+},
+"c5632bdd45166e97": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002179-0001-01"
+},
+"996103df7df22441": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002678-0001-01"
+},
+"4deffffdd0922497": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2026-CA-000839-0001-01"
+},
+"b00e04fd10499593": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001628-0001-01"
+},
+"fb6d86ee1fca7609": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002409-0001-01"
+},
+"c726c98d06a62cce": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002416-0001-01"
+},
+"9b00fd25383ae18a": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002640-0001-01"
+},
+"eeefc58e421532d9": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-003012-0001-01"
+},
+"57538817dfea80c8": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2026-CA-000067-0001-01"
+},
+"41d708a7ed71ec63": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2024-CC-000563-0001-01"
+},
+"6d1b054c713651ec": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-000660-0001-01"
+},
+"96662a7119ee37e0": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001442-0001-01"
+},
+"84012b8352b669a8": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001630-0001-01"
+},
+"66fd896300e0829a": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002314-0001-01"
+},
+"1a0f8faf243119a9": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002337-0001-01"
+},
+"9d9aa9d32dcf0731": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002455-0001-01"
+},
+"4c1fe77d70d8f332": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002499-0001-01"
+},
+"56a6ef3b8edce3a4": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2023-CA-003446-0001-XX"
+},
+"90fff15e34e99139": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-000690-0001-01"
+},
+"37d1c95b1cc0ac83": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001049-0001-01"
+},
+"fd736c36009cba8f": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002154-0001-01"
+},
+"347c9aa65cb1cf24": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002185-0001-01"
+},
+"1d1351291b40f0df": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002419-0001-01"
+},
+"5b1c0bd846cfadbf": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002784-0001-01"
+},
+"b59d287e70d44814": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002995-0001-01"
+},
+"03b17e807b30e44e": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2026-CA-000016-0001-01"
+},
+"5ada55c264ed9e5d": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001301-0001-01"
+},
+"756153098a8a6fa0": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001721-0001-01"
+},
+"badf2b7b6c558c91": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002151-0001-01"
+},
+"2ba769b9b4c3ca01": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002336-0001-01"
+},
+"08802b4542209b25": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2026-CA-000534-0001-01"
+},
+"532476defbced369": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002434-0001-01"
+},
+"b8f016a220111b6c": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-003001-0001-01"
+},
+"bc20fa8514366c10": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-001703-0001-01"
+},
+"116a68b5e708b77f": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "11-2025-CA-002206-0001-01"
+},
+"1fa2fa07960f8c5d": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "9 WATERCOLOR WAY, NAPLES, FL 34113"
+},
+"bd2083806790f084": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "800 SOUTH GOLF DR, NAPLES, FL 34102"
+},
+"220f3302b96cb6db": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "10646 SMOKEHOUSE BAY DR # 82201, NAPLES, FL 34120"
+},
+"6dbec8afbb0d0935": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "7885 MAHOGANY RUN LN # 1523, NAPLES, FL 34113"
+},
+"6c32e62efbf3877f": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "25000 TAMIAMI TRL E # 277, NAPLES, FL 34114"
+},
+"cebab12bef1db0d5": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "167 N COLLIER BLVD # T1, MARCO ISLAND, FL 34145"
+},
+"cc734343914a9ab5": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "25000 TAMIAMI TRL E # 282, NAPLES, FL 34114"
+},
+"3f0b46859193879e": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "N/A"
+},
+"e07239b207a9c59f": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "25000 TAMIAMI TRL E # 174, NAPLES, FL 34114"
+},
+"32d459496bc02754": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "1715 SAN BERNADINO WAY, NAPLES, FL 34109"
+},
+"7264c5be5297332c": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "N/A"
+},
+"2c1d0ae03eed0d43": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "N/A"
+},
+"8996d34272c97252": {
+"first_seen": "2026-08-19T17:05:00+00:00",
+"last_seen": "2026-08-19T17:05:00+00:00",
+"status": "scheduled",
+"market": "COL",
+"addr": "N/A"
 }
 }

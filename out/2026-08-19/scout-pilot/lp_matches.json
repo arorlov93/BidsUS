@@ -1,0 +1,978 @@
+[
+  {
+    "lp_instrument": "6864403",
+    "lp_recorded": "8/19/2026",
+    "lp_legal": "PINE RIDGE EXTENSION BLOCK F LOT 18",
+    "lp_parties": "F:TULIA DEVELOPMENT & CONSTRUCTION LLC T:50 MAHOGANY LLC T:STOCK MICHAEL",
+    "matches": [
+      {
+        "parcel_id": "67281000008",
+        "confidence": "medium",
+        "situs": "50 MAHOGANY DR, NAPLES",
+        "owner": "50 MAHOGANY LLC",
+        "use_code": "1",
+        "parcel_legal": "PINE RIDGE EXT BLK F LOT 18",
+        "tier1_signals": [
+          "absentee",
+          "no_homestead",
+          "mailing_is_other_sfr_parcel"
+        ],
+        "tier1_score": 0.85
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6864362",
+    "lp_recorded": "8/19/2026",
+    "lp_legal": "SECTION 20 TOWNSHIP 48S RANGE 26E",
+    "lp_parties": "F:WELLS FARGO BANK N A T:QUAIL CREEK VILLAGE FOUNDATION INC T:STAMERRO JACQUELINE T:STAMERRO RONALD DAVID",
+    "matches": [
+      {
+        "parcel_id": "185412209",
+        "confidence": "low",
+        "situs": "11496 QUAIL VILLAGE WAY, NAPLES",
+        "owner": "STAMERRO, RONALD DAVID",
+        "use_code": "4",
+        "parcel_legal": "20 48 26 UNREC D QUAIL CREEK VILLAGE HO SITE 221 OF TR AK TOGETHER WITH 1 8 INT IN COMMON PARCEL AK",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6864310",
+    "lp_recorded": "8/18/2026",
+    "lp_legal": "VALENCIA GOLF AND COUNTRY CLUB LOT 37 PHASE 1A",
+    "lp_parties": "F:VALENCIA GOLF AND COUNTRY CLUB HOMEOWNERS ASSOCIATION INC T:RAMOS MONICA T:RAMOS ROBERTO C T:SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
+    "matches": [
+      {
+        "parcel_id": "78695203927",
+        "confidence": "high",
+        "situs": "2092 PAR DR, NAPLES",
+        "owner": "RAMOS, ROBERTO C=& MONICA",
+        "use_code": "1",
+        "parcel_legal": "VALENCIA GOLF AND COUNTRY CLUB PHASE 1A LOT 37",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6864088",
+    "lp_recorded": "8/18/2026",
+    "lp_legal": "VALENCIA GOLF AND COUNTRY CLUB LOT 164 PHASE 2",
+    "lp_parties": "F:VALENCIA GOLF AND COUNTRY CLUB HOMEOWNERS ASSOCIATION INC T:BEJARANO MARIA A T:PEREZ JORGE I T:RURAL HOUSING SERVICES",
+    "matches": [
+      {
+        "parcel_id": "78695209345",
+        "confidence": "high",
+        "situs": "1638 BIRDIE DR, NAPLES",
+        "owner": "PEREZ, JORGE I",
+        "use_code": "1",
+        "parcel_legal": "VALENCIA GOLF COUNTRY CLUB PHASE 2 LOT 164",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6863568",
+    "lp_recorded": "8/17/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 77 TRACT 108; E 150'",
+    "lp_parties": "F:LAKEVIEW LOAN SERVICING LLC T:HERRERA FRANK T:HERRERA FRANK ZANLEONIS T:ORTIZ HEIDI T:ORTIZ HEIDI OANTOJA",
+    "matches": [
+      {
+        "parcel_id": "40688600002",
+        "confidence": "high",
+        "situs": "3677 8TH AVE NE, NAPLES",
+        "owner": "HERRERA, FRANK ZANLEONIS",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 77 E 150 FT OF TR 108",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40688620008",
+        "confidence": "medium",
+        "situs": "3641 8TH AVE NE, NAPLES",
+        "owner": "DE MOLA, GUSTAVO LORET",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 77 W 180 FT OF TR 108",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6863343",
+    "lp_recorded": "8/17/2026",
+    "lp_legal": "CAMBRIA LOT 18",
+    "lp_parties": "F:COLLIER CAPITAL FUNDING LLC T:BERNIER MARILYN T:BERNIER RAYMOND T:BUILDER SERVICES GROUP INC T:KARR BROTHERS DRYWALL INC T:RICE INSULATION & GLASS T:WBC CAMBRIA GRANDE VILLAS INC",
+    "matches": [
+      {
+        "parcel_id": "25117860480",
+        "confidence": "medium",
+        "situs": "146 CAMBRIA LN, NAPLES",
+        "owner": "WBC CAMBRIA GRANDE VILLAS INC",
+        "use_code": "0",
+        "parcel_legal": "CAMBRIA LOT 18",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6863032",
+    "lp_recorded": "8/14/2026",
+    "lp_legal": "MAPLE RIDGE AVE MARIA PHASE 4 LOT 138",
+    "lp_parties": "F:FREEDOM MORTGAGE CORPORATION T:AVE MARIA MASTER ASSOCIATION INC T:MAPLE RIDGE AT AVE MARIA HOMEOWNERS ASSOCIATION INC T:VAILL BARRY",
+    "matches": [
+      {
+        "parcel_id": "56530015548",
+        "confidence": "high",
+        "situs": "5122 MONZA CT, AVE MARIA",
+        "owner": "VAILL, BARRY",
+        "use_code": "1",
+        "parcel_legal": "MAPLE RIDGE AT AVE MARIA PHASE 4 LOT 138",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6862781",
+    "lp_recorded": "8/14/2026",
+    "lp_legal": "VISTA 1 HERITAGE BAY BUILDING 10 UNIT 1001 PHASE 4",
+    "lp_parties": "F:VISTA I AT HERITAGE BAY ASSOCIATION INC T:MANJARRES ORIANA M",
+    "matches": [
+      {
+        "parcel_id": "80710099583",
+        "confidence": "high",
+        "situs": "9073 GERVAIS CIR, NAPLES",
+        "owner": "MANJARRES, ORIANA M",
+        "use_code": "4",
+        "parcel_legal": "VISTA I AT HERITAGE BAY A PHASE CONDO UNIT 1001",
+        "tier1_signals": [
+          "no_homestead",
+          "long_tenure"
+        ],
+        "tier1_score": 0.9
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6862606",
+    "lp_recorded": "8/13/2026",
+    "lp_legal": "RANCH ORANGE BLOSSOM PHASE 2A LOT 289",
+    "lp_parties": "F:TOWNHOMES AT ORANGE BLOSSOM RANCH HOMEOWNERS ASSOCIATION INC T:BERNAL CHRISTIAN T:MORENO NATALY MOTTA T:SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
+    "matches": [
+      {
+        "parcel_id": "69039006320",
+        "confidence": "high",
+        "situs": "2677 CITRUS ST, NAPLES",
+        "owner": "BERNAL, CHRISTIAN",
+        "use_code": "1",
+        "parcel_legal": "RANCH AT ORANGE BLOSSOM PHASE 2A LOT 289",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6862241",
+    "lp_recorded": "8/13/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 80 TRACT 34; W 75' E 150'",
+    "lp_parties": "F:CARRINGTON MORTGAGE SERVICES LLC T:LOCKE THOMAS JOHN JR",
+    "matches": [
+      {
+        "parcel_id": "40863360002",
+        "confidence": "high",
+        "situs": "3536 6TH AVE SE, NAPLES",
+        "owner": "LOCKE JR, THOMAS JOHN",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 80 W 75FT OF E 150FT OF TR 34",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40863440003",
+        "confidence": "medium",
+        "situs": "3530 6TH AVE SE, NAPLES",
+        "owner": "SMITH, KRISTIN M",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 80 E75FT OF W180FT OF TR 34",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40863480005",
+        "confidence": "medium",
+        "situs": "3540 6TH AVE SE, NAPLES",
+        "owner": "LOPEZ, HELIDO U",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 80 E 75FT OF TR 34",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40863400001",
+        "confidence": "medium",
+        "situs": "3512 6TH AVE SE, NAPLES",
+        "owner": "GONZALEZ, JANIER ACOSTA",
+        "use_code": "67",
+        "parcel_legal": "GOLDEN GATE EST UNIT 80 W 105FT OF TR 34 OR 651 PG 1312",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6862144",
+    "lp_recorded": "8/12/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 37 TRACT 78; E 180'",
+    "lp_parties": "F:CITIMORTGAGE INC T:CASTILLO M T:ESPERON MARLEN CASTILLO T:RODRIGUEZ LEONEL",
+    "matches": [
+      {
+        "parcel_id": "38555800002",
+        "confidence": "high",
+        "situs": "398 35TH AVE NW, NAPLES",
+        "owner": "RODRIGUEZ, LEONEL",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 37 E 180FT OF TR 78",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "38555840004",
+        "confidence": "medium",
+        "situs": "420 35TH AVE NW, NAPLES",
+        "owner": "NANCY EVANS SUB TRUST",
+        "use_code": "0",
+        "parcel_legal": "GOLDEN GATE EST UNIT 37 W 150FT OF TR 78 OR 1582 PG 2373",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6862141",
+    "lp_recorded": "8/12/2026",
+    "lp_legal": "ARROWHEAD RESERVE LAKE TRAFFORD BLOCK B LOT 70",
+    "lp_parties": "F:LAKEVIEW LOAN SERVICING LLC T:ARROWHEAD RESERVE AT LAKE TRAFFORD PROPERTY OWNERS ASSOCIATION INC T:FLORES MARIA T:FLORES RENE JR T:FLORIDA HOUSING FINANCE CORPORATION",
+    "matches": [
+      {
+        "parcel_id": "22430016448",
+        "confidence": "high",
+        "situs": "912 ARTHUR ST, IMMOKALEE",
+        "owner": "FLORES JR, RENE=& MARIA",
+        "use_code": "1",
+        "parcel_legal": "ARROWHEAD RESERVE AT LAKE TRAFFORD BLK B LOT 70",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6862137",
+    "lp_recorded": "8/12/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 81 TRACT 76; W 75' E 180'",
+    "lp_parties": "F:CROSSCOUNTRY MORTGAGE LLC T:CAMACHO YASHELIN F T:HALL SUERENE T:NAPLES HMA LLC T:PHYSICIANS REGIONAL MEDICAL CENTER COLLIER T:UNITED STATES OF AMERICA DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT",
+    "matches": [
+      {
+        "parcel_id": "40928240009",
+        "confidence": "high",
+        "situs": "2977 4TH AVE SE, NAPLES",
+        "owner": "CAMACHO, YASHELIN F",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 81 W 75FT OF E180FT OF TR 76",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40928200007",
+        "confidence": "medium",
+        "situs": "2971 4TH AVE SE, NAPLES",
+        "owner": "CIVIL, NOELLINE",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 81 E 75FT OF W 150FT OF TR 76 OR 548 PG 805",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40928320000",
+        "confidence": "medium",
+        "situs": "2981 4TH AVE SE, NAPLES",
+        "owner": "MATHIS, LAVERTE ANTONIO",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 81 E 105FT OF TR 76",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40928280001",
+        "confidence": "medium",
+        "situs": "2963 4TH AVE SE, NAPLES",
+        "owner": "SANABRIA, DAVID PORFIRIO",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 81 W 75FT OF TR 76",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6862136",
+    "lp_recorded": "8/12/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 33 TRACT 53; E 75' W 150'",
+    "lp_parties": "F:PHH ASSET SERVICES LLC T:CEPEDA LEIDY DIANA BONILLA T:MORALES CARLOS JR",
+    "matches": [
+      {
+        "parcel_id": "38335400004",
+        "confidence": "high",
+        "situs": "6051 LANCEWOOD WAY, NAPLES",
+        "owner": "MORALES JR, CARLOS",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 33 E75FT OF W150FT OF TR 53 OR 1012 PG 392",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "38335360005",
+        "confidence": "medium",
+        "situs": "6053 LANCEWOOD WAY, NAPLES",
+        "owner": "LYNN A & JOANNE K WANNEMACHER",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 33 W75 FT OF W150FT OF TR 53",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "38335280004",
+        "confidence": "medium",
+        "situs": "NAPLES",
+        "owner": "GRECH, ANTHONY JOSEPH",
+        "use_code": "0",
+        "parcel_legal": "GOLDEN GATE EST UNIT 33 E105FT OF TR 53 OR 1114 PG 1619",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "38335320003",
+        "confidence": "medium",
+        "situs": "6021 LANCEWOOD WAY, NAPLES",
+        "owner": "GRECH, ANTHONY=& MICHELLE",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 33 W 75FT OF E 180FT OF TR 53 OR 1059 PG 1339",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6861611",
+    "lp_recorded": "8/12/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 46 TRACT 93",
+    "lp_parties": "F:FEDERAL HOME LOAN MORTGAGE CORPORATION F:FREDDIE MAC SLST 2024 2 PARTICIPATION INTEREST DIVISION TRUST T:CALDERON FRANCISCO T:CALDERON ZULIMA",
+    "matches": [
+      {
+        "parcel_id": "39089800001",
+        "confidence": "high",
+        "situs": "3668 70TH AVE NE, NAPLES",
+        "owner": "CALDERON, FRANCISCO=& ZULIMA",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 46 TR 93",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "40922520000",
+        "confidence": "low",
+        "situs": "2673 2ND AVE SE, NAPLES",
+        "owner": "FRANCISCO C CALDERON",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 81 E 75FT OF W 150FT OF TR 26",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6861567",
+    "lp_recorded": "8/12/2026",
+    "lp_legal": "CROSSINGS MILL RUN LOT 3",
+    "lp_parties": "F:COMMUNITY ASSOCIATION FOR MILL RUN COLLIER COUNTY INC T:THIRD FEDERAL SAVINGS AND LOAN ASSOCIATION OF CLEVELAND T:UJCZO JOSEPH E T:UJCZO MARY LOU",
+    "matches": [
+      {
+        "parcel_id": "29505002607",
+        "confidence": "high",
+        "situs": "6830 WELLINGTON DR, NAPLES",
+        "owner": "UJCZO, JOSEPH E=& MARY LOU",
+        "use_code": "1",
+        "parcel_legal": "CROSSINGS THE MILL RUN LOT 3",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6861263",
+    "lp_recorded": "8/11/2026",
+    "lp_legal": "ST MAARTEN UNIT 1204 PARKING SPACE 9",
+    "lp_parties": "F:PENNYMAC LOAN SERVICES LLC T:LANGE SCOTT T:LANGE SCOTT A T:LANGE SUSAN M T:ST MAARTEN CONDOMINIUM ASSOCIATION INC",
+    "matches": [
+      {
+        "parcel_id": "71836251188",
+        "confidence": "high",
+        "situs": "6101 PELICAN BAY BLVD, NAPLES",
+        "owner": "LANGE, SCOTT",
+        "use_code": "4",
+        "parcel_legal": "ST MAARTEN A CONDO UNIT 1204",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      },
+      {
+        "parcel_id": "79721960007",
+        "confidence": "low",
+        "situs": "5 BLUEBILL AVE, NAPLES",
+        "owner": "LANGE, SCOTT R",
+        "use_code": "4",
+        "parcel_legal": "VANDERBILT TOWERS UNIT 3 INC A CONDO UNIT 507",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6861257",
+    "lp_recorded": "8/11/2026",
+    "lp_legal": "VICTORIA PARK 2 LOT 35",
+    "lp_parties": "F:NEWREZ LLC T:HYLEMON CAROLINE THERESE T:SUNCOAST CREDIT UNION T:VAN HYLEMON CHRISTOPHER T:VICTORIA PARK II PROPERTY OWNERS ASSOCIATION INC",
+    "matches": [
+      {
+        "parcel_id": "80121400004",
+        "confidence": "high",
+        "situs": "680 YORK TER, NAPLES",
+        "owner": "HYLEMON, CHRISTOPHER VAN",
+        "use_code": "1",
+        "parcel_legal": "VICTORIA PARK 2 LOT 35",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "80171480003",
+        "confidence": "medium",
+        "situs": "1239 NOTTINGHAM DR, NAPLES",
+        "owner": "GAUMER, JULIE",
+        "use_code": "1",
+        "parcel_legal": "VICTORIA PARK 2 ADD LOT 35",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6860993",
+    "lp_recorded": "8/10/2026",
+    "lp_legal": "FLAMINGO ESTATES BLOCK H LOT 26",
+    "lp_parties": "F:JPMORGAN CHASE BANK NATIONAL ASSOCIATION T:FLAMINGO ESTATES CIVIC ASSOCIATION INC T:SHARPE KEVIN A T:THIRD FEDERAL SAVINGS AND LOAN ASSOCIATION OF CLEVELAND",
+    "matches": [
+      {
+        "parcel_id": "32488440001",
+        "confidence": "high",
+        "situs": "4619 FLAMINGO DR, NAPLES",
+        "owner": "SHARPE, KEVIN A",
+        "use_code": "1",
+        "parcel_legal": "FLAMINGO EST BLK H LOT 26",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6860662",
+    "lp_recorded": "8/10/2026",
+    "lp_legal": "RANCH ORANGE BLOSSOM PHASE 2A LOT 326",
+    "lp_parties": "F:RANCH AT ORANGE BLOSSOM MASTER ASSOCIATION INC T:KOPESKY JOSEPH ROBERT SR T:TOWNHOMES AT ORANGE BLOSSOM RANCH HOMEOWNWERS ASSOCIATION INC",
+    "matches": [
+      {
+        "parcel_id": "69039007060",
+        "confidence": "high",
+        "situs": "2730 CITRUS ST, NAPLES",
+        "owner": "KOPESKY SR, JOSEPH ROBERT",
+        "use_code": "1",
+        "parcel_legal": "RANCH AT ORANGE BLOSSOM PHASE 2A LOT 326",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6860542",
+    "lp_recorded": "8/10/2026",
+    "lp_legal": "REFLECTIONS JUBILATION BUILDING 52 UNIT 5",
+    "lp_parties": "F:REFLECTIONS AT JUBILATIONS INC T:GARCIA GABRIEL ANGEL T:GARCIA LUIS FRANCISCO T:HERNANDEZ ROSE ANNE T:WALKER EDITH YVONNE",
+    "matches": [
+      {
+        "parcel_id": "69060000421",
+        "confidence": "high",
+        "situs": "1325 REFLECTIONS WAY, IMMOKALEE",
+        "owner": "GARCIA, LUIS FRANCISCO",
+        "use_code": "4",
+        "parcel_legal": "REFLECTIONS AT JUBILATION A CONDO BLDG 52 UNIT 5",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6860452",
+    "lp_recorded": "8/10/2026",
+    "lp_legal": "MAPLE RIDGE AVE MARIA PHASE 7B LOT 29",
+    "lp_parties": "F:MAPLE RIDGE AT AVE MARIA HOMEOWNERS ASSOCIATION INC T:FACELLI CESAR GUSTAVO RUBIO T:GARCIA CHRISTINA T:MARTINEZ CHRISTINA GARCIA",
+    "matches": [
+      {
+        "parcel_id": "56530043497",
+        "confidence": "medium",
+        "situs": "5085 GAMBERO WAY, AVE MARIA",
+        "owner": "GARCIA MARTINEZ, CRISTINA",
+        "use_code": "1",
+        "parcel_legal": "MAPLE RIDGE AT AVE MARIA PHASE 7B LOT 29",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6860435",
+    "lp_recorded": "8/10/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 31 TRACT 103; E 180'",
+    "lp_parties": "F:SMALL BUSINESS ADMINISTRATION T:HELD RODNEY T:HELD RODNEY R T:SOSUMI HOLDINGS INC",
+    "matches": [
+      {
+        "parcel_id": "38228840001",
+        "confidence": "high",
+        "situs": "5700 CEDAR TREE LN, NAPLES",
+        "owner": "HELD, RODNEY R",
+        "use_code": "0",
+        "parcel_legal": "GOLDEN GATE EST UNIT 31 E 180FT OF TR 103 OR 1016 PG 1522 OR 1708 PG 2186 D C ATT D",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "38228880003",
+        "confidence": "medium",
+        "situs": "5730 CEDAR TREE LN, NAPLES",
+        "owner": "GORA CONSTRUCTION MANAGEMENT",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 31 W 150FT OF TR 103",
+        "tier1_signals": [
+          "absentee",
+          "mailing_is_other_sfr_parcel"
+        ],
+        "tier1_score": 0.4
+      },
+      {
+        "parcel_id": "38169280005",
+        "confidence": "medium",
+        "situs": "2525 SANTA BARBARA BLVD, NAPLES",
+        "owner": "OSCEOLA GROUP MARKETING LLC",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 30 N 180FT OF TR 103 AND GOLDEN GATE EST UNIT 31 THE SOUTH 180FT OF TR 119 LESS THAT PART DESC IN O",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859924",
+    "lp_recorded": "8/7/2026",
+    "lp_legal": "GOLDEN GATE ESTATES UNIT 195 TRACT 21; N 150'",
+    "lp_parties": "F:ROCKET MORTGAGE LLC T:STALLING ADAM T:STALLING ADAM R T:STEWART ALLISON M",
+    "matches": [
+      {
+        "parcel_id": "45961040009",
+        "confidence": "high",
+        "situs": "1760 23RD ST SW, NAPLES",
+        "owner": "STEWART, ALLISON M",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 195 N 150FT OF TR 21",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "45960960009",
+        "confidence": "medium",
+        "situs": "1776 23RD ST SW, NAPLES",
+        "owner": "ZEGARRA, JOSE SAMUEL",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 195 N 75FT OF S 180FT OF TR 21",
+        "tier1_signals": null,
+        "tier1_score": null
+      },
+      {
+        "parcel_id": "45961000007",
+        "confidence": "medium",
+        "situs": "1780 23RD ST SW, NAPLES",
+        "owner": "ROSE, JAY MICHAEL",
+        "use_code": "1",
+        "parcel_legal": "GOLDEN GATE EST UNIT 195 S 105FT OF TR 21",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859904",
+    "lp_recorded": "8/7/2026",
+    "lp_legal": "ARROWHEAD RESERVE LAKE TRAFFORD BLOCK B LOT 70",
+    "lp_parties": "F:ARROWHEAD RESERVE AT LAKES TRAFFORD PROPERTY OWNERS ASSOCIATION INC T:FLORES MARIA T:FLORES RENE JR T:FLORIDA HOUSING FINANCE CORPORATION",
+    "matches": [
+      {
+        "parcel_id": "22430016448",
+        "confidence": "high",
+        "situs": "912 ARTHUR ST, IMMOKALEE",
+        "owner": "FLORES JR, RENE=& MARIA",
+        "use_code": "1",
+        "parcel_legal": "ARROWHEAD RESERVE AT LAKE TRAFFORD BLK B LOT 70",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859903",
+    "lp_recorded": "8/7/2026",
+    "lp_legal": "ARROWHEAD RESERVE LAKE TRAFFORD BLOCK B LOT 27",
+    "lp_parties": "F:ARROWHEAD RESERVE AT LAKES TRAFFORD PROPERTY OWNERS ASSOCIATION INC T:MIRELES RUBEN T:SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
+    "matches": [
+      {
+        "parcel_id": "22430015588",
+        "confidence": "high",
+        "situs": "875 FRANKLIN CT, IMMOKALEE",
+        "owner": "MIRELES, RUBEN",
+        "use_code": "1",
+        "parcel_legal": "ARROWHEAD RESERVE AT LAKE TRAFFORD BLK B LOT 27",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859902",
+    "lp_recorded": "8/7/2026",
+    "lp_legal": "ARROWHEAD RESERVE LAKE TRAFFORD BLOCK C LOT 58",
+    "lp_parties": "F:ARROWHEAD RESERVE AT LAKES TRAFFORD PROPERTY OWNERS ASSOCIATION INC T:ROUSSEAU MARIE JOELLE",
+    "matches": [
+      {
+        "parcel_id": "22430018048",
+        "confidence": "high",
+        "situs": "946 HAMILTON ST, IMMOKALEE",
+        "owner": "ROUSSEAU, MARIE JOELLE",
+        "use_code": "1",
+        "parcel_legal": "ARROWHEAD RESERVE AT LAKE TRAFFORD BLK C LOT 58",
+        "tier1_signals": [
+          "absentee",
+          "no_homestead",
+          "mailing_is_other_sfr_parcel"
+        ],
+        "tier1_score": 0.85
+      },
+      {
+        "parcel_id": "76850000802",
+        "confidence": "low",
+        "situs": "2711 EDEN AVE, IMMOKALEE",
+        "owner": "ROUSSEAU, MARIE J",
+        "use_code": "1",
+        "parcel_legal": "TIMBER RIDGE UNIT 1 LOT 13",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859891",
+    "lp_recorded": "8/7/2026",
+    "lp_legal": "MARCO BEACH UNIT 13 BLOCK 404 LOT 23",
+    "lp_parties": "F:REGIONS BANK F:REGIONS MORTGAGE T:DERWIN ANDREW PETER T:DERWIN ANN MARIA T:DERWIN ANN MARIE T:DERWIN FAMILY TRUST",
+    "matches": [
+      {
+        "parcel_id": "58107560000",
+        "confidence": "medium",
+        "situs": "931 SCOTT DR, MARCO ISLAND",
+        "owner": "DERWIN FAMILY TRUST",
+        "use_code": "1",
+        "parcel_legal": "MARCO BEACH UNIT 13 BLK 404 LOT 23",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859860",
+    "lp_recorded": "8/7/2026",
+    "lp_legal": "SAN MARCO RESIDENCES UNIT 101,102",
+    "lp_parties": "F:BALLARD EDWIN L T:DERWIN ANDREW PETER T:DERWIN ANN MARIE T:DERWIN FAMILY TRUST T:FIRESERVICE INC T:SAN MARCO RESIDENCES OF MARCO INC",
+    "matches": [
+      {
+        "parcel_id": "72230040004",
+        "confidence": "medium",
+        "situs": "291 S COLLIER BLVD, MARCO ISLAND",
+        "owner": "DERWIN FAMILY TRUST",
+        "use_code": "4",
+        "parcel_legal": "SAN MARCO RESIDENCES CONDO UNIT 101 102",
+        "tier1_signals": [
+          "absentee",
+          "no_homestead",
+          "mailing_is_other_sfr_parcel"
+        ],
+        "tier1_score": 0.85
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859797",
+    "lp_recorded": "8/6/2026",
+    "lp_legal": "ISLANDWALK PHASE 2 LOT 264",
+    "lp_parties": "F:THIRD FEDERAL SAVINGS AND LOAN ASSOCIATION OF CLEVELAND T:ISLAND WALK HOMEOWNERS ASSOCIATION INC T:PARSELL SYDNEY MARIE",
+    "matches": [
+      {
+        "parcel_id": "52250007924",
+        "confidence": "high",
+        "situs": "5434 GUADELOUPE WAY, NAPLES",
+        "owner": "PARSELL, SYDNEY MARIE",
+        "use_code": "1",
+        "parcel_legal": "ISLANDWALK PHASE 2 LOT 264",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859785",
+    "lp_recorded": "8/6/2026",
+    "lp_legal": "ISLANDWALK PHASE 2 LOT 264",
+    "lp_parties": "F:THIRD FEDERAL SAVINGS AND LOAN ASSOCIATION OF CLEVELAND T:ISLAND WALK HOMEOWNERS ASSOCIATION INC T:PARSELL SYDNEY MARIE",
+    "matches": [
+      {
+        "parcel_id": "52250007924",
+        "confidence": "high",
+        "situs": "5434 GUADELOUPE WAY, NAPLES",
+        "owner": "PARSELL, SYDNEY MARIE",
+        "use_code": "1",
+        "parcel_legal": "ISLANDWALK PHASE 2 LOT 264",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859183",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "SECTION 29 TOWNSHIP 48S RANGE 27E",
+    "lp_parties": "F:LIGHTNING RESTORATION OF FORT MYERS F:MAHI DEMAL LLC T:BALLINGER LOHRA",
+    "matches": [
+      {
+        "parcel_id": "211680002",
+        "confidence": "low",
+        "situs": "921 MINGO DR, NAPLES",
+        "owner": "BALLINGER, LOHRA",
+        "use_code": "69",
+        "parcel_legal": "29 48 27 E1 2 OF SE1 4 OF SE1 4 OF SE1 4 LESS E S 30FT 4 33 AC OR 1920 PG 1864",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6859034",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "COLLIER VILLAGE LOT 17",
+    "lp_parties": "F:SELENE FINANCE LP T:LIBERAL NATIAL",
+    "matches": [
+      {
+        "parcel_id": "27192503951",
+        "confidence": "high",
+        "situs": "648 HOPE CIR, IMMOKALEE",
+        "owner": "LIBERAL, NATIAL",
+        "use_code": "1",
+        "parcel_legal": "COLLIER VILLAGE LOT 17",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead",
+          "long_tenure"
+        ],
+        "tier1_score": 1.3
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6858918",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "INDIGO LAKES UNIT 1 LOT 200 BLOCK C",
+    "lp_parties": "F:INDIGO LAKES MASTER ASSOCIATION INC T:BROOKE BRIAN T:BROOKE COURTNEY",
+    "matches": [
+      {
+        "parcel_id": "51978000880",
+        "confidence": "high",
+        "situs": "14893 INDIGO LAKES DR, NAPLES",
+        "owner": "BROOKE, BRIAN=& COURTNEY",
+        "use_code": "1",
+        "parcel_legal": "INDIGO LAKES UNIT 1 BLK C LOT 200",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6858891",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "INDIGO LAKES UNIT 6 LOT 284",
+    "lp_parties": "F:INDIGO LAKES MASTER ASSOCIATION INC T:GANZEMULLER DANNY C T:PUGA GANZEMULLER OLIVIA I T:SAN CARLOS ROOFING COMPANY T:SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
+    "matches": [
+      {
+        "parcel_id": "51978031969",
+        "confidence": "high",
+        "situs": "14683 INDIGO LAKES CIR, NAPLES",
+        "owner": "GANZEMULLER, DANNY C",
+        "use_code": "1",
+        "parcel_legal": "INDIGO LAKES UNIT 6 LOT 284",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6858794",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "GOLDEN GATE UNIT 6 BLOCK 195 LOT 12",
+    "lp_parties": "F:CROSSCOUNTRY MORTGAGE LLC T:SUGERMAN JARED L",
+    "matches": [
+      {
+        "parcel_id": "36312360004",
+        "confidence": "high",
+        "situs": "5180 22ND AVE SW, NAPLES",
+        "owner": "SUGERMAN, JARED L",
+        "use_code": "8",
+        "parcel_legal": "GOLDEN GATE UNIT 6 BLK 195 LOT 12",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6858752",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "ORANGE BLOSSOM RANCH LOT 152 PHASE 1A",
+    "lp_parties": "F:RANCH AT ORANGE BLOSSOM MASTER ASSOCIATION INC T:EBEID HIYAM T:EBEID MOHAMMAD",
+    "matches": [
+      {
+        "parcel_id": "64650003448",
+        "confidence": "high",
+        "situs": "2414 HEYDON CIR E, NAPLES",
+        "owner": "EBEID, MOHAMMAD",
+        "use_code": "1",
+        "parcel_legal": "ORANGE BLOSSOM RANCH PHASE 1A LOT 152",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      },
+      {
+        "parcel_id": "64650003422",
+        "confidence": "low",
+        "situs": "2410 HEYDON CIR E, NAPLES",
+        "owner": "EBEID, MOHAMMAD",
+        "use_code": "1",
+        "parcel_legal": "ORANGE BLOSSOM RANCH PHASE 1A LOT 151",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6858750",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "ORANGE BLOSSOM RANCH LOT 151 PHASE 1A",
+    "lp_parties": "F:RANCH AT ORANGE BLOSSOM MASTER ASSOCIATION INC T:EBEID HIYAM T:EBEID MOHAMMAD",
+    "matches": [
+      {
+        "parcel_id": "64650003422",
+        "confidence": "high",
+        "situs": "2410 HEYDON CIR E, NAPLES",
+        "owner": "EBEID, MOHAMMAD",
+        "use_code": "1",
+        "parcel_legal": "ORANGE BLOSSOM RANCH PHASE 1A LOT 151",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      },
+      {
+        "parcel_id": "64650003448",
+        "confidence": "low",
+        "situs": "2414 HEYDON CIR E, NAPLES",
+        "owner": "EBEID, MOHAMMAD",
+        "use_code": "1",
+        "parcel_legal": "ORANGE BLOSSOM RANCH PHASE 1A LOT 152",
+        "tier1_signals": [
+          "absentee_out_of_state",
+          "no_homestead"
+        ],
+        "tier1_score": 0.85
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6858719",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "LAKEWOOD VILLAS 8 UNIT 6 BLOCK D LOT 10",
+    "lp_parties": "F:CROSSCOUNTRY MORTGAGE LLC T:CURRY TITUS DEMAS T:LAKEWOOD VILLAS VIII HOMEOWNERS ASSOCIATION INC",
+    "matches": [
+      {
+        "parcel_id": "54400640003",
+        "confidence": "low",
+        "situs": "159 ROUND KEY CIR, NAPLES",
+        "owner": "CURRY, TITUS DEMAS",
+        "use_code": "4",
+        "parcel_legal": "LAKEWOOD UNIT 6 A PORT OF BLK D NKA LAKEWOOD VILLAS VIII HO LOT D 10 DESC IN OR 1329 PG 848",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  },
+  {
+    "lp_instrument": "6858672",
+    "lp_recorded": "8/5/2026",
+    "lp_legal": "TERRACE 3 CEDAR HAMMOCK UNIT 3133 BUILDING 31",
+    "lp_parties": "F:TERRACE III AT CEDAR HAMMACK CONDOMINIUM ASSOCIATION INC F:TERRACE III AT CEDAR HAMMOCK CONDOMINIUM ASSOCIATION INC T:LANGE ANDREW T:LANGE ANDREW DAVID T:LANGE CHRISTINE T:LANGE CHRISTINE MARIE",
+    "matches": [
+      {
+        "parcel_id": "76527008386",
+        "confidence": "high",
+        "situs": "3800 SAWGRASS WAY, NAPLES",
+        "owner": "LANGE, ANDREW DAVID",
+        "use_code": "4",
+        "parcel_legal": "TERRACE III AT CEDAR HAMMOCK A CONDO UNIT 3133",
+        "tier1_signals": null,
+        "tier1_score": null
+      }
+    ]
+  }
+]

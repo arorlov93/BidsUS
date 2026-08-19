@@ -124,6 +124,11 @@
       "last_success_at": "2026-08-19T16:40:00Z",
       "consecutive_failures": 0,
       "last_error": null
+    },
+    "floridapublicnotices": {
+      "last_success_at": "2026-08-19T19:40:00+00:00",
+      "consecutive_failures": 0,
+      "last_error": null
     }
   }
 }

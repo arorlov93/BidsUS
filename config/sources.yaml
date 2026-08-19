@@ -358,6 +358,31 @@ sources:
       not circumvent bot protection. MANUAL_CHECK or an official bulk/subscription channel only.
     markets: [MDC]
 
+  - id: floridapublicnotices
+    name: Florida Press Service statewide public notices (Fla. Stat. Ch. 50 publications)
+    url: https://floridapublicnotices.com/
+    access: api_spa
+    allow_automation: true
+    verified: true
+    discovered_at: "2026-08-19"
+    freshness_sla_hours: 48
+    api:
+      search: 'POST / with JSON {"counties":["43"],"date-range--start-date":"YYYY-MM-DD","date-range--end-date":"YYYY-MM-DD","keywords":"\"notice of sale\"","offset":N,"paper":"-1","limit":N} → HAL JSON _embedded.notices[]'
+      notice: "GET /notices/{id}"
+      media: "GET https://dgfc4k3gho5kh.cloudfront.net/{shard}/{id}.pdf — weekly legal-section bundles for Miami's Community Newspapers"
+      county_codes: { miami_dade: "43" }
+    notes: >
+      THE compliant reconstruction of the robots-blocked MDC auction calendar: every FL judicial
+      sale must be published pre-sale, and this is the Press Association's official statewide
+      aggregation. robots.txt 404; User Agreement has NO automated-access prohibition but DOES
+      carry a broad content-REUSE clause ("no part ... may be used without prior written
+      authorization") — internal deal-screening only, никакой републикации; counsel to confirm.
+      KNOWN GAP: Daily Business Review (ALM, the dominant MDC legal organ) is not among
+      participating papers — treat results as a FLOOR, not a census. PDF-bundle parsing yields
+      'derived' provenance; column interleaving possible — null fields mean "not reliably
+      attributable", re-verify top lots on the clerk docket.
+    markets: [MDC]
+
   # ---------- COLLIER / NAPLES ----------
   - id: collier_correction
     name: "⚠️ CRITICAL CORRECTION"

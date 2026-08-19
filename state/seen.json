@@ -936,5 +936,411 @@
 "status": "scheduled",
 "market": "COL",
 "addr": "N/A"
+},
+"81b7087ed7dadc57": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "unverified_schedule",
+"market": "MDC",
+"addr": "15730 SW 304 STREET, HOMESTEAD, FL 33033"
+},
+"5d35af95f09f0f08": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "37260 SW 207TH AVE, HOMESTEAD, FL 33034"
+},
+"fe5cd0eafc0150c6": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "15802 SW 99 ST, MIAMI, FL 33196"
+},
+"dbd538c5eaf8181f": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "14361 SW 136TH AVENUE, MIAMI, FL 33186"
+},
+"1a0d065315f929b2": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2022-018176-CA-01"
+},
+"7807c77d4159036a": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "17230 NW 16TH AVENUE, MIAMI, FL 33169"
+},
+"0e43e7a9cba6554b": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2023-020664-CA-01"
+},
+"217454212460b458": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "5600 SW 74TH CT, MIAMI, FL 33143"
+},
+"a0edd3f261c85644": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "8055 NW 104 AVENUE, 32, DORAL, FL 33178"
+},
+"866c096e53a232ee": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "885 NW 131 STREET, NORTH MIAMI, FL 33168"
+},
+"08ce862559c3f790": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "3048 NW 63RD ST, MIAMI, FL 33147"
+},
+"b879a4cd5f50eb07": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "12037 SW 215 ST, MIAMI, FL 33177"
+},
+"a5d8be3331c71715": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2024-020977-CA-01"
+},
+"29e215e42203bb30": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "12035 SW 14 STREET, UNIT 105, MIAMI, FLORIDA 33184 FOLIO: 30-4912084-0050"
+},
+"8fa249df05dea95c": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "424 NE 194TH TER, MIAMI, FL 33179"
+},
+"b3035e8068e4b805": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "BAYSHORE DRIVE MIAMI, FL 33132"
+},
+"6526cecd8349682d": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2025-002524-CA-01"
+},
+"d63374e0c0751181": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "1760 NE 160 ST MIAMI BEACH, FL 33162"
+},
+"b71eefe949738ab9": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "6320 SW 147 PL CIR MIAMI, FL 33193-2412."
+},
+"bb6ff2dd5ca31f62": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "8923 SW 206TH ST MIAMI FL 33189"
+},
+"2ca18b954d4cd683": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2325 194TH ST, MIAMI, FL 33180"
+},
+"57e8431692c3237f": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "3174 NW 47TH ST MIAMI, FL 33142"
+},
+"692c730f2f441c30": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "3160 NW 169 TER, MIAMI GARDENS, FL 33056"
+},
+"b97144afbb0be000": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2025-015248-CA-01"
+},
+"8c6f3ace458b46c7": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "3330 SW 88TH PLACE,, MIAMI, FLORIDA 33165"
+},
+"e53c2e33ec079c18": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "371 NW 59TH CT, MIAMI, FL 33126-4751"
+},
+"63e9d2f1d7ff5e8b": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "910 NE 209 TER, #23204, MIAMI, FL 33179"
+},
+"154e6edffacc0e58": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "1240 NE 97TH ST, MIAMI SHORES, FL 33138"
+},
+"d25cf24a9525b7cb": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2025-023462-CA-01"
+},
+"55845695e67c4912": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "865 W 47TH ST, MIAMI, FL 33140"
+},
+"e1420e2f9033802f": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "13002 SW 48TH ST, MIAMI, FL 33175"
+},
+"5225e41cb9658afb": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "8811 SW 21ST STREET, MIAMI, FL, 33165"
+},
+"5497d5f3fcc6b679": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "14471 SW 136TH PL, MIAMI, FL 33186"
+},
+"881eac0045a3f6f0": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "1051 SE 23RD TERRACE, HOMESTEAD, FL 33035"
+},
+"2df535b6ea3956be": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2661 SE 24 COURT, HOMESTEAD, FL 33035"
+},
+"6f93415a0654b3fe": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "135 SW 6TH LANE, FLORIDA CITY, FL 33034"
+},
+"9d6eca5ba29d921d": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "THE PROPERTY HAS A STREET ADDRESS OF 3317 WEST 98TH PLACE, HIALEAH, FL 33018"
+},
+"03a19d6a248d9321": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2035 NW 193RD TER, MIAMI GARDENS, FL 33056"
+},
+"02725452ffae339e": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2024-013103-CA-01"
+},
+"1e39577ad0a34bae": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "1935 SW 21ST TER, MIAMI, FL 33145"
+},
+"6f2004e9d5e6c8fe": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "9965 SW 196 ST, MIAMI, FL 33157"
+},
+"0ff254a35e1fec9a": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "3611 SW 21ST STREET, MIAMI, FL 33145"
+},
+"ab3bc383956b9a70": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "742 N.E. 90 STREET, %23404, MIAMI, FL 33138"
+},
+"aef043501a5273dd": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2018-026417-CA-01"
+},
+"49bccf3a27347392": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2019-000113-CA-01"
+},
+"e5cdb2be8c86c90d": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2019-013331-CA-01"
+},
+"e79cc10dac2c34cb": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2023-014943-CA-01"
+},
+"05aed2c3a74d7105": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "20155 NE 38TH COURT 1802, AVENTURA, FL 33180"
+},
+"fc2196bac183416c": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "13050 N CALUSA CLUB DR, MIAMI FL 33186"
+},
+"f5e5e64722329947": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "20990 SW 119 COURT, MIAMI, FLORIDA 33170"
+},
+"b0205ee46d28503f": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "1000 ISLAND BLVD #233209 AVENTURA FLORIDA 33160"
+},
+"64e0bd40971d8cf9": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "13100 SW 92 AVENUE, UNIT A-PH4, MIAMI, FL 33176"
+},
+"ee79f75eb899646a": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "1595 71ST STREET, MIAMI BEACH, FLORIDA 33141"
+},
+"f5e712033d5e9aec": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "6331 SW 36TH ST, MIAMI, FL 33155"
+},
+"cc5665695dd2950a": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2025-008162-CA-01"
+},
+"df1e0496134bfbfa": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "2025-009489-CA-01"
+},
+"a7ba5e50556419d1": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "25530 SW 108 COURT, MIAMI, FL 33032"
+},
+"e1818c235bba0a26": {
+"first_seen": "2026-08-19T19:40:00+00:00",
+"last_seen": "2026-08-19T19:40:00+00:00",
+"status": "scheduled",
+"market": "MDC",
+"addr": "15381 SW 112TH TER, MIAMI, FL 33196"
 }
 }

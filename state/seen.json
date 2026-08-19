@@ -1,1 +1,555 @@
-{}
+{
+"86b3686cbe3aed61": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "11818 Leland Avenue  Whittier, CA 90605"
+},
+"fe603d3fd77c48e7": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "511 West Phillips Boulevard  Pomona, CA 91766"
+},
+"8ee24457165c052a": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "SF",
+"addr": "88 King St #1022  San Francisco, CA 94107"
+},
+"f0e29aba32197b9e": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "319 West 106th Street  Los Angeles, CA 90003"
+},
+"cd8aa1d68970ddba": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "950 Hillcrest Drive  Pomona, CA 91768"
+},
+"d9d82589b4340b04": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "7915 Harper Avenue  Downey, CA 90241"
+},
+"e83b5cc2c4545904": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "sold",
+"market": "LA",
+"addr": "2010 Linden Ave  Los Angeles, CA 90291"
+},
+"b0d86cfce7acaac3": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "1214 East Glencoe Street  Compton, CA 90221"
+},
+"13938cc5cf05a986": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "359 W. Tudor St  Covina, CA 91722"
+},
+"ec14424ff66d835a": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "7007 Murietta Ave  (Van Nuys Area) Los Angeles, CA 91405"
+},
+"2ae9b1ad9f0bba9f": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "17719 Hillside Way  Santa Clarita, CA 91350"
+},
+"e3a23cefb96bc106": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "8447 Artson St  Rosemead, CA 91770"
+},
+"17076e42d2c88bf7": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "11225 Fineview St  El Monte, CA 91733"
+},
+"47046112b1b24f0b": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "19636 Calle Baja  Walnut, CA 91789"
+},
+"200101f9c13e1dff": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "11035 Danube Avenue  Granada Hills, CA 91344"
+},
+"bf3a53f46e92ccbc": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "11080 De Foe Avenue  Pacoima Area, Los Angeles, CA 91331"
+},
+"0f67b2e16514718b": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "10034 Westwanda Dr  Los Angeles, CA 90210"
+},
+"d2fc0abed3c3d30a": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "43050 38th St East  Lancaster, CA 93535"
+},
+"a8295c591d517218": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "11049 Atkinson Avenue  Inglewood, CA 90303"
+},
+"363789bddfc88fdb": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "5720 Las Brisas Terrace  Palmdale, CA 93551"
+},
+"b347a75e038dad4b": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "460 South Spring Street # 305  Los Angeles, CA 90013"
+},
+"02eecb2d1872dc0f": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "1247-1249 S Sycamore Ave  Los Angeles, CA 90019"
+},
+"7605c0f877173b3d": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "4011 Dee Dee Ct  Lancaster, CA 93536"
+},
+"b2ea10a80b5a9fc5": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "21441 Velicata St  Los Angeles, CA 91364"
+},
+"509a91ba0eaad23c": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "11310 Palomino Court  Sylmar Area, Los Angeles, CA 91342"
+},
+"8e61f3a60a8228ca": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "3800 East 14th Street  Long Beach, CA 90804"
+},
+"5f9d7381a56bd49e": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "sold",
+"market": "LA",
+"addr": "1401 Valley View Road #208 aka 1401 Valley View Rd No 208  Glendale, CA 91202"
+},
+"d62b7ed3abec12e4": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "3403 Stocker St  Los Angeles, CA 90008"
+},
+"f31011c346657d2f": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "838 N Las Casas Ave  Los Angeles, CA 90272"
+},
+"06e4a6a80fc7de89": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "6717 NAGLE AVE  Los Angeles, CA 91401"
+},
+"610565b95b7f2007": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "SF",
+"addr": "812 Goettingen St  San Francisco, CA 94134"
+},
+"4d9ccf33bacd8922": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "cancelled",
+"market": "LA",
+"addr": "1841 N Bellflower Blvd  Long Beach, CA 90815"
+},
+"b1587b6b67ab37b7": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "37130 Casa Verde Drive  Palmdale, CA 93550"
+},
+"4047e4066c10c748": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "2103 Stevely Ave  Long Beach, CA 90815"
+},
+"5a602f8add873fe1": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "5859 Larboard Lane  Agoura Hills, CA 91301"
+},
+"bef34ae19ea621ac": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "3295 Springcreek Dr AKA 3295 E Springcreek Dr  West Covina, CA 91791"
+},
+"07fec01907b49ed9": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "305 N Westmoreland Ave  Los Angeles, CA 90004"
+},
+"9393c6f2caa71ec8": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "8801 Rosecrans Avenue  Downey, CA 90242"
+},
+"81572399a5db2575": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "22344 Burton Street  Los Angeles, CA 91304"
+},
+"6b40a02ea1e6a0ff": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "144-146 West 77th Street  Los Angeles, CA 90003"
+},
+"9cab1e3935cb1bd8": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "1937 MAR VISTA AVE  ALTADENA, CA 91001"
+},
+"ab1068ea9cb5fd0b": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "23107 Yvette Ln  Valencia area, Santa Clarita, CA 91355"
+},
+"a7e07c3da6340248": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "1408 Boyden Avenue  Lancaster, CA 93534"
+},
+"950f81c78513c2ba": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "42325 HICKORY GLEN AVE  QUARTZ HILL, CA 93536"
+},
+"e872ad604bfbe482": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "22940 Hatteras Street  Woodland Hills area, Los Angeles, CA 91367"
+},
+"0533b5c9df510f93": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "1137 -1139 West 61st Street AKA 1137 W 61st St  Los Angeles, CA 90044"
+},
+"2aa590c82e9df8c1": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "3500 West Manchester Boulevard #386  Inglewood, CA 90305"
+},
+"0317886b2613dd03": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "cancelled",
+"market": "LA",
+"addr": "7530 Dalton Ave  Los Angeles, CA 90047"
+},
+"0d7f7eceb82dfddd": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "19547 Herringbone Dr  Northridge Area, Los Angeles, CA 91324"
+},
+"8982e794841a8ad2": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "19144 Pacific Coast Highway  Malibu, CA 90265"
+},
+"59d7e0caaca1b777": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "sold",
+"market": "LA",
+"addr": "3060 Tourmaline Lane  Palmdale, CA 93550"
+},
+"548b1fb11c7b8fd2": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "18719 Towne Ave  Carson, CA 90746"
+},
+"1dfecf02c42986b9": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "24109 Del Monte Drive No 467  Santa Clarita, CA 91355"
+},
+"386287d1116d4e37": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "28125 Alton Way  Castaic, CA 91384"
+},
+"89350d9d45fa9750": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "19148 Oxnard Street  Tarzana, CA 91356"
+},
+"c173057485a6aeb3": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "4208 Ivar Ave  Rosemead, CA 91770"
+},
+"cc285d2e4b666d87": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "533 Cambridge Drive  Burbank, CA 91504"
+},
+"cd2ef17744b9cbf9": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "15329 Caulfield Ave  Norwalk, CA 90650"
+},
+"af724aac7f3142df": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "cancelled",
+"market": "LA",
+"addr": "1320-1324 W. 25th St  Los Angeles, CA 90007"
+},
+"811bc9ceefce02bc": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "3321 West 82nd Street  Inglewood, CA 90305"
+},
+"ca60adadfbb1d1fe": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "2828 Emerald Lane, Lancaster, CA 93535"
+},
+"e51e65d5cdeda0db": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "1120 North Vera Cruz Street, Montebello, CA 90640"
+},
+"44c81cc3f1470d06": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "16651 La Maida St, Encino, CA 91436"
+},
+"16c33d7cf2a3d782": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "20360 Paradise Ln, Topanga, CA 90290"
+},
+"a07b82c0cd9b48f1": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "6651 Farmdale Ave, North Hollywood, CA 91606-1869"
+},
+"40d34356b2df00bf": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "1151 West 69th Street, Los Angeles, CA 90044"
+},
+"f25ab0b7e1d0d6ac": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "40232 Lonsdale Ct, Palmdale, CA 93551-5234"
+},
+"c1c490418b0fa67f": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "2532 Quiet Sands Dr, Signal Hill, CA 90755-3800"
+},
+"52ef43d350053f52": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "8853 Oso Ave, Winnetka, CA 91306"
+},
+"715a4a612a3213ed": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "2164 Goodall Avenue, Duarte Area, CA 91010-3123"
+},
+"1d5b6a6f44f5726e": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "3607 W Avenue K11, Lancaster, CA 93536"
+},
+"ce1b159a58e12edf": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "scheduled",
+"market": "LA",
+"addr": "17301 Laredo Vista Ave, Palmdale, CA 93591-3332"
+},
+"a7eab4608d89cdda": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "16307 South Bradfield, Compton, CA 90221"
+},
+"0578244a0223061d": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "321 W Broadway, San Gabriel, CA 91776-1315"
+},
+"00d02af31b1f401f": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "postponed",
+"market": "LA",
+"addr": "16023 Wyandotte Street, Van Nuys, CA 91406"
+},
+"85936630bd19b399": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "cancelled",
+"market": "LA",
+"addr": "9661 Kester Avenue , North Hills 91343"
+},
+"faa0942142fc828e": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "cancelled",
+"market": "SF",
+"addr": "350 Alabama St, 11 , San Francisco 94110-1372"
+},
+"96962a29698ced5d": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "cancelled",
+"market": "LA",
+"addr": "2602 Overland Avenue , Lancaster 93536"
+},
+"48d172629c6fa4c4": {
+"first_seen": "2026-08-19T16:40:00Z",
+"last_seen": "2026-08-19T16:40:00Z",
+"status": "watch",
+"market": "LA",
+"addr": "1441-1445 Fourth Street"
+}
+}

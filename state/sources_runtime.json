@@ -1,36 +1,36 @@
 {
-  "as_of": "2026-08-19T14:20:00Z",
-  "note": "First production run 2026-08-19. All green-list sources unreachable: environment egress policy blocks all non-allowlisted hosts.",
+  "as_of": "2026-08-19T16:40:00Z",
+  "note": "Run 2 (2026-08-19): network egress opened by operator; 9 sources green, mdc_tax_collector bot-blocked, COL in progress.",
   "sources": {
     "prime_recon": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "tmlf": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "ndsc": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "capublicnotice": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "cacb_notice_of_sales": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "la_ttc_auctions": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "lacity_socrata": {
       "last_success_at": null,
@@ -53,9 +53,9 @@
       "last_error": "EGRESS_BLOCKED"
     },
     "mdc_property_appraiser_api": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "mdc_arcgis": {
       "last_success_at": null,
@@ -70,7 +70,8 @@
     "mdc_foreclosure_registry": {
       "last_success_at": null,
       "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_error": "EGRESS_BLOCKED",
+      "note": "per-folio lookup only, no list mode; unincorporated MDC only"
     },
     "mdc_official_records": {
       "last_success_at": null,
@@ -84,8 +85,9 @@
     },
     "mdc_tax_collector": {
       "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "consecutive_failures": 2,
+      "last_error": "HTTP 403 Cloudflare bot challenge",
+      "note": "Cloudflare 403 to non-browser clients \u2014 manual only"
     },
     "collier_foreclosure_calendar": {
       "last_success_at": null,
@@ -113,14 +115,15 @@
       "last_error": "EGRESS_BLOCKED"
     },
     "courtlistener_v4": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null,
+      "note": "anonymous OK but no snippets; token needed for docket detail"
     },
     "ca_ag_2924m_registry": {
-      "last_success_at": null,
-      "consecutive_failures": 1,
-      "last_error": "EGRESS_BLOCKED"
+      "last_success_at": "2026-08-19T16:40:00Z",
+      "consecutive_failures": 0,
+      "last_error": null
     }
   }
 }

@@ -9,10 +9,13 @@ markets:
     statutes: ["Cal. Civ. Code §§2924–2924m", "CCP §1161a/§1161b", "RTC §3691 et seq."]
     channels: [trustee_sale, tax_defaulted, bankruptcy_363, probate, hoa_foreclosure, reo]
     venues:
-      primary: "Behind the fountain / In the Courtyard, Civic Center Plaza, 400 Civic Center Plaza, Pomona, CA 91766"
-      secondary_unconfirmed: "Vineyard Ballroom, DoubleTree Hilton LA–Norwalk, 13111 Sycamore Drive, Norwalk, CA 90650"
+      # VERIFIED 2026-08-19 by enumerating distinct place_of_sale strings across Prime Recon,
+      # TMLF and NDSC filtered to LA County (RUNBOOK Q6 — closed). Both venues active;
+      # Norwalk DoubleTree carries the LARGER share of scheduled sales this cycle.
+      primary: "Vineyard Ballroom, DoubleTree Hotel Los Angeles-Norwalk, 13111 Sycamore Drive, Norwalk, CA 90650"
+      secondary: "Behind the fountain / In the Courtyard, Civic Center Plaza, 400 Civic Center Plaza, Pomona, CA 91766"
       not_a_venue: "Norwalk RR/CC HQ (12400 Imperial Hwy) — records office only"
-      note: "Pomona is dominant. Verify the Norwalk venue by enumerating distinct place_of_sale strings from Prime Recon / TMLF filtered to LA County."
+      verified: "2026-08-19 from live boards; string variants normalized to these two physical venues"
     bankruptcy_court: cacb
     bankruptcy_divisions: [LA, SV, SA, RS, ND]
     known_gaps:

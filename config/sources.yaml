@@ -304,14 +304,18 @@ sources:
     name: Miami-Dade Foreclosure Registry
     url: https://bldgappl.miamidade.gov/foreclosureregistry/MainPage.aspx
     search: https://bldgappl.miamidade.gov/foreclosureregistry/Search.aspx
-    access: html
+    access: html_form_lookup_only
     allow_automation: true
     verified: true
     freshness_sla_hours: 48
     notes: >
-      HIGH VALUE. County ordinance requires lenders to register a property within 10 DAYS OF
-      FILING A LIS PENDENS — an early-warning list SEPARATE from the court index. This is the
-      MDC pre-foreclosure pipeline.
+      ⚠️ RECLASSIFIED 2026-08-19 after live probe: this is a SINGLE-PROPERTY LOOKUP, not a list.
+      No date filter, no browse mode — "recently registered" is not retrievable. Covers ONLY
+      unincorporated Miami-Dade, registrations after 2010-09-13. ASP.NET WebForms POST with
+      __VIEWSTATE + one criterion (address parts / 13-digit folio / invoice / LP book+page);
+      submit ctl00$ContentPlaceHolder1$Btnregistrysearch; results grid gvResults.
+      USE AS: per-folio enrichment ("is this parcel lender-registered?").
+      The bulk early-LP signal must come from Clerk Official Records (doc type LP) instead.
     markets: [MDC]
 
   - id: mdc_official_records
@@ -344,9 +348,14 @@ sources:
     deed_express: https://mdctaxcollector.gov/services/tax-deed-applications-and-deedexpress
     lands_available: https://county-taxes.net/fl-miamidade/reports/real-estate
     access: html
-    allow_automation: true
+    allow_automation: false
     verified: true
-    notes: "Certificate sale on or before June 1 annually, bid-down from 18%. DeedExpress = certificate holders applying for tax deeds — the UPSTREAM FEED into the tax deed pipeline."
+    notes: >
+      Certificate sale on or before June 1 annually, bid-down from 18%. DeedExpress = certificate
+      holders applying for tax deeds — the UPSTREAM FEED into the tax deed pipeline.
+      ⚠️ FLIPPED TO allow_automation:false 2026-08-19: Cloudflare bot management serves 403 +
+      challenge to non-browser clients on all pages incl. robots.txt. Per COMPLIANCE §1.4 we do
+      not circumvent bot protection. MANUAL_CHECK or an official bulk/subscription channel only.
     markets: [MDC]
 
   # ---------- COLLIER / NAPLES ----------

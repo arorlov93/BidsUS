@@ -1,0 +1,11 @@
+{
+  "note": "Cron is UTC, set for PDT/EDT (summer). After US DST ends 2026-11-01 they drift 1h — the quarterly review trigger includes fixing them.",
+  "triggers": [
+    {"id": "trig_01HFEc9JAVrvYfqAtswJa3TW", "name": "full auction sweep", "cron_utc": "30 11 * * *", "local": "04:30 PT daily"},
+    {"id": "trig_01H261z4ns8rG4n5nozjwq3W", "name": "hot-deadline delta", "cron_utc": "0 20 * * *", "local": "13:00 PT daily"},
+    {"id": "trig_01H36r1JBLAs3Rx2ryfpDsjB", "name": "abandonment scout", "cron_utc": "0 10 * * 1", "local": "Mon 06:00 ET"},
+    {"id": "trig_01FSgiN1UoMCvo7emDD4Yf16", "name": "MAO calibration", "cron_utc": "0 11 * * 0", "local": "Sun 07:00 ET"},
+    {"id": "trig_01FH1Svu9vSiayRc1FrrRnfD", "name": "source health", "cron_utc": "0 16 * * *", "local": "12:00 ET daily"},
+    {"id": "trig_017HswXRU3B9zyhtQcuWEVbF", "name": "quarterly statutory review", "run_once_at": "2026-11-01T14:00:00Z"}
+  ]
+}

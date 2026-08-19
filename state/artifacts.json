@@ -2,7 +2,13 @@
   "dashboard": {
     "url": "https://claude.ai/code/artifact/19ce9591-c2df-495e-9fa0-a3137478403a",
     "file_path": "out/dashboard.html",
-    "favicon": "🔨",
+    "favicon": "\ud83d\udd28",
     "note": "Update IN PLACE every run: edit out/dashboard.html, then Artifact publish with url set to this value. Never create a new dashboard artifact."
+  },
+  "catalog": {
+    "url": "https://claude.ai/code/artifact/c77f511e-49ad-4863-852f-a73d7a798a07",
+    "file_path": "out/catalog.html",
+    "favicon": "\ud83c\udfe0",
+    "note": "Lot catalog. Update in place each run: edit out/catalog.html, publish with url set to this value."
   }
 }

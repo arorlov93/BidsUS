@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/candidate.schema.json",
+  "title": "AbandonmentCandidate",
+  "description": "A parcel that passed the Tier 4 promotion rule. Never auto-promoted to outreach.",
+  "type": "object",
+  "required": ["candidate_id", "market_id", "parcel_id", "abandonment_score", "evidence", "human_review", "exclusions_checked"],
+  "properties": {
+
+    "candidate_id": {"type":"string"},
+    "market_id": {"enum":["LA","SF","MDC","COL"]},
+    "parcel_id": {"type":"string"},
+    "address": {"type":"object"},
+
+    "abandonment_score": {"type":"number","minimum":0,"maximum":1},
+    "opportunity_score": {"type":"number","minimum":0,"maximum":1},
+    "component_scores": {"type":"object","properties":{
+      "abandonment":{"type":"number"}, "acquirability":{"type":"number"},
+      "margin":{"type":"number"}, "pathway_clarity":{"type":"number"} }},
+
+    "evidence": { "type":"array", "minItems": 3,
+      "description": "Promotion rule: >=2 imagery signals across >=2 capture epochs PLUS >=1 non-imagery corroborator.",
+      "items": { "type":"object", "required":["signal","source","observed_at","confidence"], "properties": {
+        "signal": {"type":"string"},
+        "kind": {"enum":["imagery_overhead","imagery_street","public_record","assessor","court"]},
+        "source": {"type":"string"},
+        "source_license": {"type":"string","description":"e.g. Mapillary CC-BY-SA, Nearmap enterprise, NAIP public domain"},
+        "observed_at": {"type":"string","format":"date-time"},
+        "capture_epoch": {"type":"string","format":"date","description":"imagery capture date, not fetch date"},
+        "confidence": {"type":"number"},
+        "raw_reference": {"type":"string"},
+        "weight_applied": {"type":"number"},
+        "recency_decay_applied": {"type":"number"} }}},
+
+    "imagery_provenance": { "type":"object", "properties": {
+      "overhead_provider": {"enum":["nearmap","vexcel","eagleview","naip"]},
+      "epochs": {"type":"array","items":{"type":"string","format":"date"}},
+      "street_provider": {"enum":["mapillary","none"]},
+      "street_capture_dates": {"type":"array","items":{"type":"string","format":"date"}},
+      "google_used_for_cv": {"const": false, "description": "MUST be false — Maps ToS 3.2.3(c)"} }},
+
+    "inverse_signals": {"type":"array","items":{"type":"object","properties":{
+      "signal":{"type":"string"}, "weight":{"type":"number"} }},
+      "description": "construction activity, recent permit, recent sale, vehicles present — reduce the score"},
+
+    "owner": { "type":"object", "properties": {
+      "record_owner": {"type":"string"},
+      "owner_type": {"enum":["individual","entity","estate","trust","government","unknown"]},
+      "entity_resolved_to": {"type":"string","description":"SOS/Sunbiz managing member + registered agent — often a better path than a skip trace"},
+      "mailing_address": {"type":"string"},
+      "mailing_mismatch": {"type":"boolean"},
+      "out_of_state": {"type":"boolean"},
+      "tenure_years": {"type":"number"},
+      "decedent": {"type":"boolean"},
+      "probate_case": {"type":"string"},
+      "skip_trace_vendor": {"type":"string"},
+      "skip_trace_non_glba_certified": {"type":"boolean","description":"vendor must certify non-GLBA/non-DPPA and not a consumer report"} }},
+
+    "title": { "type":"object", "properties": {
+      "vesting": {"type":"string"},
+      "open_liens": {"type":"array"},
+      "tax_status": {"type":"string"},
+      "years_delinquent": {"type":"number"} }},
+
+    "exclusions_checked": { "type":"object", "required":["ca_2079_26_zip","dnc"], "properties": {
+      "ca_2079_26_zip": {"type":"boolean","description":"true = ZIP is on the prohibited list → HARD BLOCK"},
+      "dnc_national": {"type":"boolean"},
+      "dnc_florida": {"type":"boolean"},
+      "dnc_internal": {"type":"boolean"},
+      "owner_type_excluded": {"type":"boolean"} }},
+
+    "sensitivity_flags": {"type":"array","items":{"enum":[
+      "ELDERLY_OWNER","PROBATE_GRIEF","OCCUPIED","HOARDING","DISASTER_ZONE","LANGUAGE_ACCESS"]}},
+
+    "human_review": { "type":"object", "required":["status"], "properties": {
+      "status": {"enum":["pending","approved","rejected","hold"]},
+      "reviewer": {"type":"string"},
+      "reviewed_at": {"type":"string","format":"date-time"},
+      "notes": {"type":"string"} }},
+
+    "pathway": { "type":"object", "properties": {
+      "selected": {"enum":["A_direct","B_estate_heir","C_pre_foreclosure","D_tax_lien_deed","E_code_receivership"]},
+      "rejected": {"type":"array","items":{"type":"object","properties":{
+        "pathway":{"type":"string"}, "one_line_reason":{"type":"string"} }}},
+      "ca_probate_authority": {"enum":["full_iaea","limited_iaea","court_confirmation","n/a"],
+        "description": "Full IAEA: no confirmation, no overbid, DE-165 with 15 days for heirs. Otherwise: >=90% of appraisal, §10300 publication, §10311 overbid = bid + $1,000 + 5% of excess over $10,000."},
+      "hesca_applies": {"type":"boolean","description":"Cal. Civ. Code §§1695 et seq. — 1-4 unit owner-occupied in foreclosure. 5-business-day cancellation, violations can be criminal."},
+      "estimated_months_to_close": {"type":"number"} }},
+
+    "underwriting": {"$ref": "lot.schema.json#/properties/underwriting"},
+
+    "outreach": { "type":"object", "properties": {
+      "channel": {"enum":["physical_mail","manual_dial","none"]},
+      "autodialer": {"const": false},
+      "mass_text": {"const": false},
+      "calling_window_local": {"type":"string","default":"08:00-20:00"},
+      "attempts": {"type":"array","items":{"type":"object"}},
+      "opt_out": {"type":"boolean"} }},
+
+    "handoff_to_auction_hunter": { "type":"object", "properties": {
+      "triggered": {"type":"boolean"},
+      "trigger_event": {"enum":["nod","lis_pendens","tax_deed_application","probate_sale_notice","bankruptcy_filing"]},
+      "triggered_at": {"type":"string","format":"date-time"} }},
+
+    "first_seen": {"type":"string","format":"date-time"},
+    "last_seen": {"type":"string","format":"date-time"},
+    "tracking_status": {"enum":["new","tracking","deteriorating","improving","dropped","handed_off","acquired"]}
+  }
+}

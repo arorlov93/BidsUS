@@ -1,0 +1,196 @@
+# SCORING & GATING CONFIGURATION
+# Both agents read this. Change numbers here, never in the prompts.
+
+auction_hunter:
+
+  weights:
+    value:         0.40
+    urgency:       0.30
+    confidence:    0.20
+    executability: 0.10
+
+  value:
+    # MoS = (MAO - opening_bid) / MAO, clipped to [-1, 1]
+    # value = clamp(MoS / full_marks_at, 0, 1)
+    full_marks_at: 0.35        # 35% margin of safety scores 1.0
+    reject_below:  0.10        # below 10% MoS → WATCH list, not ranked
+
+  urgency:
+    # Measured against the BINDING deadline (registration close / deposit cutoff /
+    # in-person funds staging / objection window) — NOT the sale date.
+    steps:
+      - { max_hours: 24,  score: 1.00 }
+      - { max_hours: 48,  score: 0.85 }
+      - { max_hours: 72,  score: 0.70 }
+      - { max_hours: 168, score: 0.45 }
+      - { max_hours: 336, score: 0.25 }
+      - { max_hours: null, score: 0.10 }
+    hot_list_threshold_hours: 72
+
+  confidence:
+    # Multiplicative components, each in [0,1]
+    components:
+      lien_position_established:   0.30
+      comps_adequate:              0.20   # >=3 comps, dispersion <=25%
+      schedule_reverified:         0.20   # CA: re-checked against trustee board within 7d of sale
+      encumbrances_searched:       0.15
+      source_authority:            0.10
+      interior_condition_known:    0.05
+    cap_if_schedule_unverified: 0.40
+
+  executability:
+    components:
+      account_active:              0.30
+      deposit_funded:              0.30
+      funding_lead_time_fits:      0.25
+      physical_bidder_assigned:    0.15   # Collier: mandatory, else executability = 0
+
+  # Probabilistic haircuts on expected value — applied multiplicatively AND shown in the digest
+  risk_haircuts:
+    ca_2924m_takeaway:
+      applies_to: { markets: [LA, SF], units_lte: 4, channel: trustee_sale }
+      p_loss: 0.08                     # tune from the AG registry bidder-category data
+      dead_capital_days: 45
+      note: "Sale not final 15d; eligible bidder may overbid through day 45. Sunsets 2031-01-01."
+    fl_objection_window:
+      applies_to: { markets: [MDC, COL], channel: judicial_foreclosure }
+      p_loss: 0.03
+      dead_capital_days: 10
+    fl_tax_cert_redemption:
+      applies_to: { markets: [MDC, COL], channel: tax_deed }
+      p_loss: 0.25
+      note: "Owner may redeem any time until the deed actually issues (§197.472)."
+    unknown_interior:
+      applies_to: { all: true }
+      repair_contingency_with_access: 0.15
+      repair_contingency_without:     0.35
+    ca_tax_deed_set_aside:
+      applies_to: { markets: [LA, SF], channel: tax_defaulted }
+      p_loss: 0.05
+      uninsurable_days: 365
+
+  hard_gates:
+    G1_lien_position_unknown_or_junior_unpriced: block
+    G2_fl_condo_3plus_no_sirs:
+      block_if:
+        stories_gte: 3
+        built_before: 1997
+        coastal_miles_lte: 3
+        sirs_on_file: false
+        discount_to_comps_lt: "p75_modelled_assessment"
+    G3_fl_tax_deed_no_quiet_title_budget: block
+    G4_ca_judicial_foreclosure: block          # 1-yr redemption if deficiency sought
+    G5_ftl_7425_notice_unresolved: block
+    G6_fl_uninsurable: block                   # failed 4-point / unpermitted roof / open claim
+    G7_occupied_rent_controlled_no_vacancy_plan: block
+    G8_collier_no_physical_bidder: block
+    G9_deadline_or_wire_lead_time_missed: block
+    G10_comps_inadequate: downgrade_to_watch   # <3 comps or dispersion >25%
+    clearable_by_human_review: [G1, G2, G6, G7]
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+abandonment_scout:
+
+  weights:
+    abandonment:     0.35
+    acquirability:   0.30
+    margin:          0.25
+    pathway_clarity: 0.10
+
+  promotion_rule:
+    min_imagery_signals: 2
+    min_capture_epochs:  2
+    min_non_imagery_corroborators: 1
+    human_review_required: true      # never auto-promote to outreach
+
+  signal_weights:
+    pool_green_or_debris:        1.00
+    boarded_windows:             0.95
+    tarp_or_damaged_roof_2epoch: 0.85
+    vegetation_encroaching:      0.80
+    lawn_ndvi_collapse:          0.70   # normalize to block median + season
+    debris_accumulation:         0.60
+    no_vehicle_3_captures:       0.45
+    dead_landscaping:            0.40   # very weak in LA (drought)
+    deteriorated_entry:          0.55
+    # non-imagery
+    usps_vacancy_flag:           1.00
+    la_vacant_building_abatement: 0.95
+    code_enforcement_open:       0.75
+    tax_delinquent_2y_fl:        0.80
+    tax_delinquent_ca:           0.70
+    no_homestead_fl:             0.45
+    absentee_mailing_address:    0.40
+    long_tenure_no_permits:      0.45
+    probate_filing:              0.60
+
+  recency_decay_half_life_days:
+    imagery:          180
+    usps_vacancy:      90
+    code_case:        365
+    tax_delinquency:  null    # does not decay — it compounds
+
+  inverse_signals:              # presence REDUCES the score
+    construction_activity:      -0.90
+    vehicles_present_recent:    -0.50
+    recent_permit_pulled:       -0.80
+    recent_sale:                -1.00
+
+  hard_exclusions:
+    ca_civ_2079_26:
+      basis: "Cal. Civ. Code §2079.26"
+      note: >
+        Unsolicited offers to purchase residential property PROHIBITED in these LA/Ventura
+        fire-affected ZIPs by ANY means — text, email, phone, mail or otherwise. Up to $25,000
+        civil per violation, misdemeanor exposure, 4-month seller cancellation right, recorded
+        attestation required with the deed.
+        SUNSETS 2027-01-01 — re-verify quarterly whether extended or expanded to other ZIPs.
+      review_due: "2026-11-01"
+      zips:
+        - "90049"
+        - "90263"
+        - "90265"
+        - "90272"
+        - "90290"
+        - "90402"
+        - "91001"
+        - "91024"
+        - "91103"
+        - "91104"
+        - "91106"
+        - "91107"
+        - "91301"
+        - "91302"
+        - "91320"
+    owner_types: [government, utility, church, hoa_common_area]
+    dnc: [national, florida_state, internal]
+
+  sensitivity_flags:            # set flag → stop automated path → human review
+    ELDERLY_OWNER:
+      trigger: "owner age >= 65, or long-tenure owner-occupant with deferred maintenance + habitation signs"
+      requires: [independent_counsel_or_cooling_off, documented_fair_value_analysis, no_time_pressure, principal_signoff]
+      basis: "Cal. W&I §15610.30 (undue influence alone suffices); Fla. Stat. §825.103"
+    PROBATE_GRIEF:
+      trigger: "death within 12 months"
+      requires: [delay_contact, mail_only_no_cold_call]
+    OCCUPIED:
+      trigger: "any evidence of habitation"
+      action: reclassify_or_drop
+    HOARDING:
+      trigger: "debris pattern consistent with occupancy"
+      action: drop
+    DISASTER_ZONE:
+      trigger: "fire, hurricane or flood event within 24 months"
+      action: human_review
+    LANGUAGE_ACCESS:
+      trigger: "owner correspondence indicates limited English"
+      requires: [documents_in_sellers_language]
+
+  outreach:
+    default_channels: [physical_mail, manual_dial]
+    autodialer_enabled: false          # may NOT be enabled by prompt
+    mass_text_enabled:  false
+    calling_window_local: { start: "08:00", end: "20:00" }   # FL FTSA — tighter than federal
+    dnc_scrub_required: [national, florida_state, internal]
+    opt_out_processing_days: 10

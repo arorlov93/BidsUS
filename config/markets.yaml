@@ -1,0 +1,94 @@
+markets:
+
+  LA:
+    name: "Los Angeles County, CA"
+    state: CA
+    timezone: America/Los_Angeles
+    parcel_key: AIN
+    foreclosure_regime: non_judicial_trustee_sale
+    statutes: ["Cal. Civ. Code §§2924–2924m", "CCP §1161a/§1161b", "RTC §3691 et seq."]
+    channels: [trustee_sale, tax_defaulted, bankruptcy_363, probate, hoa_foreclosure, reo]
+    venues:
+      primary: "Behind the fountain / In the Courtyard, Civic Center Plaza, 400 Civic Center Plaza, Pomona, CA 91766"
+      secondary_unconfirmed: "Vineyard Ballroom, DoubleTree Hilton LA–Norwalk, 13111 Sycamore Drive, Norwalk, CA 90650"
+      not_a_venue: "Norwalk RR/CC HQ (12400 Imperial Hwy) — records office only"
+      note: "Pomona is dominant. Verify the Norwalk venue by enumerating distinct place_of_sale strings from Prime Recon / TMLF filtered to LA County."
+    bankruptcy_court: cacb
+    bankruptcy_divisions: [LA, SV, SA, RS, ND]
+    known_gaps:
+      - "County recorder has NO online index by policy (Gov. Code §6254.21). NOD/NOTS unobtainable from the county."
+      - "Assessor open data ends 2021; no current-roll API."
+      - "Chapter 8 agreement sales statutorily closed to private investors."
+      - "88 cities each with its own code-enforcement system; data.lacity.org covers City of LA only."
+
+  SF:
+    name: "City & County of San Francisco, CA"
+    state: CA
+    timezone: America/Los_Angeles
+    parcel_key: "Block/Lot (APN)"
+    foreclosure_regime: non_judicial_trustee_sale
+    channels: [trustee_sale, tax_defaulted, bankruptcy_363, probate, reo]
+    venue: "Outside the Memorial Court between 301 and 401 Van Ness Avenue, San Francisco City Hall, 301 Van Ness Avenue, San Francisco, CA 94102"
+    venue_warning: "Auctions on the City Hall STEPS banned since 2012, enforced 2020-04-23. Venue deviation = postponed/defective sale. Parse the venue string verbatim."
+    bankruptcy_court: canb
+    bankruptcy_note: "N.D. Cal. has NO free notice-of-sales page. Sale notices live only on dockets → CourtListener."
+    known_gaps:
+      - "Recorder search is by name/doc#/doc type/APN — NOT by street address. Resolve address→APN first."
+      - "Recorder coverage year conflict: sf.gov says 1990→, sfassessor.org says 2000→."
+      - "Residential Empty Homes Tax struck down at trial court, on appeal — not a data source."
+
+  MDC:
+    name: "Miami-Dade County, FL"
+    state: FL
+    timezone: America/New_York
+    parcel_key: "Folio (13-digit)"
+    foreclosure_regime: judicial
+    statutes: ["Fla. Stat. §45.031", "§197.472", "§197.542", "§197.552", "§718.116(1)(b)1.", "§28.24(11)(a)", "§45.035(3)"]
+    channels: [judicial_foreclosure, tax_deed, tax_certificate, bankruptcy_363, probate, hoa_foreclosure, gov_surplus]
+    auction_times:
+      foreclosure: "09:00 ET"
+      tax_deed: "14:00 ET"
+    bankruptcy_court: flsb
+    bankruptcy_division: Miami
+    bankruptcy_local_rule: "S.D. Fla. LR 6004-1 — sale motion must carry a ≤5-page concise statement naming purchaser, terms, liens; if higher bids contemplated, must state auction date, bid increments, initial overbid, competing-bid deadline, qualification/deposit terms. Negative notice: approved without hearing if no objection in 21 days."
+    no_nod: "Florida has no NOD. The LIS PENDENS (doc type 'LP') is the functional equivalent and the primary lead signal."
+    early_warning: "Foreclosure Registry — lenders must register within 10 days of filing a Lis Pendens. Earlier than the auction calendar, separate from the court index."
+    surplus: "GovDeals — https://www.govdeals.com/en/miamidadecounty"
+
+  COL:
+    name: "Collier County, FL (Naples)"
+    state: FL
+    timezone: America/New_York
+    parcel_key: "Parcel ID / STRAP"
+    foreclosure_regime: judicial
+    channels: [judicial_foreclosure, tax_deed, tax_certificate, bankruptcy_363, probate, hoa_foreclosure]
+    critical: "IN-PERSON ONLY — both foreclosure and tax deed. No electronic bids. Every lot needs an assigned physical bidder with certified funds."
+    venue: "Main Courthouse, 3315 Tamiami Trail East, Naples FL 34112 — 1st Floor Customer Service Dept / Multipurpose Room"
+    auction_times:
+      tax_deed: "Mondays as needed, 13:00 ET"
+    civil_dept: "Suite 102, (239) 252-2646"
+    bankruptcy_court: flmb
+    bankruptcy_division: "Fort Myers (Charlotte, Collier, De Soto, Glades, Hendry, Lee)"
+    dns_warning: "collier.realforeclose.com / collier.realtaxdeed.com resolve via Realauction WILDCARD DNS to a shared load balancer. They are NOT Collier systems."
+    best_free_data: "https://www.collierappraiser.com/Main_Data/DataDownloads.html — zipped CSVs, no account, no key"
+    known_gaps:
+      - "Code enforcement (CityView) is captcha-gated — likely a public-records-request relationship, not an API. Weakest data environment of the four."
+      - "Mapillary coverage thin in exurbs — Tier 3 street-level CV largely unavailable."
+      - "ShowCase Web REST backend undocumented — capture XHR in devtools, re-verify monthly."
+
+schedule:
+  full_sweep:
+    cron: "30 4 * * *"
+    tz: America/Los_Angeles
+    rationale: "04:30 PT = 07:30 ET — ahead of MDC's 09:00 ET foreclosure start and COL morning sales."
+  hot_delta:
+    cron: "0 13 * * *"
+    tz: America/Los_Angeles
+    scope: "Only lots with a binding deadline in the next 48h. Alerts only on material change."
+  scout_weekly:
+    cron: "0 6 * * 1"
+    tz: America/New_York
+  calibration:
+    cron: "0 7 * * 0"
+    tz: America/New_York
+    task: "Backtest predicted MAO vs actual clearing prices; write state/calibration.jsonl; flag drift >15%."

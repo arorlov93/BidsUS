@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/lot.schema.json",
+  "title": "Lot",
+  "description": "A single distressed real-property sale opportunity, normalized across all four markets and all channels.",
+  "type": "object",
+  "required": ["lot_id", "market_id", "channel", "parcel_id", "status", "sources", "confidence", "first_seen", "last_seen"],
+  "properties": {
+
+    "lot_id":     { "type": "string", "description": "sha1(market_id|channel|parcel_id|sale_date)" },
+    "market_id":  { "enum": ["LA", "SF", "MDC", "COL"] },
+    "channel":    { "enum": ["trustee_sale", "judicial_foreclosure", "tax_deed", "tax_certificate", "tax_defaulted", "bankruptcy_363", "probate", "hoa_foreclosure", "reo", "gov_surplus"] },
+    "status":     { "enum": ["scheduled", "postponed", "cancelled", "redeemed", "sold", "no_bid", "unverified_schedule", "blocked", "watch"] },
+
+    "parcel_id":  { "type": "string", "description": "AIN (LA) | Block/Lot (SF) | 13-digit Folio (MDC) | Parcel ID/STRAP (COL). An address is NEVER an identity." },
+    "address":    { "type": "object", "properties": {
+        "line1": {"type": "string"}, "city": {"type": "string"}, "state": {"type": "string"},
+        "zip": {"type": "string"}, "lat": {"type": "number"}, "lon": {"type": "number"} } },
+
+    "sale": { "type": "object", "properties": {
+      "sale_date_local":        { "type": "string", "format": "date-time" },
+      "sale_date_et":           { "type": "string", "format": "date-time" },
+      "venue_string_verbatim":  { "type": "string", "description": "Parse verbatim. CA venue deviation = defective/postponed sale." },
+      "opening_bid_usd":        { "type": "number" },
+      "estimated_total_debt_usd": { "type": "number" },
+      "trustee_or_plaintiff":   { "type": "string" },
+      "ts_or_case_number":      { "type": "string" },
+      "postponement_history":   { "type": "array", "items": { "type": "object", "properties": {
+          "from": {"type":"string","format":"date-time"}, "to": {"type":"string","format":"date-time"},
+          "observed_at": {"type":"string","format":"date-time"}, "source": {"type":"string"} } } }
+    }},
+
+    "binding_deadline": { "type": "object", "description": "The EARLIEST hard deadline that removes ability to participate. NOT the sale date.", "properties": {
+      "kind":         { "enum": ["registration_close", "deposit_ach_cutoff", "deposit_in_person_cutoff", "physical_funds_staging", "objection_window", "balance_due"] },
+      "at_local":     { "type": "string", "format": "date-time" },
+      "at_et":        { "type": "string", "format": "date-time" },
+      "hours_remaining": { "type": "number" }
+    }},
+
+    "parcel": { "type": "object", "properties": {
+      "use_code": {"type":"string"}, "units": {"type":"integer"}, "year_built": {"type":"integer"},
+      "stories": {"type":"integer"}, "gla_sf": {"type":"number"}, "lot_sf": {"type":"number"},
+      "last_sale_date": {"type":"string","format":"date"}, "last_sale_price_usd": {"type":"number"},
+      "owner_name": {"type":"string"}, "owner_mailing_address": {"type":"string"},
+      "homestead_exemption": {"type":"boolean", "description": "FL only. Absence = strong non-owner-occupancy signal."},
+      "rso_covered": {"type":"boolean", "description": "LA: built on or before 1978-10-01"},
+      "coastal_distance_miles": {"type":"number", "description": "FL condo milestone trigger at <=3 miles"}
+    }},
+
+    "lien_position": { "type": "object", "required": ["determined"], "properties": {
+      "determined":            { "type": "boolean" },
+      "foreclosing_instrument":{ "type": "string", "description": "CA: the DoT referenced by the NOD/NTS. FL: the complaint + final judgment." },
+      "position":              { "enum": ["first", "junior", "unknown"] },
+      "senior_payoff_usd":     { "type": "number" },
+      "senior_arrears_usd":    { "type": "number" },
+      "true_cost_usd":         { "type": "number", "description": "bid + senior_payoff + senior_arrears when junior" },
+      "juniors_named_and_served": { "type": "boolean", "description": "FL: an omitted junior SURVIVES. Check docket returns of service." }
+    }},
+
+    "encumbrances": { "type": "array", "items": { "type": "object", "properties": {
+      "type": { "enum": ["mortgage","judgment","mechanics","hoa","condo","federal_tax","state_tax","municipal","code_enforcement","cdd","mello_roos","easement","ccr","lease"] },
+      "amount_usd": {"type":"number"},
+      "recorded_date": {"type":"string","format":"date"},
+      "survives_sale": {"type":"boolean"},
+      "basis": {"type":"string", "description": "statute or rule supporting the survivability call"}
+    }}},
+
+    "irs_7425": { "type": "object", "properties": {
+      "ftl_recorded": {"type":"boolean"},
+      "recorded_days_before_sale": {"type":"integer"},
+      "notice_given": {"enum": ["yes","no","unknown"]},
+      "consequence": {"type":"string", "description": "defective notice → lien survives entirely; good notice → 120-day IRS redemption at your price + 6%/yr"}
+    }},
+
+    "fl_specific": { "type": "object", "properties": {
+      "municipal_lien_search_required": {"type":"boolean"},
+      "municipal_lien_search_municipality": {"type":"string"},
+      "municipal_lien_search_status": {"enum":["not_ordered","ordered","received"]},
+      "hoa_full_delinquency_usd": {"type":"number", "description": "Third-party bidder gets NO safe harbor — full historical delinquency is yours."},
+      "milestone_status": {"enum":["not_required","due","phase1_complete","phase2_required","overdue","unknown"]},
+      "sirs_on_file": {"type":"boolean"},
+      "modelled_assessment_p75_usd": {"type":"number"},
+      "insurable": {"enum":["yes","no","unknown"]},
+      "flood_zone": {"type":"string"}
+    }},
+
+    "occupancy": { "type": "object", "properties": {
+      "status": {"enum":["vacant","owner_occupied","tenant_occupied","unknown"]},
+      "eviction_path": {"type":"string"},
+      "estimated_days_to_possession": {"type":"integer"},
+      "relocation_liability_usd": {"type":"number"},
+      "rent_control_blocker": {"type":"boolean"}
+    }},
+
+    "underwriting": { "type": "object", "properties": {
+      "arv_usd": {"type":"number"},
+      "comp_count": {"type":"integer"},
+      "comp_dispersion_pct": {"type":"number"},
+      "repairs_usd": {"type":"number"},
+      "repair_contingency_pct": {"type":"number"},
+      "all_in_buy_cost_usd": {"type":"number"},
+      "hold_cost_monthly_usd": {"type":"number"},
+      "expected_hold_months": {"type":"number"},
+      "exit_cost_usd": {"type":"number"},
+      "legal_cost_usd": {"type":"number"},
+      "risk_reserve_usd": {"type":"number"},
+      "target_profit_usd": {"type":"number"},
+      "mao_usd": {"type":"number"},
+      "margin_of_safety": {"type":"number"},
+      "downside_case_usd": {"type":"number"},
+      "cost_breakdown": { "type": "array", "items": { "type": "object", "properties": {
+        "line": {"type":"string"}, "amount_usd": {"type":"number"},
+        "basis": {"type":"string", "description": "statute or config constant — every line must be cited"},
+        "provenance": {"enum":["verified","derived","estimated","stale"]} } } }
+    }},
+
+    "scoring": { "type": "object", "properties": {
+      "value": {"type":"number"}, "urgency": {"type":"number"},
+      "confidence": {"type":"number"}, "executability": {"type":"number"},
+      "priority": {"type":"number"},
+      "risk_haircuts_applied": { "type": "array", "items": { "type": "object", "properties": {
+        "name": {"type":"string"}, "p_loss": {"type":"number"}, "dead_capital_days": {"type":"integer"} } } }
+    }},
+
+    "gates": { "type": "array", "items": { "type": "object", "required": ["id","passed"], "properties": {
+      "id": {"enum":["G1","G2","G3","G4","G5","G6","G7","G8","G9","G10"]},
+      "passed": {"type":"boolean"},
+      "reason": {"type":"string"},
+      "cleared_by": {"type":"string"},
+      "cleared_at": {"type":"string","format":"date-time"}
+    }}},
+
+    "readiness": { "type": "object", "properties": {
+      "platform": {"type":"string"},
+      "account_status": {"enum":["active","pending","none"]},
+      "deposit_required_usd": {"type":"number"},
+      "deposit_funded_usd": {"type":"number"},
+      "funding_lead_time_business_days": {"type":"integer"},
+      "physical_bidder": {"type":"string", "description": "COL: mandatory"},
+      "critical_path": { "type": "array", "items": { "type": "object", "properties": {
+        "task": {"type":"string"}, "due_local": {"type":"string","format":"date-time"}, "owner": {"type":"string"}, "done": {"type":"boolean"} } } },
+      "prefill_packet": {"type":"object"}
+    }},
+
+    "sources": { "type": "array", "items": { "type": "object", "required": ["source_id","fetched_at"], "properties": {
+      "source_id": {"type":"string"}, "url": {"type":"string"},
+      "fetched_at": {"type":"string","format":"date-time"},
+      "authority": {"enum":["primary","secondary","commercial"]} }}},
+
+    "conflicts": { "type": "array", "items": { "type": "object", "properties": {
+      "field": {"type":"string"},
+      "values": {"type":"array","items":{"type":"object"}},
+      "resolved_to": {},
+      "resolution_basis": {"type":"string"} }},
+      "description": "Conflicting values LOWER confidence and are surfaced in the digest. Never silently resolved." },
+
+    "manual_checks": { "type": "array", "items": { "type": "object", "properties": {
+      "url": {"type":"string"}, "field_needed": {"type":"string"},
+      "deadline": {"type":"string","format":"date-time"}, "why": {"type":"string"},
+      "status": {"enum":["open","done"]} }}},
+
+    "scout_handoff": { "type": "object", "description": "Present when this lot came from Abandonment Scout — carries imagery-derived condition that no other bidder has.", "properties": {
+      "abandonment_score": {"type":"number"},
+      "evidence": {"type":"array"},
+      "last_imagery_date": {"type":"string","format":"date"} }},
+
+    "confidence": {"type":"number", "minimum": 0, "maximum": 1},
+    "first_seen": {"type":"string","format":"date-time"},
+    "last_seen":  {"type":"string","format":"date-time"}
+  }
+}

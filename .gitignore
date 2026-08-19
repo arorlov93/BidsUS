@@ -1,0 +1,8 @@
+# Secrets — never commit
+.env
+
+# Runtime state and outputs (append-only local data, see agents/*/AGENT.md §8)
+state/*
+!state/.gitkeep
+out/*
+!out/.gitkeep

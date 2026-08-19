@@ -1,0 +1,520 @@
+# SOURCE REGISTRY
+# Single source of truth for what may be fetched, how, and how fresh it must be.
+# `allow_automation: false` is ABSOLUTE — the agent must emit MANUAL_CHECK instead.
+# `verified: false` means the URL/behaviour was not confirmed by a live fetch; resolve before
+# building load-bearing logic on it.
+
+defaults:
+  user_agent: "distressed-re-agents/1.0 (+contact: OPS_EMAIL)"
+  max_concurrency_per_host: 1
+  retry: { max: 3, backoff: exponential, base_seconds: 5 }
+  respect_robots_txt: true
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RED LIST — never fetch programmatically. MANUAL_CHECK only.
+# ─────────────────────────────────────────────────────────────────────────────
+blocked:
+  - id: auction_com
+    url: https://www.auction.com/
+    reason: "ToU bans robots/scrapers and robots.txt circumvention; one ID = one account, ID-verified"
+    manual_use: "Largest CA trustee-sale venue (LA/SF). Human checks listings + uses native Max Bid."
+  - id: nationwide_posting
+    url: https://search.nationwideposting.com/SearchTerms.aspx
+    reason: "Verbatim ban on scripting; violators permanently restricted"
+  - id: mdc_realforeclose
+    url: https://www.miamidade.realforeclose.com/
+    reason: "robots.txt disallows auction paths; identity-bound registration; ACH-tied deposits"
+    manual_use: "MDC judicial foreclosure calendar + bidding"
+  - id: mdc_realtaxdeed
+    url: https://www.miamidade.realtaxdeed.com/
+    reason: "robots.txt disallow"
+    open_question: "Clerk's current Property Tax Deeds page directs registration to the realforeclose host while AO-2013-05 specifies realtaxdeed. RESOLVE LIVE."
+  - id: mdc_realtdm
+    url: https://miamidade.realtdm.com/public/cases/List
+    reason: "robots.txt disallow"
+  - id: lienhub
+    url: https://lienhub.com/
+    reason: "403 to non-browser clients; bot protection"
+    sanctioned_alternative: "LienHub batch bid-file (CSV) upload for large investors"
+  - id: zillow
+    reason: "ToS bans scraping; no usable official API"
+  - id: redfin
+    reason: "ToS bans scraping"
+  - id: priority_posting
+    url: https://www.priorityposting.com/
+    reason: "robots-disallowed"
+  - id: google_imagery_as_cv_input
+    reason: "Maps Platform ToS 3.2.3(c)(v) — building an index from Street View imagery is a named prohibited example. 3.2.3(c)(vii) also bans using Maps Content to train or fine-tune ML models. 30-day cache cap."
+    allowed_narrow_use: "Street View METADATA endpoint (free, quota-free) as a staleness check only; human eyeballing in review UI"
+  - id: google_solar_api
+    reason: "Service-Specific Terms 18.1 — permitted use limited to energy-system feasibility/design/installation"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SOURCE REGISTRY
+# NOTE: a few entries below carry `allow_automation: false` — they are listed here to DOCUMENT
+# a known gap (e.g. the LA County recorder has no online index at all), not as green-list items.
+# Always branch on the per-entry `allow_automation` flag; never treat membership in `sources:`
+# as permission.
+# ─────────────────────────────────────────────────────────────────────────────
+sources:
+
+  # ---------- CROSS-MARKET ----------
+  - id: courtlistener_v4
+    name: CourtListener REST API v4 (RECAP)
+    url: https://www.courtlistener.com/api/rest/v4/
+    access: api
+    auth: "Authorization: Token <CL_TOKEN>"
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 24
+    rate_limit: { free_tier: "5/min, 50/hr, 125/day", recap_fetch: "30/min" }
+    notes: >
+      Only fully sanctioned API-first auction surface in the system. Courts: cacb, canb, flsb, flmb.
+      Match docket entries on "363", "Motion to Sell", "Notice of Sale", "Sale Free and Clear",
+      "Bidding Procedures", "Stalking Horse". RECAP Fetch requires YOUR OWN PACER credentials
+      (password rotates every 180 days; MFA unsupported) and you still pay PACER fees.
+      Since 2026-05-07 fuller API access is bundled into FLP membership.
+    channels: [bankruptcy_363]
+
+  - id: ca_ag_2924m_registry
+    name: CA AG residential foreclosure sales registry (§2924m)
+    url: https://oag.ca.gov/residential-foreclosure-sales
+    access: html_paginated
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    notes: >
+      POST-SALE data: county, city, zip, address, trustee sale date, date deemed final,
+      WINNING BIDDER, grantees, APN, bidder category A–H. Not a lead source — this is the
+      CALIBRATION SET for the MAO model. No API, no bulk; ~43 pages.
+
+  # ---------- LOS ANGELES ----------
+  - id: prime_recon
+    name: Prime Recon LLC trustee sale board
+    url: https://salesinformation.prime-recon.com/
+    access: html
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 12
+    fields: [ts_number, address, sale_status, sale_date, previous_sale_date, time, place_of_sale, est_total_debt, sold_amount, sold_to]
+    notes: "Best-structured free CA source. No login. No explicit scraping ban. PRIMARY POSTPONEMENT TRACKER."
+    markets: [LA, SF]
+
+  - id: tmlf
+    name: The Mortgage Law Firm sale board
+    url: https://salesinformation.mtglawfirm.com/
+    access: html
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 12
+    markets: [LA, SF]
+
+  - id: ndsc
+    name: National Default Servicing Corp
+    url: https://www.ndscorp.com/PendingSalesCaNv.aspx
+    results_url: https://www.ndscorp.com/SalesResultsCaNV.aspx
+    access: html
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 24
+    markets: [LA, SF]
+
+  - id: capublicnotice
+    name: CNPA Public Notices (statutory publication channel)
+    url: https://www.capublicnotice.com/category/legals/notice-of-trustee-sale
+    sheriff_url: https://www.capublicnotice.com/category/legals/public-sales-and-auctions-notice-of-sheriff-s-sale
+    access: html
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 24
+    notes: >
+      The legally mandated publication channel — also the authoritative discovery point for
+      CA PROBATE notices of sale (Prob. Code §10300). Filter by county. ToS not read — check.
+      NOTE: 'publicnoticecalifornia.com' does not exist; capublicnotice.com is the live property.
+    markets: [LA, SF]
+
+  - id: cacb_notice_of_sales
+    name: C.D. Cal. Bankruptcy — Current Notice of Sales
+    url: https://www.cacb.uscourts.gov/notice-of-sales
+    pdf_pattern: https://www.cacb.uscourts.gov/sites/cacb/files/documents/notice-of-sales/{CASE}.pdf
+    access: html_table
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 12
+    severity_on_failure: HIGH
+    notes: >
+      FREE, no PACER fee, no account. Case codes are divisional: LA-, SV-, SA-, RS-, ND-.
+      SHOWS ONLY TODAY + FUTURE — no archive, so a missed run is data lost permanently.
+      Parse the mandatory local form F 6004-2.NOTICE.SALE.
+      N.D. Cal. (SF) has NO equivalent page — use CourtListener court=canb.
+    markets: [LA]
+
+  - id: la_ttc_auctions
+    name: LA County Treasurer & Tax Collector — tax-defaulted auctions
+    url: https://ttc.lacounty.gov/schedule-of-upcoming-auctions/
+    platform: https://liveauctions.govease.com/           # ⚠️ the TTC-published path; govease.com/los-angeles is NOT it
+    access: pdf
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    notes: >
+      PLATFORM IS GOVEASE, NOT BID4ASSETS (that contract is historical).
+      PDF parcel lists only — no API/CSV/RSS.
+      2026B: registration opens 2026-09-18, closes 2026-10-13 13:00 PT; auction 2026-10-17 15:00 → 2026-10-20 12:00 PT;
+      payoff 2026-10-23 13:00 PT; last redemption 2026-10-16 17:00 PT.
+      Follow-up 2026B: reg opens 2026-11-06, closes 2026-12-01; auction 2026-12-05 → 2026-12-08.
+      ⚠️ govease.com/terms-of-use returns 404 — capture Terms from the registration flow before any automated interaction.
+      ⚠️ LA Chapter 8 agreement sales are statutorily CLOSED to private investors (RTC §3791+).
+    markets: [LA]
+
+  - id: la_recorder
+    name: LA County Registrar-Recorder/County Clerk
+    url: https://www.lavote.gov/home/recorder/real-estate-records/viewing-real-estate-records/view-real-estate-records
+    access: in_person_only
+    allow_automation: false
+    verified: true
+    notes: >
+      HARD WALL. Verbatim: "This office does not provide online access to our real estate records
+      or indexes via the internet." (Gov. Code §6254.21). No online index AT ALL. LA NOD/NOTS
+      CANNOT be ingested from the county. Fill the gap with publication + trustee boards +
+      licensed aggregator. PRA portal: https://lacountyrrcc.nextrequest.com/
+    markets: [LA]
+
+  - id: lacity_socrata
+    name: City of LA open data (Socrata)
+    url: https://data.lacity.org/
+    datasets:
+      vacant_building_abatement: q3ak-s5hy   # ← direct municipal vacancy list, LAMC Div. 89
+      code_enforcement_open: u82d-eh7z
+      code_enforcement_case: 2uz8-3tj3
+      permits: hbkd-qubn
+    access: api
+    auth: app_token
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    notes: "City of LA ONLY — does not cover unincorporated county or the other 87 cities."
+    markets: [LA]
+
+  - id: la_parcels
+    name: LA County parcels / assessor
+    url: https://egis-lacounty.hub.arcgis.com/
+    open_data: https://data.lacounty.gov/
+    access: arcgis_rest
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 720
+    open_question: "Published Assessor Parcels dataset ENDS 2021; no current-roll API. Confirm whether owner MAILING ADDRESS is present or redacted."
+    markets: [LA]
+
+  # ---------- SAN FRANCISCO ----------
+  - id: sf_tax_sale
+    name: SF Treasurer tax-defaulted auction
+    url: https://sftreasurer.org/property/auction
+    platform: https://sanfrancisco.mytaxsale.com/
+    terms: https://sanfrancisco.mytaxsale.com/doc/tax_deed/terms_of_sale
+    access: html
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    notes: >
+      NOT Bid4Assets (historical). Registration free and open year-round; $5,000 refundable +
+      $35 non-refundable deposit gates bidding. Terms say only internet bids accepted; no
+      anti-bot clause found — but ⚠️ vendor is undisclosed anywhere in the footer. READ THE FULL
+      USER AGREEMENT before automating. Next sale not yet scheduled as of research date.
+    markets: [SF]
+
+  - id: sf_recorder
+    name: SF Assessor-Recorder document search
+    url: https://www.sf.gov/get-copies-recorded-documents
+    access: html_portal
+    auth: "registration + ID verification"
+    allow_automation: false
+    verified: true
+    notes: >
+      Searchable by NAME, DOCUMENT NUMBER, DOCUMENT TYPE, or APN — **not by street address**,
+      so resolve address→APN first. ⚠️ Coverage conflict: sf.gov says 1990→present,
+      sfassessor.org says 2000→present. Resolve in-browser and capture the actual portal hostname.
+    markets: [SF]
+
+  - id: datasf
+    name: DataSF (Socrata)
+    url: https://data.sfgov.org/
+    datasets:
+      dbi_complaints_by_block_lot: av5k-qvh8
+      dbi_inspection_complaints: 9c7e-yn3d
+      land_use: us3s-fp9q
+      commercial_vacancy_tax: rzkk-54yv
+    access: api
+    auth: app_token
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    notes: "⚠️ Residential Empty Homes Tax (Prop M) struck down at trial court late 2024, collection suspended, on appeal — NOT a data source. Verify appellate posture."
+    markets: [SF]
+
+  - id: sf_venue
+    name: SF trustee sale venue string
+    access: constant
+    value: "Outside the Memorial Court between 301 and 401 Van Ness Avenue, San Francisco City Hall, 301 Van Ness Avenue, San Francisco, CA 94102"
+    notes: >
+      SF banned auctions on the City Hall STEPS in 2012, enforced 2020-04-23; a sale moved off the
+      advertised spot had to be POSTPONED. Venue deviation = defective sale. Parse the venue string
+      verbatim and treat a mismatch as a postponement signal.
+    markets: [SF]
+
+  # ---------- MIAMI-DADE ----------
+  - id: mdc_property_appraiser_api
+    name: Miami-Dade Property Appraiser JSON proxy
+    url: https://apps.miamidadepa.gov/PApublicServiceProxy/PaServicesProxy.ashx
+    operations: [GetPropertySearchByFolio, GetPropertySearchByAddress, GetPropertySearchByOwner]
+    example: "?Operation=GetPropertySearchByFolio&clientAppName=PropertySearch&folioNumber={13-digit}"
+    access: api
+    auth: none
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    returns: [PropertyInfo, OwnerInfos, MailingAddress, SiteAddress, SalesInfos, Assessment, Taxable, Benefit, Land, Building, ExtraFeature, LegalDescription, GeoParcel, District]
+    notes: "⚠️ MOVED: old www.miamidade.gov/Apps/PA/... path now 302-redirects here. `Benefit` carries the homestead flag."
+    markets: [MDC]
+
+  - id: mdc_arcgis
+    name: Miami-Dade ArcGIS REST
+    url: https://gisweb.miamidade.gov/arcgis/rest/services?f=json
+    key_services: [MD_LandInformation, MD_ComparableSales, MD_EAMSCodeEnforcement, MD_PublicNotification, MD_MDCZoning]
+    access: arcgis_rest
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    limits: { maxRecordCount: 1000, paginate_with: resultOffset, sr: 3857 }
+    notes: "MD_EAMSCodeEnforcement is the geocoding base for the code app, NOT the violations table. Query FeatureServer ?f=json directly for the real violation layers."
+    markets: [MDC]
+
+  - id: mdc_arcgis_hub
+    name: Miami-Dade Open Data Hub / ArcGIS Hub v3 API
+    url: https://gis-mdc.opendata.arcgis.com/
+    api: "https://hub.arcgis.com/api/v3/datasets?q={term}&page[size]=N"
+    bulk: "https://hub.arcgis.com/api/v3/datasets/{itemid}_{layer}/downloads/data?format=csv&spatialRefId=3857&where=1%3D1"
+    access: api
+    allow_automation: true
+    verified: true
+    markets: [MDC]
+
+  - id: mdc_foreclosure_registry
+    name: Miami-Dade Foreclosure Registry
+    url: https://bldgappl.miamidade.gov/foreclosureregistry/MainPage.aspx
+    search: https://bldgappl.miamidade.gov/foreclosureregistry/Search.aspx
+    access: html
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 48
+    notes: >
+      HIGH VALUE. County ordinance requires lenders to register a property within 10 DAYS OF
+      FILING A LIS PENDENS — an early-warning list SEPARATE from the court index. This is the
+      MDC pre-foreclosure pipeline.
+    markets: [MDC]
+
+  - id: mdc_official_records
+    name: Miami-Dade Clerk Official Records
+    url: https://onlineservices.miamidadeclerk.gov/officialrecords/
+    lis_pendens_deeplink: "?source=MFS"
+    case_search: https://www2.miamidadeclerk.gov/ocs/
+    access: html_spa
+    allow_automation: true
+    verified: true
+    notes: >
+      Mortgages 1974→present online. Free, full-image, CFN-searchable. No bulk/API — bulk goes
+      through a public-records request; ask for the commercial subscription program by name.
+      FLORIDA HAS NO NOD: the Lis Pendens (doc type "LP") IS the functional NOD equivalent.
+    markets: [MDC]
+
+  - id: mdc_code_enforcement
+    name: Miami-Dade RER Regulation Support
+    url: https://www.miamidade.gov/Apps/RER/RegulationSupportWebViewer/
+    access: html_form
+    allow_automation: true
+    verified: true
+    notes: "Unincorporated MDC: work without permit, expired permits, UNSAFE STRUCTURES. Search by case#, address, folio, permit#, owner. Form-only, no API."
+    markets: [MDC]
+
+  - id: mdc_tax_collector
+    name: Miami-Dade Tax Collector
+    delinquent_notice: https://mdctaxcollector.gov/public-notice-delinquent-real-estate-property-taxes
+    cert_sales: https://mdctaxcollector.gov/services/tax-certificate-sales
+    deed_express: https://mdctaxcollector.gov/services/tax-deed-applications-and-deedexpress
+    lands_available: https://county-taxes.net/fl-miamidade/reports/real-estate
+    access: html
+    allow_automation: true
+    verified: true
+    notes: "Certificate sale on or before June 1 annually, bid-down from 18%. DeedExpress = certificate holders applying for tax deeds — the UPSTREAM FEED into the tax deed pipeline."
+    markets: [MDC]
+
+  # ---------- COLLIER / NAPLES ----------
+  - id: collier_correction
+    name: "⚠️ CRITICAL CORRECTION"
+    access: constant
+    notes: >
+      collier.realforeclose.com and collier.realtaxdeed.com are NOT Collier systems. They resolve
+      only via Realauction's WILDCARD DNS to a shared load balancer. Collier conducts BOTH
+      foreclosure and tax deed sales IN PERSON in Naples. Any Collier strategy requiring remote
+      bidding needs a local agent physically present with certified funds.
+    markets: [COL]
+
+  - id: collier_foreclosure_calendar
+    name: Collier Clerk foreclosure sales (ShowCase Web)
+    url: https://cms.collierclerk.com/showcaseweb/calendar
+    path: "Court Events → Search Court Events → Court Event Type = 'Foreclosure Sale'"
+    info: https://www.collierclerk.com/court-divisions/civil-court/foreclosures/
+    venue: "Main Courthouse, 3315 Tamiami Trail East, Naples FL 34112 — 1st Floor Customer Service Dept / Multipurpose Room"
+    access: spa_vue
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 24
+    mechanics:
+      deposit: "5% at time of sale — cash, cashier's check or money order ONLY. No ACH, no wire."
+      balance_due: "10:30 AM the following business day"
+      fees: "Registry 3% of first $500 + 1.5% thereafter; doc stamps $0.70/$100"
+    notes: >
+      equivant ShowCase Web — a Vue SPA over an undocumented REST backend. DO NOT GUESS ENDPOINTS.
+      Capture the XHR calls once in browser devtools, record here with discovered_at, re-verify monthly.
+    markets: [COL]
+
+  - id: collier_tax_deeds
+    name: Collier Clerk tax deed sales
+    url: https://collierclerk.com/tax-deed-sales/
+    upcoming: https://app.collierclerk.com/LFOfficialRecords/Browse.aspx?cr=1&dbid=0&repo=OFFICIALRECORDSPROD&startid=1600
+    access: html
+    allow_automation: true
+    verified: true
+    mechanics:
+      schedule: "Mondays as needed, 13:00, multipurpose room, 1st floor Main Courthouse"
+      quote: "You must be present at the auction or send a representative to bid for you. No phone calls or electronic bids are allowed."
+      deposit: "5% of bid or $200, whichever greater, at time of sale"
+      balance: "Guaranteed funds within 24 hours + recording fees; IRS Form 8300 for cash >$10,000"
+    markets: [COL]
+
+  - id: collier_notices
+    name: Collier Clerk legal notices
+    url: https://notices.collierclerk.com/
+    subscribe: https://notices.collierclerk.com/subscribe-for-new-notices/
+    access: email_subscription
+    allow_automation: true
+    verified: true
+    notes: "Tax deeds advertised 4 consecutive weeks. THE MOST ToS-FRIENDLY MONITORING HOOK IN COLLIER — subscribe rather than scrape."
+    markets: [COL]
+
+  - id: collier_official_records
+    name: Collier Clerk Official Records / CORPublicAccess
+    url: https://app.collierclerk.com/CORPublicAccess/Search/Document
+    case_search: https://cms.collierclerk.com/CMSWeb/#!/
+    access: html
+    allow_automation: true
+    verified: true
+    notes: "Public, NO LOGIN. 45+ doc types incl. 'LP' = Lis Pendens — the primary FL lead signal. Be gentle."
+    markets: [COL]
+
+  - id: collier_appraiser_bulk
+    name: Collier County Property Appraiser bulk downloads
+    url: https://www.collierappraiser.com/Main_Data/DataDownloads.html
+    files: [int_parcels_csv.zip, int_accounts_csv.zip, int_legal_csv.zip, int_buildings_csv.zip, int_land_csv.zip, int_sales_csv.zip, int_values_rp_history_csv.zip, intfiles_csv.zip, parcel_polygon_shape_file.zip]
+    access: bulk_download
+    auth: none
+    allow_automation: true
+    verified: true
+    freshness_sla_hours: 168
+    notes: >
+      BEST FREE ASSESSOR DATA IN THE FOOTPRINT. Plain zipped CSVs, no account, no key.
+      Ownership current within ~1 month of recording; values twice yearly (post-Jul-1 preliminary,
+      ~Nov 1 final certified). Refresh WEEKLY, not daily. No license terms stated.
+    markets: [COL]
+
+  # ---------- IMAGERY (Agent 2) ----------
+  - id: naip
+    name: NAIP aerial imagery
+    resolution: "0.6 m (some 0.3 m)"
+    refresh: "every 2–3 years, leaf-on summer"
+    cost: "$0 — public domain"
+    access: "Google Earth Engine / AWS / USDA APFO"
+    allow_automation: true
+    license: "No ToS constraints at all."
+    role: "Model training + historical-change baseline. NOT the live signal."
+
+  - id: nearmap
+    name: Nearmap
+    url: https://developer.nearmap.com/docs/about-nearmap-apis
+    resolution: "4.4–7 cm vertical, obliques, DSM"
+    refresh: "88.5% of US population, up to 3×/yr; archive to 2014"
+    apis: [Tile, Coverage, DSM/TrueOrtho, AI Feature, Roof Age, WMS]
+    cost: "Population-band subscription. Published govt schedule $3,800–$240,500/yr; commercial/AI quoted separately."
+    allow_automation: true
+    license: "Negotiated enterprise. MUST secure model-training and derived-attribute retention rights in contract."
+    ai_packs: "Roof Condition · Vegetation (incl. tree overhang, debris) · Pool (covered/empty/debris-filled) · Surfaces · Construction (inverse signal)"
+    open_question: "Per-county AI Pack availability unconfirmed; no explicit green-pool or tarp class documented. Get a trial AOI in each of the 4 counties."
+
+  - id: vexcel
+    name: Vexcel Data Program
+    url: https://vexceldata.com/
+    resolution: "Blue Sky 7.5–15 cm; nationwide 7.5 cm program from Jan 2027"
+    refresh: "90% of US pop 2×/yr, 96% ≥1×/yr"
+    gray_sky: "Event-triggered post-hurricane capture — directly useful for FL"
+    allow_automation: true
+    license: "Annual program subscription; built for insurer/AI derivative use."
+
+  - id: mapillary
+    name: Mapillary street-level imagery
+    url: https://www.mapillary.com/developer/api-documentation
+    access: api
+    cost: free
+    allow_automation: true
+    verified: true
+    license: >
+      ToS §12 EXPRESSLY PERMITS commercial use for improvement, training and development of
+      products, services, algorithms and datasets. Attribution required (logo + link).
+      CC-BY-SA share-alike on derived works. MANDATORY technical safeguards against
+      re-identification / un-blurring of faces and plates.
+    coverage_warning: "Strong in dense metros; THIN in Collier exurbs — Tier 3 largely unavailable in much of Naples."
+    metadata: "per-image captured_at epoch ms"
+
+  - id: regrid_usps_vacancy
+    name: Regrid USPS Vacancy & Residential Indicators
+    url: https://regrid.com/vacancy
+    granularity: parcel_level
+    coverage: "~89M of ~117M addresses (76% match), nationwide, monthly refresh"
+    fields: [residential_delivery_indicator, vacancy_indicator, vacancy_indicator_date]
+    cost: "Not published — sales-quoted"
+    allow_automation: true
+    open_question: >
+      ⚠️ "Customers are requested not to use the data for direct mail commercial marketing
+      campaigns" — REQUEST OR CONTRACT TERM? This determines whether the highest-value
+      non-imagery signal can drive a mail funnel. Resolve before building on it.
+    note: "HUD's own USPS vacancy dataset is CENSUS-TRACT ONLY and restricted to government/nonprofits — not available to a private investor."
+
+  # ---------- LICENSED AGGREGATORS ----------
+  - id: attom
+    name: ATTOM Property Data API
+    url: https://www.attomdata.com/data/foreclosure-data/
+    coverage: "160M properties, 99% pop. NOD, LIS, NTS, NFS, REO, HOA foreclosures, foreclosure amount, auction date, OPENING BID, trustee, servicer, foreclosing lender. Judicial + non-judicial."
+    access: "REST API, bulk file, Snowflake/Databricks, MCP server"
+    cost: "Enterprise quote; full foreclosure feed is 5-figure/yr"
+    allow_automation: true
+    license: "Licensed redistribution possible."
+    role: "Recommended backbone — fills the LA recorder gap."
+
+  - id: propertyradar
+    name: PropertyRadar
+    url: https://developers.propertyradar.com/
+    coverage: "CA-native NOD/NOTS, trustee sale results, POSTPONEMENT TRACKING, ownership, equity. 3,142 counties."
+    access: "REST, JSON, Bearer token"
+    allow_automation: true
+    license: >
+      ⚠️ "The API is intended for end-users only — you cannot use it to build applications you
+      sell to others." Fine for internal use; blocks resale absent an OAuth partner agreement.
+    role: "Strongest CA trustee-sale + postponement tracking. Use for LA/SF."
+
+  - id: regrid_parcels
+    name: Regrid / Landgrid parcel API
+    url: https://regrid.com/api
+    coverage: "160M+ parcels, 100% US county coverage, boundaries, ownership, standardized zoning, building footprints"
+    access: "REST + async batch (100k pts/request) + MCP server"
+    allow_automation: true
+    role: "Single normalized schema across all four markets."

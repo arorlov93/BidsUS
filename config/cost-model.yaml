@@ -1,0 +1,282 @@
+# PER-JURISDICTION COST CONSTANTS
+# Never use a single national closing-cost constant. See agents/shared/UNDERWRITING.md for method.
+# confidence: V = verified from primary source · S = secondary · E = estimate
+# All figures as of 2026-08. Review dates noted where a statute sunsets or a rate is indexed.
+
+meta:
+  as_of: "2026-08-19"
+  review_due: "2026-11-01"
+
+jurisdictions:
+
+  LA_CITY:
+    market: LA
+    sale_type: trustee_sale_nonjudicial
+    buy:
+      payment_terms: "Full amount immediately at sale, cash or cashier's check on a state/national bank or CU (Civ. Code §2924h(b))"
+      documentary_transfer_tax_county_pct: 0.11      # $0.55/$500  [V]
+      documentary_transfer_tax_city_pct:   0.45      # $4.50/$1000 on NET value  [V]
+      dtt_total_pct: 0.56
+      recording_usd: [100, 250]
+      sb2_fee_usd: 75                                # $75/title, capped $225/transaction
+      title_insurance_usd: [1500, 6000]              # [E] not available at sale
+      all_in_pct: [0.8, 1.2]
+      third_party_bidder_dtt_exemption: false        # RTC §11926 exempts the BENEFICIARY only  [V]
+    sell:
+      commission_pct: [4, 5]
+      dtt_pct: 0.56
+      all_in_pct: [5, 6]
+      measure_ula:
+        applies_to: "City of LA only, GROSS consideration, closings after 2026-06-30"
+        tiers:
+          - { min_usd: 5400000, max_usd: 10900000, pct: 4.0 }
+          - { min_usd: 10900000, max_usd: null,    pct: 5.5 }
+        exempt: "deed in lieu of foreclosure, actual foreclosures, conveyances under federal bankruptcy cases  [V]"
+        warning: "Exemption covers your PURCHASE via trustee's deed — NOT your resale. Thresholds CPI-indexed. Nov 2026 ballot may change it."
+        confidence: V
+    hold:
+      property_tax_pct_of_purchase_annual: [1.10, 1.25]
+      prop13_reassessment: "Third-party foreclosure purchase IS a change in ownership → reassessed to purchase price. NEVER underwrite off the seller's current bill. Supplemental bill 3–6 months post-close."
+      insurance_monthly_usd_per_500k: [250, 800]     # WUI/FAIR Plan at the high end
+      total_monthly_usd_per_500k: [4900, 7000]
+    timing:
+      deed_perfection_days: 21                       # retroactive to 08:00 sale day if recorded within
+      deed_perfection_days_if_2924m: 60
+      assumed_hold_months: [6, 8]
+    repair_usd_per_sf:
+      cosmetic: [25, 45]
+      medium:   [55, 90]
+      full_gut: [110, 180]
+      seismic_retrofit_usd: [5000, 15000]
+      adu_per_sf: [180, 300]
+      permits_pct_of_hard_cost: [3, 6]
+
+  SF:
+    market: SF
+    sale_type: trustee_sale_nonjudicial
+    buy:
+      all_in_pct: [0.8, 1.2]
+      title_insurance_usd: [1500, 6000]
+    sell:
+      commission_pct: [4, 5]
+      transfer_tax_tiers_per_500:                     # [V] city = county
+        - { min_usd: 100000,   max_usd: 250000,   per_500_usd: 2.50,  pct: 0.50 }
+        - { min_usd: 250000,   max_usd: 1000000,  per_500_usd: 3.40,  pct: 0.68 }
+        - { min_usd: 1000000,  max_usd: 5000000,  per_500_usd: 3.75,  pct: 0.75 }
+        - { min_usd: 5000000,  max_usd: 10000000, per_500_usd: 11.25, pct: 2.25 }
+        - { min_usd: 10000000, max_usd: 25000000, per_500_usd: 27.50, pct: 5.50 }
+        - { min_usd: 25000000, max_usd: null,     per_500_usd: 30.00, pct: 6.00 }
+      cliff_warning: "3× jump at $5M. Model the exit price against the $5M / $10M / $25M lines EXPLICITLY."
+      customarily_seller_paid: true
+      all_in_pct_sub_5m: [5.5, 6.0]
+      all_in_pct_over_5m: [7.5, 8.0]
+    hold:
+      property_tax_pct_of_purchase_annual: [1.15, 1.20]
+      total_monthly_usd_per_500k: [5000, 7000]
+      permit_risk: "SF DBI permitting can add 6–12 months and 8–15% soft cost. Treat as its own line."
+    timing:
+      assumed_hold_months: [5, 7]
+    repair_usd_per_sf:
+      cosmetic: [35, 55]
+      medium:   [70, 110]
+      full_gut: [140, 230]
+
+  MDC_SFR:
+    market: MDC
+    sale_type: judicial_foreclosure
+    buy:
+      deposit_pct: 5
+      deposit_statute: "Fla. Stat. §45.031(3) (5% deposit); §45.035(3) authorizes advance electronic deposits, exempt from the registry fee until a bid is accepted"
+      deposit_model: "ADVANCE — 5% of your MAXIMUM INTENDED BID funded BEFORE bidding"
+      deposit_model_confidence: S
+      deposit_model_warning: "UNVERIFIED from a primary source — miamidade.realforeclose.com is robots-blocked and the Clerk pages carry no deposit terms. These are Realauction/local-practice terms set by the final judgment. CONFIRM ON THE AUCTION SITE BEFORE STAGING CAPITAL."
+      ach_lead_time_business_days: 4
+      in_person_deadline: "17:00 the day before, 111 NW 1st St — cash, cashier's/official bank check, attorney trust check. NO money orders, NO personal checks, NO same-day."
+      balance_due: "12:00 noon the next business day, else deposit forfeited and property re-advertised"
+      clerk_registry_fee: "3% of first $500 + 1.5% of balance ⇒ ~1.5% of bid  [V]"
+      clerk_registry_pct_effective: 1.5
+      clerk_sale_charge_usd: 70
+      electronic_sale_fee_usd: 60
+      doc_stamps_pct: 0.60             # SFR: base 0.60%, SURTAX DOES NOT APPLY  [V]
+      all_in_pct: [2.3, 2.5]
+      title_insurance_usd: [1000, 3500]
+      title_defect_warning: "Defective service of process is the #1 FL foreclosure title defect. Verify every defendant was named AND served."
+    sell:
+      commission_pct: [5, 6]
+      doc_stamps_pct: 0.60
+      title_customarily_paid_by: seller
+      all_in_pct: [6.5, 7.5]
+    hold:
+      property_tax_pct_of_value_annual: [1.7, 2.0]
+      tax_step_up: "Homestead + Save Our Homes 3% cap DIE on transfer. Non-homestead 10% cap also RESETS to full market value the year after transfer. Year-1 taxes = market value × millage. Taxes can DOUBLE in year one."
+      total_monthly_usd_per_500k: [5700, 8600]
+    timing:
+      cert_of_sale_to_title_days: 11    # 10-day objection window, §45.031(5)
+      assumed_hold_months: [7, 9]
+    repair_usd_per_sf:
+      cosmetic: [20, 35]
+      medium:   [45, 75]
+      full_gut: [90, 150]
+      impact_windows_per_sf_opening: [70, 120]
+      roof_per_sf: [9, 16]
+      chinese_drywall_gut_per_sf: [50, 100]   # 2001–2009 construction, esp. SE FL — total loss for a flip
+
+  MDC_CONDO:
+    market: MDC
+    inherits: MDC_SFR
+    overrides:
+      buy:
+        doc_stamps_pct: 1.05           # 0.60% base + 0.45% surtax — surtax APPLIES to non-SFR  [V]
+        all_in_pct: [2.6, 2.8]
+      sell:
+        doc_stamps_pct: 1.05
+      timing:
+        assumed_hold_months: [10, 14]  # 125 DOM, 12 months supply
+    milestone_sirs:
+      milestone_phase1_years: 30
+      milestone_phase1_years_coastal: 25         # within 3 miles of coastline
+      milestone_recurrence_years: 10
+      phase2_progress_report_days: 180
+      phase2_repairs_commence_days: 365
+      sirs_required_stories_gte: 3
+      full_reserve_funding_mandatory_from: "2026-01-01"
+      reserve_waivers: abolished
+      hb913_2025:
+        deferred_maintenance_threshold_usd: 25000   # raised from 10000
+        funding_options: [special_assessment, loan, line_of_credit]
+        pause_allowed_annual_budgets: 2
+      observed_assessment_usd_per_unit:
+        minor: [5000, 15000]
+        significant: [30000, 75000]
+        major: [100000, null]
+        worst_observed: 45000          # 38-story Brickell tower
+      engine_rule: "Assessment_Reserve = max(known_assessment, f(building_age, stories, coastal_distance, sirs_status))"
+      auto_reject: "pre-1997 coastal Miami condo with no SIRS on file, unless discount to comps > p75 modelled assessment"
+
+  COLLIER:
+    market: COL
+    sale_type: judicial_foreclosure_in_person
+    critical: "IN-PERSON ONLY. No electronic bidding for foreclosure OR tax deeds. Requires a physical bidder with certified funds."
+    buy:
+      deposit_pct: 5
+      deposit_timing: "at the sale"
+      deposit_forms: [cash, cashiers_check, money_order]
+      deposit_forms_excluded: [ach, wire, personal_check]
+      balance_due: "10:30 the following business day"
+      clerk_registry_pct_effective: 1.5
+      doc_stamps_pct: 0.70             # no surtax in Collier  [V]
+      all_in_pct: [2.2, 2.4]
+      tax_deed_deposit: "5% of bid or $200, whichever greater; balance in guaranteed funds within 24h + recording fees; IRS Form 8300 for cash >$10,000"
+    sell:
+      commission_pct: [5, 6]
+      doc_stamps_pct: 0.70
+      title_customarily_paid_by: buyer   # SW FL custom differs from Miami-Dade
+      all_in_pct: [6.5, 7.5]
+    hold:
+      property_tax_pct_of_value_annual: [0.7, 0.9]
+      total_monthly_usd_per_500k: [5100, 7900]
+    timing:
+      assumed_hold_months: [8, 11]
+      seasonality: "Selling window Nov–Apr. 103 DOM (condo 115), 6.3 months supply."
+    repair_usd_per_sf:
+      cosmetic: [25, 40]
+      medium:   [50, 85]
+      full_gut: [100, 165]
+      roof_per_sf: [10, 18]
+
+financing:
+  hard_money:
+    rate_pct: [9.99, 12.0]
+    points: [1, 3]
+    term: "12-month interest-only"
+    max_ltc_pct: 90
+    max_ltarv_pct: 70
+    confidence: V
+
+target_profit:
+  ca_flip_pct_of_arv: [12, 15]
+  fl_flip_pct_of_arv: [15, 20]      # higher for insurance + assessment tail risk
+  irr_hurdle_annualized_pct: [25, 35]
+
+exit_cap_adjustment:
+  base: "trading cap + 50–75 bps"
+  fl_condo_3plus_unresolved_sirs: "+100 bps, or reject"
+
+fl_municipal_lien_search:
+  required: true
+  reason: "Unrecorded municipal charges (water/sewer, trash, lot-clearing, unsafe-structure) attach to the property and are NOT in the official records. A title search will not find them."
+  cost_usd: [85, 175]
+  turnaround_business_days: [2, 5]
+  note: "Order PER MUNICIPALITY — City of Miami ≠ Miami Beach ≠ Hialeah ≠ unincorporated MDC."
+
+fl_hoa_liability:
+  rule: "§718.116(1)(a) / §720.3085(2)(b) — purchaser is JOINTLY AND SEVERALLY LIABLE with the prior owner for ALL unpaid assessments that came due before transfer of title."
+  safe_harbor_statute: "§718.116(1)(b)1. — do NOT cite (1)(a) for the safe harbour; (1)(a) is the joint-and-several liability rule"
+  safe_harbor: "§718.116(1)(b)1. — lesser of 12 months' regular assessments or 1% of original mortgage debt. Available ONLY to the first mortgagee or its successor/assignee, NOT to a third-party bidder."
+  worked_example: "$36,000 delinquency, $400,000 original mortgage → bank pays $4,000, THIRD-PARTY BIDDER PAYS $36,000"
+  confidence: V
+  severity: "single largest FL underwriting trap"
+
+fl_tax_deed_survivals:
+  statute: "Fla. Stat. §197.552"
+  extinguished: [mortgages, judgments, mechanics_liens, hoa_condo_liens, irs_liens_with_7425_notice]
+  survives: "governmental / municipal / county / special-district / CDD liens of record, incl. CODE ENFORCEMENT FINES — but ONLY to the extent unsatisfied from sale proceeds under §197.582"
+  caveat: "§197.552 opens 'Except as specifically provided in this chapter'. Not an absolute clean-title rule."
+  mdc_code_fine_rate_usd_per_day: 250
+  quiet_title_usd: [1500, 5000]
+  deed_challengeable_years: 4        # §95.192
+  note: "§197.573 preserves certain restrictive covenants notwithstanding §197.552's blanket language — read together."
+
+irs_7425:
+  notice_days_required: 25
+  lien_recorded_before_sale_days: 30
+  redemption_days: 120
+  redemption_price: "your purchase price + 6%/yr simple from sale date + payments to senior lienholders + maintenance less rents"
+  flags: ["defective notice → FTL survives entirely", "good notice → no safe resale for 120 days"]
+
+eviction:
+  LA:
+    former_owner: "CCP §1161a — 3-day notice, then UD. Uncontested ~30 days to lockout; 60–90 if contested."
+    bona_fide_tenant: "PTFA + CCP §1161b — 90-day minimum notice; lease may need honoring to term"
+    rso:
+      covers_built_on_or_before: "1978-10-01"
+      scope: "apartments, condos, duplexes, 2+ SFRs on one parcel, ADUs; ~624,000 units / ~118,000 properties"
+      relocation_warning: "AMOUNTS RESET EVERY 1 JULY. The block below is the EXPIRED 2025-07-01..2026-06-30 schedule, kept only as a magnitude reference. Fetch the current LAHD Chart A from housing.lacity.gov at runtime."
+      relocation_confidence: stale
+      relocation_usd_expired_2025_07_01_to_2026_06_30:
+        eligible_under_3y: 10650
+        eligible_3y_plus_or_80ami: 13950
+        qualified_under_3y: 22450        # 62+, disabled, or minor dependents
+        qualified_3y_plus: 26550
+        mom_and_pop_reduced: [10200, 20600]
+      note: "PER UNIT, not per tenant. The higher applicable amount controls."
+  SF:
+    ordinance: "Rent Ordinance §37.9 — most pre-1979-06-13 units; just cause + relocation. FORECLOSURE IS NOT A JUST CAUSE."
+    statewide: "AB 1482 just-cause + one month's rent relocation for non-exempt units at 12+ months tenancy"
+  FL:
+    former_owner: "Motion for writ of possession in the SAME foreclosure case (§45.031) — typically a few weeks. Far faster than eviction."
+    squatters: "separate unlawful detainer / ejectment"
+    tenants: "PTFA 90-day notice; Ch. 83 governs any continued tenancy"
+    legal_usd: [500, 2500]
+    cash_for_keys_usd: [500, 5000]
+
+insurance_fl:
+  gate: "An unrepaired/unpermitted roof, open claim, or failed 4-point makes the property UNINSURABLE → UNFINANCEABLE → UNSELLABLE. This is a go/no-go gate, not a line item."
+  flood_annual_usd:
+    zone_x:  [400, 1200]
+    zone_ae: [2000, 10000]
+    zone_ve: [5000, 20000]
+    south_fl_moderate: [800, 1500]
+    south_fl_high_coastal: [3000, 12000]
+    sw_fl_moderate: [900, 2000]
+    sw_fl_high_coastal: [3500, 15000]
+
+market_stats_2026:
+  LA:  { median_usd: 1069418, psf: 631, psf_yoy_pct: -3.2, dom: 48, sale_to_list_pct: 99.7, cap_mf_pct: 5.8 }
+  SF:  { median_usd: 1500000, median_yoy_pct: 11.1, psf: 1030, psf_yoy_pct: 8.2, dom: 25, cap_mf_pct: 5.7, mf_per_unit_yoy_pct: -10.4 }
+  MDC: { sfr_median_usd: 685000, sfr_yoy_pct: 3.8, condo_median_usd: 400000, condo_yoy_pct: -1.5, sfr_dom: 88, condo_dom: 125, sfr_months_supply: 4.8, condo_months_supply: 12.0, cash_share_pct: 35.1, condo_cash_share_pct: 47.5 }
+  COL: { median_usd: 595000, sfr_median_usd: 750000, sfr_yoy_pct: 7.1, condo_median_usd: 442500, condo_yoy_pct: -1.7, dom: 103, condo_dom: 115, months_supply: 6.3, sale_to_list_pct: 94.5 }
+  read_through: >
+    SF: tightest exit, brutal transfer-tax cliff. LA: flat with softening $/sf — underwrite ZERO
+    appreciation. MDC CONDO: distressed-supply market — exactly where 2026 auction supply comes
+    from and exactly where exit risk is highest. COL: low inventory but slow, seasonal exit.

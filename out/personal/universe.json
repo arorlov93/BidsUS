@@ -1,0 +1,85 @@
+{
+  "generated": "2026-08-19",
+  "sources": {
+    "roll": "FL DOR 2026 Preliminary NAL (NAL16P202601.csv Broward co 16, NAL23P202601.csv Miami-Dade co 23), free download from floridarevenue.com data portal",
+    "sales_broward": "BCGIS hosted feature service PARCEL_POLY_BCPA_TAXROLL (SALE_DATE_1, doc-stamp-derived price, provenance: derived)",
+    "sales_mdc": "Miami-Dade gisweb MD_ComparableSales/MapServer/5 MDC.PaGis (DOS_1/PRICE_1, provenance: verified)"
+  },
+  "weights": {
+    "no_homestead": 0.45,
+    "absentee": 0.4,
+    "tenure_ge_15y": 0.45,
+    "estate_name": 0.6
+  },
+  "funnel": {
+    "per_county_stage1": {
+      "Broward": {
+        "00_roll_total": 754549,
+        "01_in_target_zips": 294125,
+        "02_residential_uc": 248828,
+        "03_after_exclusions": 248167,
+        "03x_excluded_owner": 322,
+        "03x_jv_below_40k": 339
+      },
+      "Miami-Dade": {
+        "00_roll_total": 938308,
+        "01_in_target_zips": 88964,
+        "02_residential_uc": 83060,
+        "03_after_exclusions": 82694,
+        "03x_excluded_owner": 45,
+        "03x_jv_below_40k": 321
+      }
+    },
+    "universe_scored": 330861,
+    "by_use_type": {
+      "SFR": 150145,
+      "MULTI<10": 13142,
+      "MOBILE": 1585,
+      "CONDO": 165989
+    },
+    "signal_counts": {
+      "no_homestead": 159621,
+      "absentee": 173438,
+      "mailing_is_other_residential_situs": 31073,
+      "tenure_ge_15y": 71449,
+      "estate_name": 36997,
+      "tenure_unknown_gis_unmatched": 87789,
+      "out_of_state": 38604,
+      "no_recorded_sale_assumed_long_tenure": 566
+    },
+    "gis_match": {
+      "Broward:matched": 159961,
+      "Broward:unmatched": 87787,
+      "Broward:matched_no_sale": 419,
+      "Miami-Dade:matched": 82545,
+      "Miami-Dade:matched_no_sale": 147,
+      "Miami-Dade:unmatched": 2
+    },
+    "score_distribution_top": {
+      "1.90": 1513,
+      "1.50": 868,
+      "1.45": 16331,
+      "1.30": 14556,
+      "1.05": 4082,
+      "1.00": 4689,
+      "0.90": 4724,
+      "0.85": 103768
+    },
+    "condo_share_universe": 0.502,
+    "condo_in_top30": 0
+  },
+  "coverage_gaps": [
+    "Broward condo-unit tenure: BCGIS PARCEL_POLY_BCPA_TAXROLL is a polygon layer; 87,650 of 102,175 Broward condo folios (letter-suffixed unit folios) have no polygon record, so last-sale/tenure is unknown for them (signal tenure_unknown_gis_unmatched, no tenure credit). SFR/multi/mobile matched 99.9-100%. Miami-Dade tenure coverage ~100% (MDC.PaGis).",
+    "NAL 2026P sale fields only carry 2025-26 assessment-period sales, so tenure had to come from county GIS layers, not the DOR roll.",
+    "BCPA's own bulk files (Tax Roll MS Access etc.) are paid commercial products ($25-30/file via InfoBroward); BCPA itself points to the free FL DOR portal, which was used instead.",
+    "566 parcels matched in GIS but with no recorded sale at all were treated as long-tenure (provenance: derived, signal no_recorded_sale_assumed_long_tenure); 19 of the top 30 rest on that assumption - typically pre-1970s acquisitions with deceased-owner EST names.",
+    "Broward last_sale_price is derived from doc stamps ($0.70/$100), provenance: derived. Miami-Dade PRICE_1 is as recorded (verified)."
+  ],
+  "verification": {
+    "rows_checked": [
+      "494232110320 (NAL raw + BCGIS: no homestead, absentee, EST name, no recorded sale - consistent)",
+      "494222170560 (NAL raw + BCGIS: sale 1960-11-01, stamps $26.80, homestead N - consistent)",
+      "1912350050670 (NAL raw + MDC.PaGis + apps.miamidadepa.gov PA API: owner ALICE K SCHLOSS TR, mailing Indianapolis IN, no sales, JV 10,027,797 - all three sources agree)"
+    ]
+  }
+}

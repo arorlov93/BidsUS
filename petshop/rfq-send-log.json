@@ -61,5 +61,40 @@
     "id": "<202609031930.64089322351@smtp-relay.mailin.fr>"
    }
   ]
+ },
+ "batch2": {
+  "date": "2026-09-03",
+  "results": [
+   {
+    "email": "joe@hanyangdg.com",
+    "status": "SENT",
+    "id": "<202609031946.23666951599@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "petrovasale1@gmail.com",
+    "status": "SENT",
+    "id": "<202609031947.75103038706@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "sales@brothercatdog.com",
+    "status": "SENT",
+    "id": "<202609031947.80437921261@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "info@wedogy.com",
+    "status": "SENT",
+    "id": "<202609031947.46383434471@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "service@qqpets.com",
+    "status": "SENT",
+    "id": "<202609031947.10972433381@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "lawrence@raythy.com",
+    "status": "SENT",
+    "id": "<202609031947.85917999521@smtp-relay.mailin.fr>"
+   }
+  ]
  }
 }

@@ -46,32 +46,41 @@
   {
    "company": "Dongguan Hanyang Pet Products",
    "site": "hanyangpetsupply.com",
-   "send": "form",
-   "priority": 3
+   "send": "email",
+   "priority": 3,
+   "email": "joe@hanyangdg.com"
   },
   {
    "company": "PetRova (Dongguan)",
    "site": "chinapetclothing.com",
-   "send": "form",
-   "priority": 8
+   "send": "email",
+   "priority": 8,
+   "email": "petrovasale1@gmail.com",
+   "whatsapp": "+86 15362621370"
   },
   {
    "company": "Dongguan Trianglewin",
    "site": "trianglewin.com",
-   "send": "form",
-   "priority": 9
+   "send": "email",
+   "priority": 9,
+   "email": "sales@brothercatdog.com",
+   "whatsapp": "+86 13902601489"
   },
   {
    "company": "Guangzhou Wedogy",
    "site": "wedogy.com",
-   "send": "form",
-   "priority": 10
+   "send": "email",
+   "priority": 10,
+   "email": "info@wedogy.com",
+   "whatsapp": "+86 15999926108"
   },
   {
    "company": "Guangzhou QQPETS",
    "site": "qqpets.com",
-   "send": "form",
-   "priority": 11
+   "send": "email",
+   "priority": 11,
+   "email": "service@qqpets.com",
+   "whatsapp": "+86 159 1874 9485"
   },
   {
    "company": "Hangzhou Hachong",
@@ -88,8 +97,10 @@
   {
    "company": "Pecpets",
    "site": "pecpets.com",
-   "send": "form",
-   "priority": 14
+   "send": "email",
+   "priority": 14,
+   "email": "lawrence@raythy.com",
+   "whatsapp": "+86 18065330930"
   },
   {
    "company": "Mydeer Pet Products (Suzhou)",
@@ -98,5 +109,6 @@
    "priority": 15
   }
  ],
- "rfq_sent_email_batch": "2026-08-19"
+ "rfq_sent_email_batch": "2026-08-19",
+ "rfq_sent_email_batch2": "2026-09-03"
 }

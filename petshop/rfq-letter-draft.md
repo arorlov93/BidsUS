@@ -1,52 +1,49 @@
-# RFQ — черновик письма производителям (на утверждение)
+# RFQ v2 — черновик письма фабрикам (по брифу; на утверждение)
 
-> Уйдёт через Brevo с домена 518petshop после вашего «ок» и ключа API.
-> Поля в {фигурных скобках} подставляются автоматически per supplier.
-
-**Subject:** OEM Inquiry — Dog Apparel Line for US Brand (10 SKUs, trial 300–500 pcs/style)
+**Subject:** OEM Development Inquiry — Small-Dog Apparel Brand (custom patterns, 8 styles, US)
 
 Dear {supplier_name} team,
 
-My name is Alexander, purchasing at **518 Petshop LLC**, a US-based pet brand (518petshop.com)
-launching a dog apparel line for the US market (TikTok Shop, Amazon FBA, and our own store).
+My name is Alexander, founder at **518** (518 Group LLC, USA — 518petshop.com), a new brand of
+apparel and accessories designed specifically for **small dogs (under 5 kg / 11 lb)** — think
+Chihuahuas, Pomeranians, Yorkies, toy Poodles.
 
-We are selecting 2–3 manufacturing partners for our launch collection and would like to request
-your quotation for the items below. For each item, please quote **FOB price at 300 / 500 / 1000
-pcs per style** (sizes XS–2XL mixed, colors mixed):
+We are NOT looking for catalog products with our logo. We develop our own designs and are
+selecting 2–3 manufacturing partners capable of **custom development from tech packs**: pattern
+making for small-breed proportions, 2–3 fitting-sample rounds, and production in our brand
+colors. Before we share tech packs, we'd like to understand your capabilities and pricing.
 
-1. Dog hoodie, 300+ gsm fleece, leash hole — 4 colors
-2. Winter dog jacket, water-repellent shell + fleece lining, reflective trim — 3 colors
-3. Dog raincoat, PU/TPU, full-open design — 3 colors
-4. Dog pajamas/onesie, stretch cotton or bamboo, 4-leg — 4 colors
-5. Harness + leash set, Y-front, metal hardware — 4 colors
-6. Dog bandana, double-sided cotton, snap closure — 6 prints
-7. Halloween costumes (pumpkin / skeleton / dinosaur) — **URGENT: what quantity can you ship by
-   air before Sep 25?**
-8. Cooling vest (evaporative)
-9. Knitted dog sweater
-10. Matching owner + dog hoodie set
+**Apparel (5 styles):** hoodie (320+ gsm fleece), shirt (cotton poplin), padded vest, stretch
+onesie, winter jacket (water-repellent + fleece). Sizes XS–L for small breeds.
+**Accessories (3 styles):** Y-harness with matte metal hardware, matching leash, lightweight collar.
 
-Please also include:
-- MOQ per style / per color
-- Sample set cost and lead time (1 pc of items 1–5 in size M)
-- Production lead time for a trial order and for repeat orders
-- Your size chart with chest/neck/back measurements per size
-- OEM options: woven label, hang tag, custom polybag with size sticker and suffocation warning
-  (Amazon FBA-ready); custom prints — from what quantity
-- Certifications (BSCI / Sedex / ISO), material test reports; for harnesses — load test data
-- Loading port and payment terms
-- Have you produced for US brands before? Which categories?
+Please tell us:
 
-We plan a trial order within 3–4 weeks of receiving quotes, with regular repeat orders for the
-winter season. Looking forward to your reply.
+1. Do you develop from client tech packs / sketches? Do you have in-house pattern makers and
+   experience specifically with **small-breed fit** (short back length, chest-to-neck ratio)?
+   Examples of custom developments you produced for other brands are very welcome.
+2. **Custom fabric dyeing** to our Pantone/HEX palette: minimum meters per color, lab-dip terms.
+3. Development costs: pattern + first sample per style; cost and lead time of each additional
+   sample round.
+4. **MOQ per style / per color for custom production**, and FOB price ranges at 300 / 500 /
+   1000 pcs per style for garments of the types above (your best estimate ranges are fine at
+   this stage).
+5. Trims: woven labels, hang tags, custom zipper pullers, matte hardware — in-house or sourced?
+6. Certifications (BSCI / Sedex / ISO), fabric test reports, OEKO-TEX availability.
+7. Lead times: development → approved sample → bulk; loading port; payment terms.
+8. Separately: do you also produce (or partner for) carriers, bowls, beds, toys — or is apparel
+   your full focus?
+
+We plan to select partners within 2–3 weeks, start development immediately after, and place a
+trial order (~2,500–3,000 pcs across styles) for our winter capsule, with regular repeats.
 
 Best regards,
 Alexander Orlov
-518 Petshop LLC, USA
-{наш адрес/телефон — ДОБАВИТЬ}
+518 Group LLC, USA — 518petshop.com
+info@518petshop.com
+{телефон/адрес — ДОБАВИТЬ по желанию}
 
 ---
-*Примечания для утверждения: 1) подпись/телефон/адрес компании — заполните; 2) отправитель:
-предлагаю sourcing@518petshop.com или purchasing@518petshop.com — домен должен быть верифицирован
-в Brevo (SPF/DKIM записи), иначе письма улетят в спам; 3) это ЗАПРОС ЦЕН по инициативе бизнеса
-к отделам продаж фабрик — не маркетинговая рассылка, но отписки всё равно уважаем.*
+*К утверждению: 1) отправитель info@518petshop.com (подтверждён в Brevo); 2) домен пока не
+аутентифицирован (DKIM/SPF) — рекомендую сделать до отправки; 3) получатели: 5 фабрик с email
+сразу, 10 через формы сайтов (см. recipients.json). Отправляю только после вашего «ок».*

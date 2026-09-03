@@ -1,0 +1,21 @@
+{
+  "note": "RFQ recipients. send=email — прямые адреса (Brevo); send=form — контакт-форма на сайте (ручная задача). Отправка только после утверждения оператором.",
+  "approved_by_operator": false,
+  "recipients": [
+    {"company": "Hangzhou Tianyuan Pet Products (Petstar)", "email": "info@tianyuanpet.com", "site": "petproducts.com.cn", "send": "email", "priority": 1},
+    {"company": "Haining Xinxu (XIN XU)", "email": "info@asianpetsupplies.com", "site": "asianpetsupplies.com", "send": "email", "priority": 5},
+    {"company": "Guangzhou Doglemi Pet Products", "email": "info@doglemi.com", "site": "doglemi.com", "send": "email", "priority": 6},
+    {"company": "Qingdao Bestjoy Pet", "email": "info@bestjoypet.com", "site": "bestjoypet.com", "send": "email", "priority": 7},
+    {"company": "Shenzhen TIZE Technology", "email": "sales6@tize.com.cn", "site": "tizecollar.com", "send": "email", "priority": 4},
+    {"company": "P-NUTS PET (Dongguan)", "site": "p-nutspaws.com", "send": "form", "priority": 2},
+    {"company": "Dongguan Hanyang Pet Products", "site": "hanyangpetsupply.com", "send": "form", "priority": 3},
+    {"company": "PetRova (Dongguan)", "site": "chinapetclothing.com", "send": "form", "priority": 8},
+    {"company": "Dongguan Trianglewin", "site": "trianglewin.com", "send": "form", "priority": 9},
+    {"company": "Guangzhou Wedogy", "site": "wedogy.com", "send": "form", "priority": 10},
+    {"company": "Guangzhou QQPETS", "site": "qqpets.com", "send": "form", "priority": 11},
+    {"company": "Hangzhou Hachong", "site": "hachongpet.com", "send": "form", "priority": 12},
+    {"company": "Xiangxiangmei Pet Clothing", "site": "xxmfs.cn", "send": "form", "priority": 13},
+    {"company": "Pecpets", "site": "pecpets.com", "send": "form", "priority": 14},
+    {"company": "Mydeer Pet Products (Suzhou)", "site": "szlumai.en.alibaba.com", "send": "form", "priority": 15}
+  ]
+}

@@ -31,5 +31,35 @@
    "status": "SENT",
    "message_id": "<202609031912.74653109660@smtp-relay.mailin.fr>"
   }
- ]
+ ],
+ "addendum_sent": {
+  "date": "2026-09-03",
+  "results": [
+   {
+    "email": "info@tianyuanpet.com",
+    "status": "SENT",
+    "id": "<202609031930.64160548000@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "info@asianpetsupplies.com",
+    "status": "SENT",
+    "id": "<202609031930.15670346528@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "info@doglemi.com",
+    "status": "SENT",
+    "id": "<202609031930.17934325859@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "info@bestjoypet.com",
+    "status": "SENT",
+    "id": "<202609031930.64029651379@smtp-relay.mailin.fr>"
+   },
+   {
+    "email": "sales6@tize.com.cn",
+    "status": "SENT",
+    "id": "<202609031930.64089322351@smtp-relay.mailin.fr>"
+   }
+  ]
+ }
 }

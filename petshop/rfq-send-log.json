@@ -1,0 +1,35 @@
+{
+ "sent_at": "2026-08-19",
+ "results": [
+  {
+   "company": "Hangzhou Tianyuan Pet Products (Petstar)",
+   "email": "info@tianyuanpet.com",
+   "status": "SENT",
+   "message_id": "<202609031912.43753046667@smtp-relay.mailin.fr>"
+  },
+  {
+   "company": "Haining Xinxu (XIN XU)",
+   "email": "info@asianpetsupplies.com",
+   "status": "SENT",
+   "message_id": "<202609031912.16755720184@smtp-relay.mailin.fr>"
+  },
+  {
+   "company": "Guangzhou Doglemi Pet Products",
+   "email": "info@doglemi.com",
+   "status": "SENT",
+   "message_id": "<202609031912.46645700344@smtp-relay.mailin.fr>"
+  },
+  {
+   "company": "Qingdao Bestjoy Pet",
+   "email": "info@bestjoypet.com",
+   "status": "SENT",
+   "message_id": "<202609031912.23649871955@smtp-relay.mailin.fr>"
+  },
+  {
+   "company": "Shenzhen TIZE Technology",
+   "email": "sales6@tize.com.cn",
+   "status": "SENT",
+   "message_id": "<202609031912.74653109660@smtp-relay.mailin.fr>"
+  }
+ ]
+}

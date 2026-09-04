@@ -12,7 +12,7 @@ this is the "gift" SKU.
 
 | Component | Spec |
 |---|---|
-| Yarn (main) | Merino wool / acrylic blend 50/50 (quote also 30/70 and 100% acrylic for price ladder) |
+| Yarn (main) | Merino wool / acrylic blend 50/50 — merino extra-fine ≤ 21.5 micron, next-to-skin soft, no mohair/angora (itch = failed comfort test); quote also 30/70 and 100% acrylic for price ladder |
 | Gauge | 7–9 GG flat knit, fully fashioned panels (no cut-and-sew from yardage) |
 | Trim | 2×2 rib neck/cuffs/hem, same yarn |
 | Future option | Cashmere blend — separate price, not in v1 order |

@@ -24,6 +24,8 @@ safety), no kangaroo pocket, no prints.
   usable with harness under the hoodie.
 - Short back, angled rear hem; rib hem 2.5 cm, elbow-length sleeves with 2 cm rib cuffs.
 - High armholes; coverstitched seams; bar tacks at leash slit ends.
+- Comfort standard §2a applies: neck seam taped, hood adds no weight on the neck when down,
+  fit verified on leggy AND stocky builds; weight S ≤ 90 g.
 
 ## POM (garment, cm) — tolerance ±1
 

@@ -26,6 +26,8 @@ sport-classic look — no hood.
 - Rear hem angled up (short back), rib hem 2.5 cm.
 - Sleeve rib cuffs 2 cm, elbow length.
 - Coverstitch hems; no belly cutout needed (2-leg, chest panel ends before undercarriage).
+- Comfort standard §2a applies: neck seam covered with soft tape, zip garage shields chin,
+  underarm stretch tolerance checked at R1 on leggy AND stocky builds; weight S ≤ 90 g.
 
 ## POM (garment, cm) — tolerance ±1
 

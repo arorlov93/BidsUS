@@ -29,6 +29,12 @@ variant — quote as add-on). Clean quilting, no prints.
 - Leash opening per brand standards §2.4 (slit + flap behind collar).
 - Belly cutout per §2.3, bound with lycra binding.
 - Rear hem angled, elasticized last 8 cm around haunches.
+- **Stretch underarm gussets** (soft 4-way stretch panel, unpadded) at both front armholes —
+  mobility + fit tolerance across leggy/stocky builds (comfort standard §2a.3).
+- **Internal elastic waist shirring** (no drawcords — chew safety) so one size hugs both
+  deep-chested and straight builds without pressure points.
+- Lining anti-static finished; no exposed overlock inside (anti-matting, §2a.2). No Velcro.
+- Finished weight target size S ≤ 150 g (§2a.4). Outdoor-rated; comfort range on hang tag.
 - Bar tacks at all stress points (leg/body joins, zip ends).
 
 ## POM (garment, cm) — v1 targets, tolerance ±1

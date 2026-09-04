@@ -26,6 +26,9 @@ hem. Menswear look scaled to small breeds.
 - Curved hem, rear cut higher; side vents 1.5 cm.
 - Elbow-length sleeves with clean 1 cm hem (no cuff).
 - Flat-felled or safety-stitched seams; corduroy pile direction matched down the back.
+- Comfort standard §2a applies: garment-washed for softness, collar fusible soft-hand, add
+  small side-seam elastic inserts at R1 if fit test shows pull across stocky chests;
+  weight S ≤ 70 g. No Velcro.
 
 ## POM (garment, cm) — tolerance ±1
 

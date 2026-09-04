@@ -24,6 +24,8 @@ like OW01 for easy dressing). Belly cutout, elastic leg openings, flat seams thr
 - Short back; rear coverage sufficient for lounging (this style may cover more of the rear
   than outerwear — confirm at R1 fit).
 - No leash opening in v1 (home/base layer); revisit after fit round if layering demands it.
+- **No sewn labels**: heat-transfer print for brand/size/care (worn on bare coat — a woven
+  label edge scratches; comfort standard §2a.5). Finished weight size S ≤ 60 g.
 
 ## POM (garment, cm) — tolerance ±1
 

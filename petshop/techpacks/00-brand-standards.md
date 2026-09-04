@@ -38,6 +38,33 @@ round 1; every change logged.
 6. No hardware under the throat or in armpit contact zones. Total garment weight targets per
    style — a 2 kg dog must not carry a heavy garment.
 
+## 2a. Comfort & universality standard (brand core message — applies to every style)
+
+The brand's #1 claim is **comfort in wear**. Every style must pass these rules; a garment
+that fails any of them does not ship, whatever the schedule.
+
+1. **No Velcro anywhere in the line** — it mats and rips the coat of long-haired breeds
+   (Maltipoo, Pomeranian, Yorkie). Closures are zips, snaps, buttons-over-snaps, elastic.
+2. **Anti-matting interiors**: all linings smooth and anti-static finished (static charge
+   tangles fine poodle-mix coats); no exposed overlock at neck or armhole contact zones —
+   cover with soft binding or seam tape.
+3. **Stretch where bodies differ**: within one size dogs differ by build (leggy poodle mixes
+   vs stocky Chihuahua/Pekingese types). Non-stretch styles get underarm/side stretch
+   gussets or elastic inserts at R1 so one size fits both builds; pullover necks stretch to
+   ≥ chest girth.
+4. **Garment weight caps** (finished, size S): midlayers ≤ 90 g, snowsuit ≤ 150 g, onesie
+   ≤ 60 g, sweater ≤ 100 g, shirt ≤ 70 g. A 2 kg dog must not notice the garment.
+5. **Labels that can't scratch**: woven labels only where a fleece/lining layer separates
+   them from skin; on base layers (onesie) — heat-transfer print, no sewn label.
+6. **Unisex undercarriage**: belly cutout geometry works for boys and girls; no seams or
+   hardware on the belly panel.
+7. **Freedom-of-movement wear test** (every fit round, on video): sit, lie down, full run,
+   stairs up/down, shake-off, potty posture — garment must not shift, ride up, or restrict;
+   30-minute wear with zero scratching/freezing behavior. Fit models must include BOTH a
+   leggy build (Maltipoo/Toy Poodle) and a compact build (Chihuahua/Shih Tzu) in every round.
+8. **Thermal honesty**: snowsuit is outdoor-rated (state comfort range on hang tag);
+   midlayers breathable cotton-rich so dogs don't overheat indoors.
+
 ## 3. Brand palette (custom dye — lab dips required, 2 submissions max per color)
 
 | Name | HEX | Use |

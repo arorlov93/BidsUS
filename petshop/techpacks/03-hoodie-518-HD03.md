@@ -29,12 +29,14 @@ safety), no kangaroo pocket, no prints.
 
 | # | Point of measure | XS | S | M | L |
 |---|---|---|---|---|---|
-| 1 | Chest girth | 37 | 42 | 48 | 54 |
-| 2 | Neck opening (relaxed / min stretched) | 23/36 | 27/41 | 31/47 | 35/53 |
-| 3 | Back length | 21 | 24 | 28 | 32 |
-| 4 | Sleeve length | 7.5 | 9 | 10.5 | 12 |
-| 5 | Hood length | 11 | 12.5 | 14 | 15.5 |
-| 6 | Hood width at seam | 10 | 11 | 12.5 | 14 |
+| 1 | Chest girth | 34 | 39 | 44 | 49 |
+| 2 | Neck opening (relaxed / min stretched) | 22/34 | 26/39 | 29/44 | 32/49 |
+| 3 | Back length | 20 | 23 | 26 | 29 |
+| 4 | Sleeve length | 7 | 8.5 | 9.5 | 10.5 |
+| 5 | Hood length | 10.5 | 12 | 13 | 14.5 |
+| 6 | Hood width at seam | 9.5 | 10.5 | 11.5 | 12.5 |
+
+Sizing basis: brand standards v1.1 chart (cap 5.5 kg).
 
 ## Colorways
 

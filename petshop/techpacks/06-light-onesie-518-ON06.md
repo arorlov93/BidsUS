@@ -29,12 +29,14 @@ like OW01 for easy dressing). Belly cutout, elastic leg openings, flat seams thr
 
 | # | Point of measure | XS | S | M | L |
 |---|---|---|---|---|---|
-| 1 | Chest girth (relaxed) | 32 | 37 | 42 | 48 |
-| 2 | Neck opening (relaxed) | 21 | 25 | 29 | 33 |
-| 3 | Back length | 21 | 24.5 | 28.5 | 32.5 |
-| 4 | Front leg length | 7 | 8.5 | 10 | 11.5 |
-| 5 | Rear leg length | 6.5 | 7.5 | 9 | 10.5 |
-| 6 | Leg opening (relaxed) | 8 | 9 | 10 | 11 |
+| 1 | Chest girth (relaxed) | 29 | 34 | 39 | 44 |
+| 2 | Neck opening (relaxed) | 19 | 23 | 27 | 30 |
+| 3 | Back length | 20 | 23 | 26 | 29 |
+| 4 | Front leg length | 6.5 | 8 | 9 | 10 |
+| 5 | Rear leg length | 6 | 7 | 8 | 9 |
+| 6 | Leg opening (relaxed) | 7.5 | 8.5 | 9.5 | 10.5 |
+
+Sizing basis: brand standards v1.1 chart (cap 5.5 kg).
 
 Negative ease (stretch fit): garment chest ≈ body chest − 2 cm. Confirm recovery of fabric
 (spandex %) holds shape after 5 wash cycles.

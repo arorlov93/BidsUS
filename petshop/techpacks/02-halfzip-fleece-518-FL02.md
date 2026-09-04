@@ -31,12 +31,14 @@ sport-classic look — no hood.
 
 | # | Point of measure | XS | S | M | L |
 |---|---|---|---|---|---|
-| 1 | Chest girth | 37 | 42 | 48 | 54 |
-| 2 | Neck opening (rib relaxed / min stretched) | 22/36 | 26/41 | 30/47 | 34/53 |
-| 3 | Back length | 21 | 24 | 28 | 32 |
-| 4 | Sleeve length (armhole → cuff edge) | 7.5 | 9 | 10.5 | 12 |
-| 5 | Collar height | 4 | 4.5 | 5 | 5 |
-| 6 | Zip length | 8 | 9 | 10 | 11 |
+| 1 | Chest girth | 34 | 39 | 44 | 49 |
+| 2 | Neck opening (rib relaxed / min stretched) | 22/34 | 26/39 | 29/44 | 32/49 |
+| 3 | Back length | 20 | 23 | 26 | 29 |
+| 4 | Sleeve length (armhole → cuff edge) | 7 | 8.5 | 9.5 | 10.5 |
+| 5 | Collar height | 4 | 4.5 | 4.5 | 5 |
+| 6 | Zip length | 8 | 9 | 9.5 | 10 |
+
+Sizing basis: brand standards v1.1 chart (cap 5.5 kg).
 
 ## Colorways
 

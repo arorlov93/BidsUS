@@ -1,19 +1,24 @@
-# 518 — Tech Pack Set v1 (DRAFT — internal approval pending, not released to factories)
+# 518 — Tech Pack Set v1.1 (DRAFT — internal approval pending, not released to factories)
 
 Brand: **518** · 518 Group LLC, USA · 518petshop.com · Contact: info@518petshop.com
-Scope: Winter capsule, 6 apparel styles for small dogs ≤ 5 kg (Chihuahua, Yorkie, Pomeranian,
-toy Poodle, Maltipoo; L covers mini Frenchie/pug builds to ~7 kg).
-Status: v1 DRAFT, 2026-09-04. Flat sketches to be added (designer / round-1 pattern stage).
+Scope: Winter capsule, 6 apparel styles for small dogs. **Hard cap: 5.5 kg / 12 lb — we do
+not serve dogs above 5.5 kg.** Four sizes cover 1–5.5 kg.
+Status: v1.1 DRAFT, 2026-09-04 (v1.1: size chart re-graded to the 5.5 kg cap, breed lists
+expanded; supersedes the chart in Design Brief v1 sent to factories on 04.09 — flag this
+when releasing). Flat sketches to be added (designer / round-1 pattern stage).
 Release rule: full tech packs go only to 2–3 finalist factories after operator approval.
 
 ## 1. Body size chart (cm) — basis for all styles
 
-| Size | Chest girth | Neck girth | Back length | Typical dog |
-|---|---|---|---|---|
-| XS | 30–35 | 20–24 | 20–23 | Chihuahua 1.5–2.5 kg |
-| S | 35–40 | 24–28 | 23–27 | Yorkie / Pomeranian 2.5–4 kg |
-| M | 40–46 | 28–32 | 27–31 | Maltipoo / toy Poodle 4–5.5 kg |
-| L | 46–52 | 32–36 | 31–35 | mini Frenchie / Pug to ~7 kg |
+Weight is a guide only — **girth measurements decide the size** (a 2 kg Maltipoo is leggier
+and longer than a 2 kg Chihuahua; poodle-mix builds often take one size up in leg length).
+
+| Size | Weight | Chest girth | Neck girth | Back length | Typical breeds |
+|---|---|---|---|---|---|
+| XS | 1–2.5 kg | 28–33 | 18–22 | 19–22 | Chihuahua, Russian Toy, mini Yorkie, mini Pomeranian, mini Maltese, **mini Maltipoo (~2 kg)**, Prague Ratter, teacup mixes |
+| S | 2.5–3.5 kg | 33–38 | 22–26 | 22–25 | Yorkie, Pomeranian, Maltese, Toy Poodle, Papillon, small Maltipoo, Brussels Griffon, Affenpinscher |
+| M | 3.5–4.5 kg | 38–43 | 26–30 | 25–28 | Maltipoo / Cavapoo, Toy–Miniature Poodle, mini Shih Tzu, mini Bichon, Havanese, Coton de Tulear, Japanese Chin, rabbit Dachshund |
+| L | 4.5–5.5 kg | 43–48 | 30–33 | 28–31 | Shih Tzu, Bichon Frise, larger Havanese, miniature Dachshund, Lhasa Apso, small Mini Schnauzer, small Pekingese |
 
 Garment ease: knits/jersey +3 cm chest; outerwear +5–6 cm chest (over a base layer).
 All POM values in style pages are **garment** measurements, half-measures never used —

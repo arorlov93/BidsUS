@@ -35,15 +35,18 @@ variant — quote as add-on). Clean quilting, no prints.
 
 | # | Point of measure | XS | S | M | L |
 |---|---|---|---|---|---|
-| 1 | Chest girth (closed) | 40 | 45 | 51 | 57 |
-| 2 | Neck opening girth | 24 | 28 | 32 | 36 |
-| 3 | Back length (collar seam → tail hem) | 21 | 25 | 29 | 33 |
-| 4 | Front leg length (armhole → cuff) | 8 | 9.5 | 11 | 12.5 |
-| 5 | Rear leg length | 7 | 8 | 9.5 | 11 |
-| 6 | Front leg cuff opening (relaxed) | 9 | 10 | 11 | 12 |
-| 7 | Collar height | 5 | 5.5 | 6 | 6.5 |
-| 8 | Hood length (collar seam → front edge) | 12 | 13.5 | 15 | 16.5 |
-| 9 | Belly clearance from rear edge | ≥6 | ≥7 | ≥8 | ≥9 |
+| 1 | Chest girth (closed) | 37 | 42 | 47 | 52 |
+| 2 | Neck opening girth | 23 | 27 | 31 | 34 |
+| 3 | Back length (collar seam → tail hem) | 21 | 24 | 27 | 30 |
+| 4 | Front leg length (armhole → cuff) | 7.5 | 9 | 10 | 11 |
+| 5 | Rear leg length | 6.5 | 7.5 | 8.5 | 9.5 |
+| 6 | Front leg cuff opening (relaxed) | 8.5 | 9.5 | 10.5 | 11.5 |
+| 7 | Collar height | 5 | 5.5 | 6 | 6 |
+| 8 | Hood length (collar seam → front edge) | 11.5 | 13 | 14.5 | 16 |
+| 9 | Belly clearance from rear edge | ≥6 | ≥7 | ≥7.5 | ≥8 |
+
+Sizing basis: brand standards v1.1 chart (cap 5.5 kg). Poodle-mix builds (Maltipoo/Cavapoo)
+run leggy — verify leg lengths on poodle-mix fit models in R1, not only on Chihuahua/Yorkie.
 
 ## Colorways
 

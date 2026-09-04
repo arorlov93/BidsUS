@@ -29,11 +29,13 @@ this is the "gift" SKU.
 
 | # | Point of measure | XS | S | M | L |
 |---|---|---|---|---|---|
-| 1 | Chest girth | 35 | 40 | 46 | 52 |
-| 2 | Neck opening (relaxed / min stretched) | 20/36 | 24/41 | 28/47 | 32/53 |
-| 3 | Back length | 20 | 23 | 27 | 31 |
-| 4 | Sleeve length | 7 | 8.5 | 10 | 11.5 |
-| 5 | Turtleneck height (folded) | 4 | 4.5 | 5 | 5.5 |
+| 1 | Chest girth | 32 | 37 | 42 | 47 |
+| 2 | Neck opening (relaxed / min stretched) | 18/34 | 22/39 | 26/44 | 29/49 |
+| 3 | Back length | 19 | 22 | 25 | 28 |
+| 4 | Sleeve length | 6.5 | 8 | 9 | 10 |
+| 5 | Turtleneck height (folded) | 4 | 4.5 | 5 | 5 |
+
+Sizing basis: brand standards v1.1 chart (cap 5.5 kg).
 
 Knit ease is negative-to-zero vs body chest (stretch fit) — confirm on R1 fit.
 

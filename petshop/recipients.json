@@ -110,5 +110,17 @@
   }
  ],
  "rfq_sent_email_batch": "2026-08-19",
- "rfq_sent_email_batch2": "2026-09-03"
+ "rfq_sent_email_batch2": "2026-09-03",
+ "pending_batch3": {
+  "note": "Волна china-sourcing 2026-09-05. approved: false — НЕ рассылать до явного «ок» оператора. Emails подтверждены на собственных страницах компаний (evidence в scratchpad/sourcing/).",
+  "approved_by_operator": false,
+  "recipients": [
+   {"company": "Dongguan Altra Pet Products", "email": "sales@altrapet.com", "site": "altrapet.com", "send": "email", "priority": 1, "note": "4-лапый софтшелл со встроенной шлейкой $5.2-7.8 MOQ 100; OEM/ODM"},
+   {"company": "Wenzhou Cheepet Pet Products", "email": "info@cheepet.com", "site": "chee.pet", "send": "email", "priority": 2, "note": "OEM для брендов, ODM, MOQ ~500, 42 дн"},
+   {"company": "Guangzhou Okeypets Products", "email": "sale@okeypets.com", "site": "okeypets.com", "send": "email", "priority": 3, "note": "амуниция, ISO9001/BSCI/CE"},
+   {"company": "Tonglu Chunlei Knitting", "site": "tlchunlei.manufacturer.globalsources.com/homepage_6008826392014.htm", "send": "form", "priority": 4, "note": "вязальная фабрика с 1994 — под свитер"},
+   {"company": "Qingdao Weichong Pet Products", "site": "weichongchongwu.en.alibaba.com", "send": "form", "priority": 5, "note": "10 лет, 8240 м², 4-лапые, кастом MOQ 500; сайты за капчой"},
+   {"company": "Xiamen Ainety Garment", "site": "ainetygarment.en.made-in-china.com", "send": "form", "priority": 6, "note": "премиум-вязка $10-25 MOQ 50-100"}
+  ]
+ }
 }

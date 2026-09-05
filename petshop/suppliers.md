@@ -175,3 +175,69 @@ Research date: 2026-08-19 (session run 2026-09-03 environment). Researcher: Clau
 - All capacity/cert claims are self-reported; request audit report PDFs (BSCI ID, WRAP cert number) before samples.
 - PetRova and QQPETS: use website contact forms; no company-format email published.
 - Emails listed only where published on companies' own public pages: info@tianyuanpet.com, info@asianpetsupplies.com, info@doglemi.com, info@bestjoypet.com, sales6@tize.com.cn.
+
+---
+
+## Волна поиска 2 — скил china-sourcing, 2026-09-05 (Alibaba/1688/MIC/Global Sources)
+
+Метод: поисковые выдачи + прямые страницы площадок и корпсайтов; каждая строка имеет
+файл-доказательство в scratchpad/sourcing/{alibaba,1688,mic}/. Цены — каталожные с площадок
+(`derived`), НЕ котировки. Alibaba-карточки закрыты капчой+robots → профили там `[S]`.
+Дубли с шорт-листом (Tianyuan=Petstar, Hanyang, Rena повторно) исключены/помечены.
+
+### Tier 1 — новые кандидаты на RFQ (после одобрения оператора)
+
+1. **Dongguan Altra Pet Products** (Дунгуань) — factory (MIC: Manufacturer/Factory, est. 2016,
+   Diamond+Audited; Alibaba: Verified, 3 500 м²). ★ Лучшее совпадение: **4-лапый софтшелл-
+   комбинезон со встроенной шлейкой $5.20–7.80, MOQ 100**; стёганый жилет $4.20–5.30 MOQ 50;
+   шлейка+поводок $3.60–6.50 MOQ 50. OEM/ODM/сэмплы. Сайт altrapet.com,
+   **sales@altrapet.com** (подтверждён на их contact-странице).
+2. **Wenzhou Cheepet** (Вэньчжоу) — с 2007, «OEM для известных брендов», ODM full custom,
+   MOQ ~500, лид-тайм 42 дн. Сайт chee.pet, **info@cheepet.com** (подтверждён).
+3. **Guangzhou Okeypets** (Гуанчжоу, Байюнь) — амуниция, est. 2015, ISO9001/BSCI/CE, OEM.
+   Сайт okeypets.com, **sale@okeypets.com** (подтверждён).
+4. **Tonglu Chunlei Knitting** (Тунлу/Ханчжоу) — **вязальная фабрика с 1994**, Manufacturer+
+   Exporter, ODM/OEM (Global Sources, собственная страница); свитеры $4.40–5.00.
+   Сильнейший кандидат на наш свитер. Контакт только через GS-форму (MANUAL_CHECK).
+5. **Qingdao Weichong Pet** (Циндао) — «10-year factory», 8 240 м², дизайн-команда, ODM,
+   делает 4-лапые костюмы; кастом MOQ 500. Сайты за капчой → контакт через форму (MANUAL_CHECK).
+6. **Xiamen Ainety Garment** (Сямынь) — вязаный премиум ($10–25, MOQ 50–100), маркеры
+   OEM/ODM/pattern. Собственный сайт не найден → MIC-форма.
+
+### Tier 2 (проверить при следующем проходе)
+
+- Zhongshan Tlon (est. 2018, M/F, одежда $3–5 MOQ 100) · Xiamen Richtex (спортивный
+  трикотаж, полар-флис 4-лапый, MOQ 500; сайт richtex.cn — ЧУЖАЯ компания, email оттуда
+  не использовать!) · Dongguan Shanli Weaving (стропы/шлейки с 2007, $3.20–3.60 MOQ 500) ·
+  Dongguan Petisland (MOQ 20! одежда $2.68–6.34, тип не подтверждён) · Dongguan Runhong
+  (неопрен, шлейки $5+ MOQ 300) · Fujian SingYee (trader?, стёганое $3.55–4.65 MOQ 500) ·
+  Quanzhou Huangbo Group (вязка $1.80–2.00) · Pinghu Sinotex Yijia (шлейка+поводок
+  $1.29–1.49) · Chanch Accessories (стёганое $6.10–6.40) · Hangzhou Rena (est. 2008,
+  экспорт $12.7M, шьёт Aldi/Rewe; email не опубликован — форма rena.com.cn) ·
+  浙江华宠 Zhejiang Huachong (Ланьси; профильная фабрика собачьей одежды на 1688, ISO9000,
+  7 лет, берёт внешнеторговые заказы — контакт только через 1688 app, MANUAL_CHECK).
+- Ullwin (Shanghai) — Trading Company по MIC → депприоритет.
+
+### Бенчмарки цен 1688 (внутренний рынок, каталог; 320 позиций из /market/ агрегаторов)
+
+| Категория | Ядро CNY | Медиана | ≈USD медиана | Экспортный FOB ≈ ×1.3–1.8 |
+|---|---|---|---|---|
+| 4-лапый утеплённый | 6–20 | ~11.5 | $1.6 | $2.1–2.9 |
+| Пуховик/стёганка | 19–40 | ~28 | $3.9 | $5.1–7.1 |
+| Худи | 4–18 | ~8 | $1.1 | $1.4–2.0 |
+| Свитер вязаный | 4–20 | ~12 | $1.7 | $2.2–3.0 |
+| Вельвет (комбез/рубашка) | 7–21 | ~17–18 | $2.5 | $3.2–4.5 |
+| Лёгкий ромпер | 7–14 | ~10 | $1.4 | $1.8–2.5 |
+| Шлейка мелких пород | 3–30 | ~10.5 | $1.5 | $1.9–2.7 |
+
+Оговорка: это цены простых каталожных моделей с дропшип-тегами; наш кастом (свои лекала,
+окраска, 320+ г/м², комфорт-стандарт §2a) объективно дороже. Вывод для переговоров: цена
+WhatsApp 60–70¥ за кастом-пуховик = ×2.2–2.5 внутренней медианы — честно, но торг до
+~50–55¥ обоснован.
+
+### MANUAL_CHECK (нужен человек/браузер)
+
+- Alibaba-профили всех кандидатов (капча + robots-запрет /company_profile/) — сверить тип/года
+- 1688 app: оптовые сетки цен и MOQ карточек detail.1688.com; фабрика 浙江华宠
+- hanyangpetsupply.com/contact.html (JS-шелл) — email Hanyang
+- Сайты Weichong (v-pet-b-r.com — капча), Rena (email не напечатан), Richtex (настоящий сайт)

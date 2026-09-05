@@ -96,5 +96,28 @@
     "id": "<202609031947.85917999521@smtp-relay.mailin.fr>"
    }
   ]
+ },
+ "batch3_2026-09-05": {
+  "channel": "gmail (ar.orlov93@gmail.com) — Brevo заблокирован песочницей; выбор оператора в чате",
+  "results": [
+   {
+    "company": "Dongguan Altra Pet Products",
+    "email": "sales@altrapet.com",
+    "status": "SENT",
+    "gmail_id": "1a0729ca50bfbe5a"
+   },
+   {
+    "company": "Wenzhou Cheepet Pet Products",
+    "email": "info@cheepet.com",
+    "status": "SENT",
+    "gmail_id": "1a0729cd3c7a63bf"
+   },
+   {
+    "company": "Guangzhou Okeypets Products",
+    "email": "sale@okeypets.com",
+    "status": "SENT",
+    "gmail_id": "1a0729d025554dca"
+   }
+  ]
  }
 }
